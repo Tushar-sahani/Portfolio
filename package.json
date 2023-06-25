@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tushar-sahani/portfolio.git"
+  },
+  "author": "Tushar Sahani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tushar-sahani/portfolio/issues"
+  },
+  "homepage": "https://github.com/Tushar-sahani/portfolio#readme",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "typewriter-effect": "^2.20.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.23",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.2"
+  }
+}
