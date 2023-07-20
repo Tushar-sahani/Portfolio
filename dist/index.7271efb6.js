@@ -2938,10 +2938,6 @@ var _about = require("./components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
 var _resume = require("./components/Resume");
 var _resumeDefault = parcelHelpers.interopDefault(_resume);
-var _projects = require("./components/Projects");
-var _projectsDefault = parcelHelpers.interopDefault(_projects);
-var _portfolio = require("./components/Portfolio");
-var _portfolioDefault = parcelHelpers.interopDefault(_portfolio);
 var _error = require("./components/Error");
 var _errorDefault = parcelHelpers.interopDefault(_error);
 var _reactRouterDom = require("react-router-dom");
@@ -2956,7 +2952,7 @@ const AppLayout = ()=>{
                     errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 16,
+                    lineNumber: 14,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -2966,27 +2962,7 @@ const AppLayout = ()=>{
                     errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 17,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    exact: true,
-                    path: "/portfolio",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, "/", false, void 0, void 0),
-                    errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, void 0, void 0)
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 18,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    exact: true,
-                    path: "/projects",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, "/", false, void 0, void 0),
-                    errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, void 0, void 0)
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 19,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -2996,7 +2972,7 @@ const AppLayout = ()=>{
                     errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 20,
+                    lineNumber: 16,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -3006,18 +2982,18 @@ const AppLayout = ()=>{
                     errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 21,
+                    lineNumber: 17,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 15,
+            lineNumber: 13,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 14,
+        lineNumber: 12,
         columnNumber: 9
     }, undefined);
 };
@@ -3025,7 +3001,7 @@ _c = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 28,
+    lineNumber: 24,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3036,7 +3012,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Home":"hcu4N","./components/Contact":"cgAOG","./components/About":"9R1Eu","./components/Resume":"4aT7V","./components/Projects":"16pwG","./components/Portfolio":"dg1S6","./components/Error":"kvula","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Home":"hcu4N","./components/Contact":"cgAOG","./components/About":"9R1Eu","./components/Resume":"4aT7V","./components/Error":"kvula","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("41f601db5ff758e5");
 
@@ -27231,8 +27207,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _homeJpg = require("../assets/home.jpg");
-var _homeJpgDefault = parcelHelpers.interopDefault(_homeJpg);
+var _home1Jpg = require("../assets/home1.jpg");
+var _home1JpgDefault = parcelHelpers.interopDefault(_home1Jpg);
 var _twitter = require("@mui/icons-material/Twitter");
 var _twitterDefault = parcelHelpers.interopDefault(_twitter);
 var _linkedIn = require("@mui/icons-material/LinkedIn");
@@ -27246,72 +27222,99 @@ var _navbarDefault = parcelHelpers.interopDefault(_navbar);
 var _reactRouterDom = require("react-router-dom");
 var _typewriterEffect = require("typewriter-effect");
 var _typewriterEffectDefault = parcelHelpers.interopDefault(_typewriterEffect);
+var _react = require("react");
+var _reactLoaderSpinner = require("react-loader-spinner");
+var _s = $RefreshSig$();
 const Name = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "text-center text-white absolute -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4",
+        className: "text-center text-[#f0f0f0] absolute -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4 max-md:w-full max-sm:m-auto",
         style: {
             fontFamily: "Poppins,sans-serif"
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "font-extrabold text-6xl pb-8",
+                className: "font-extrabold text-6xl pb-8 max-sm:text-4xl",
                 children: "Tushar Sahani"
             }, void 0, false, {
                 fileName: "src/components/Home.js",
-                lineNumber: 13,
+                lineNumber: 16,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "flex flex-row text-4xl ml-16 font-semibold",
+                className: "md:flex md:flex-row text-4xl md:ml-14 font-semibold max-md:text-3xl",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         className: "",
                         children: "I'm a "
                     }, void 0, false, {
                         fileName: "src/components/Home.js",
-                        lineNumber: 15,
+                        lineNumber: 18,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         className: "ml-2 text-[#009e66]",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _typewriterEffectDefault.default), {
                             onInit: (typewriter)=>{
-                                typewriter.typeString("Developer").pauseFor(1000).deleteAll().typeString("Programmer").pauseFor(1000).deleteAll().typeString("Gamer").start();
+                                typewriter.typeString("Developer").pauseFor(1000).deleteAll().typeString("Programmer").pauseFor(1000).deleteAll().typeString("learner").start();
                             },
                             options: {
                                 loop: true
                             }
                         }, void 0, false, {
                             fileName: "src/components/Home.js",
-                            lineNumber: 16,
+                            lineNumber: 19,
                             columnNumber: 55
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Home.js",
-                        lineNumber: 16,
+                        lineNumber: 19,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Home.js",
-                lineNumber: 14,
+                lineNumber: 17,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Home.js",
-        lineNumber: 12,
+        lineNumber: 15,
         columnNumber: 9
     }, undefined);
 };
 _c = Name;
 const Home = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+    _s();
+    const [loader, setLoader] = (0, _react.useState)(false);
+    (0, _react.useEffect)(()=>{
+        setLoader(true);
+        setTimeout(()=>{
+            setLoader(false);
+        }, 800);
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "bg-[#111] text-center w-full h-screen flex justify-center align-middle",
+        children: loader ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactLoaderSpinner.Triangle), {
+            height: "100",
+            width: "100",
+            color: "#009e66",
+            ariaLabel: "triangle-loading",
+            wrapperStyle: {
+                position: "absolute",
+                top: "45%"
+            },
+            // wrapperClassName=""
+            visible: loader
+        }, void 0, false, {
+            fileName: "src/components/Home.js",
+            lineNumber: 53,
+            columnNumber: 21
+        }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "w-screen h-screen",
             style: {
                 position: "fixed",
-                backgroundImage: `linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(${(0, _homeJpgDefault.default)})`,
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(${(0, _home1JpgDefault.default)})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
@@ -27320,106 +27323,115 @@ const Home = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                     fileName: "src/components/Home.js",
-                    lineNumber: 46,
-                    columnNumber: 17
+                    lineNumber: 71,
+                    columnNumber: 21
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Name, {}, void 0, false, {
                     fileName: "src/components/Home.js",
-                    lineNumber: 47,
-                    columnNumber: 17
+                    lineNumber: 72,
+                    columnNumber: 21
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "absolute bottom-6 right-9",
+                    className: "absolute bottom-6 lg:right-9 lg:w-auto max-sm:flex max-sm:justify-center",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        className: "flex flex-col",
+                        className: "flex lg:flex-col max-sm:flex-row max-sm:justify-evenly max-sm:w-screen sm:flex-row sm:justify-evenly sm:w-screen md:flex-row md:justify-evenly md:w-screen lg:w-auto",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "https://twitter.com/TusharSahani17/",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _twitterDefault.default), {
                                     sx: {
-                                        color: "white"
+                                        color: "white",
+                                        fontSize: "20px"
                                     },
-                                    className: "m-3"
+                                    className: "lg:m-3 hover:text-[#00acee] hover:scale-125 hover:transition-all "
                                 }, void 0, false, {
                                     fileName: "src/components/Home.js",
-                                    lineNumber: 50,
-                                    columnNumber: 72
+                                    lineNumber: 75,
+                                    columnNumber: 76
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Home.js",
-                                lineNumber: 50,
-                                columnNumber: 25
+                                lineNumber: 75,
+                                columnNumber: 29
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "http://linkedin.com/in/tushar-sahani-70191223a/",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _linkedInDefault.default), {
                                     sx: {
-                                        color: "white"
+                                        color: "white",
+                                        fontSize: "20px"
                                     },
-                                    className: "m-3"
+                                    className: "lg:m-3 hover:text-[#0A66C2] hover:scale-125 hover:transition-all"
                                 }, void 0, false, {
                                     fileName: "src/components/Home.js",
-                                    lineNumber: 51,
-                                    columnNumber: 84
+                                    lineNumber: 76,
+                                    columnNumber: 88
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Home.js",
-                                lineNumber: 51,
-                                columnNumber: 25
+                                lineNumber: 76,
+                                columnNumber: 29
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "https://github.com/Tushar-sahani",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _gitHubDefault.default), {
                                     sx: {
-                                        color: "white"
+                                        color: "white",
+                                        fontSize: "20px"
                                     },
-                                    className: "m-3"
+                                    className: "lg:m-3 hover:scale-125 hover:transition-all"
                                 }, void 0, false, {
                                     fileName: "src/components/Home.js",
-                                    lineNumber: 52,
-                                    columnNumber: 69
+                                    lineNumber: 77,
+                                    columnNumber: 73
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Home.js",
-                                lineNumber: 52,
-                                columnNumber: 25
+                                lineNumber: 77,
+                                columnNumber: 29
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                 to: "https://www.instagram.com/tusharsahan1/",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _instagramDefault.default), {
                                     sx: {
-                                        color: "white"
+                                        color: "white",
+                                        fontSize: "20px"
                                     },
-                                    className: "m-3"
+                                    className: "lg:m-3 hover:text-[#fa7e1e] hover:scale-125 hover:transition-all"
                                 }, void 0, false, {
                                     fileName: "src/components/Home.js",
-                                    lineNumber: 53,
-                                    columnNumber: 76
+                                    lineNumber: 78,
+                                    columnNumber: 80
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Home.js",
-                                lineNumber: 53,
-                                columnNumber: 25
+                                lineNumber: 78,
+                                columnNumber: 29
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Home.js",
-                        lineNumber: 49,
-                        columnNumber: 21
+                        lineNumber: 74,
+                        columnNumber: 25
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/Home.js",
-                    lineNumber: 48,
-                    columnNumber: 17
+                    lineNumber: 73,
+                    columnNumber: 21
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/Home.js",
-            lineNumber: 39,
-            columnNumber: 13
+            lineNumber: 63,
+            columnNumber: 17
         }, undefined)
-    }, void 0, false);
+    }, void 0, false, {
+        fileName: "src/components/Home.js",
+        lineNumber: 50,
+        columnNumber: 9
+    }, undefined);
 };
+_s(Home, "XT8PpTOBN2IAFO93zi4IyiaImrw=");
 _c1 = Home;
 exports.default = Home;
 var _c, _c1;
@@ -27431,44 +27443,7 @@ $RefreshReg$(_c1, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../assets/home.jpg":"aZpgo","@mui/icons-material/Twitter":"kcsJD","@mui/icons-material/LinkedIn":"5rzym","@mui/icons-material/GitHub":"f7ZLb","@mui/icons-material/Instagram":"kM0Np","./Navbar":"5EEXV","react-router-dom":"9xmpe","typewriter-effect":"gpxvC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aZpgo":[function(require,module,exports) {
-module.exports = require("d451411303994f71").getBundleURL("aXMci") + "home.ecd89858.jpg" + "?" + Date.now();
-
-},{"d451411303994f71":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"kcsJD":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Twitter":"kcsJD","@mui/icons-material/LinkedIn":"5rzym","@mui/icons-material/GitHub":"f7ZLb","@mui/icons-material/Instagram":"kM0Np","./Navbar":"5EEXV","react-router-dom":"9xmpe","typewriter-effect":"gpxvC","react":"21dqq","react-loader-spinner":"3Z1o9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/home1.jpg":"gJ2JA"}],"kcsJD":[function(require,module,exports) {
 "use strict";
 var _interopRequireDefault = require("b154927c6a609017");
 Object.defineProperty(exports, "__esModule", {
@@ -50479,90 +50454,73 @@ var _react = require("react");
 var _reactRouterDom = require("react-router-dom");
 var _menu = require("@mui/icons-material/Menu");
 var _menuDefault = parcelHelpers.interopDefault(_menu);
-var _menuOpen = require("@mui/icons-material/MenuOpen");
-var _menuOpenDefault = parcelHelpers.interopDefault(_menuOpen);
+var _close = require("@mui/icons-material/Close");
+var _closeDefault = parcelHelpers.interopDefault(_close);
+var _logoPng = require("../assets/logo.png");
+var _logoPngDefault = parcelHelpers.interopDefault(_logoPng);
 var _s = $RefreshSig$();
 const Navbar = ()=>{
     _s();
-    const [menuIcon, setMenuIcon] = (0, _react.useState)(true);
+    const [menuIcon, setMenuIcon] = (0, _react.useState)(false);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "bg-transparent text-center lg:flex ",
-        style: {
-            fontFamily: "Poppins,sans-serif"
-        },
+        className: "bg-transparent text-center flex ",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "p-10 text-white",
+                className: "p-8 text-white",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: "",
-                    alt: "Tushar Sahani"
+                    src: (0, _logoPngDefault.default),
+                    alt: "Tushar Sahani",
+                    className: "w-10"
                 }, void 0, false, {
                     fileName: "src/components/Navbar.js",
-                    lineNumber: 17,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Navbar.js",
-                lineNumber: 16,
+                lineNumber: 14,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                onClick: ()=>setMenuIcon(!menuIcon),
+                className: "absolute right-8 top-8 cursor-pointer md:hidden",
+                children: menuIcon ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _closeDefault.default), {
+                    sx: {
+                        color: "white",
+                        fontSize: "40px"
+                    }
+                }, void 0, false, {
+                    fileName: "src/components/Navbar.js",
+                    lineNumber: 19,
+                    columnNumber: 22
+                }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuDefault.default), {
+                    sx: {
+                        color: "white",
+                        fontSize: "40px"
+                    }
+                }, void 0, false, {
+                    fileName: "src/components/Navbar.js",
+                    lineNumber: 19,
+                    columnNumber: 80
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Navbar.js",
+                lineNumber: 17,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                className: "p-4 lg:flex absolute right-5 text-white",
+                className: `text-white absolute right-0 md:flex md:item-center md:pb-5 md:top-4  max-md:bg-[#191919] md:z-auto z-[-1] w-screen md:w-auto md:pl-0 lg:pl-9 transition-all duration-500 ease-in ${menuIcon ? "top-20 opacity-100" : "hidden"}  md:opacity-100`,
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        className: "p-6",
+                        className: "p-6 max-md:p-2 ",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/about",
+                            className: "hover:text-[#009e66] after:mt-1 after:content-[''] after:block after:h-1 after:w-full after:bg-[#009e66] after:scale-x-0 after:origin-left after:transition-transform after:delay-200 after:ease-linear hover:after:scale-x-100",
                             children: "About"
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
-                            lineNumber: 20,
-                            columnNumber: 29
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Navbar.js",
-                        lineNumber: 20,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        className: "p-6",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/resume",
-                            children: "Resume"
-                        }, void 0, false, {
-                            fileName: "src/components/Navbar.js",
-                            lineNumber: 21,
-                            columnNumber: 29
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Navbar.js",
-                        lineNumber: 21,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        className: "p-6",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/projects",
-                            children: "Projects"
-                        }, void 0, false, {
-                            fileName: "src/components/Navbar.js",
-                            lineNumber: 22,
-                            columnNumber: 29
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/Navbar.js",
-                        lineNumber: 22,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        className: "p-6",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/portfolio",
-                            children: "Portfolio"
-                        }, void 0, false, {
-                            fileName: "src/components/Navbar.js",
                             lineNumber: 23,
-                            columnNumber: 29
+                            columnNumber: 43
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Navbar.js",
@@ -50570,34 +50528,67 @@ const Navbar = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        className: "p-6",
+                        className: "p-6 max-md:p-2 ",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/contact",
-                            children: "Contact"
+                            to: "/resume",
+                            className: "hover:text-[#009e66] after:mt-1 after:content-[''] after:block after:h-1 after:w-full after:bg-[#009e66] after:scale-x-0 after:origin-left after:transition-transform after:delay-200 after:ease-linear hover:after:scale-x-100 ",
+                            children: "Resume"
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
                             lineNumber: 24,
-                            columnNumber: 29
+                            columnNumber: 41
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/Navbar.js",
                         lineNumber: 24,
                         columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "p-6 max-md:p-2 ",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "https://linktr.ee/tushar_sahani",
+                            className: "hover:text-[#009e66] after:mt-1 after:content-[''] after:block after:h-1 after:w-full after:bg-[#009e66] after:scale-x-0 after:origin-left after:transition-transform after:delay-200 after:ease-linear hover:after:scale-x-100 ",
+                            children: "Links"
+                        }, void 0, false, {
+                            fileName: "src/components/Navbar.js",
+                            lineNumber: 25,
+                            columnNumber: 43
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Navbar.js",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "p-6 max-md:p-2 ",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/contact",
+                            className: "hover:text-[#009e66] after:mt-1 after:content-[''] after:block after:h-1 after:w-full after:bg-[#009e66] after:scale-x-0 after:origin-left after:transition-transform after:delay-200 after:ease-linear hover:after:scale-x-100 ",
+                            children: "Contact"
+                        }, void 0, false, {
+                            fileName: "src/components/Navbar.js",
+                            lineNumber: 26,
+                            columnNumber: 41
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Navbar.js",
+                        lineNumber: 26,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Navbar.js",
-                lineNumber: 19,
+                lineNumber: 22,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Navbar.js",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 5
     }, undefined);
 };
-_s(Navbar, "JKwrYgqKAnYjs0XtD5oEiEm6kBU=");
+_s(Navbar, "dsI9FjLRi7uC3w2d6O+duhfo1iM=");
 _c = Navbar;
 exports.default = Navbar;
 var _c;
@@ -50608,7 +50599,7 @@ $RefreshReg$(_c, "Navbar");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@mui/icons-material/Menu":"eYtXA","@mui/icons-material/MenuOpen":"5xrAv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9xmpe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@mui/icons-material/Menu":"eYtXA","@mui/icons-material/Close":"2z2cd","../assets/logo.png":"7jCwh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.14.0
  *
@@ -56366,21 +56357,58 @@ var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("p
 }), "Menu");
 exports.default = _default;
 
-},{"d8872109c062c482":"7XM86","ba23703bea9f4afd":"lVV9C","71b676ca05eb0698":"6AEwr"}],"5xrAv":[function(require,module,exports) {
+},{"d8872109c062c482":"7XM86","ba23703bea9f4afd":"lVV9C","71b676ca05eb0698":"6AEwr"}],"2z2cd":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("30081515c55693d6");
+var _interopRequireDefault = require("53eb48aa9bb5ac9c");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _createSvgIcon = _interopRequireDefault(require("7a2c4add9445fe3f"));
-var _jsxRuntime = require("6b5e184ece644ba3");
+var _createSvgIcon = _interopRequireDefault(require("6a199dde858fa74"));
+var _jsxRuntime = require("e0d981dac0826de4");
 var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
-    d: "M3 18h13v-2H3v2zm0-5h10v-2H3v2zm0-7v2h13V6H3zm18 9.59L17.42 12 21 8.41 19.59 7l-5 5 5 5L21 15.59z"
-}), "MenuOpen");
+    d: "M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+}), "Close");
 exports.default = _default;
 
-},{"30081515c55693d6":"7XM86","7a2c4add9445fe3f":"lVV9C","6b5e184ece644ba3":"6AEwr"}],"km3Ru":[function(require,module,exports) {
+},{"53eb48aa9bb5ac9c":"7XM86","6a199dde858fa74":"lVV9C","e0d981dac0826de4":"6AEwr"}],"7jCwh":[function(require,module,exports) {
+module.exports = require("2602edde811bc042").getBundleURL("aXMci") + "logo.73091252.png" + "?" + Date.now();
+
+},{"2602edde811bc042":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("3bef7dc6cd40532f");
 function debounce(func, delay) {
@@ -57811,7 +57839,5256 @@ var process = require("27ed5f1e6f486636");
         })(), o.default;
     })());
 
-},{"27ed5f1e6f486636":"d5jf4","803fa71570936a6d":"21dqq"}],"cgAOG":[function(require,module,exports) {
+},{"27ed5f1e6f486636":"d5jf4","803fa71570936a6d":"21dqq"}],"3Z1o9":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Audio", ()=>(0, _audioDefault.default));
+parcelHelpers.export(exports, "BallTriangle", ()=>(0, _ballTriangleDefault.default));
+parcelHelpers.export(exports, "Bars", ()=>(0, _barsDefault.default));
+parcelHelpers.export(exports, "Blocks", ()=>(0, _blocksDefault.default));
+parcelHelpers.export(exports, "Circles", ()=>(0, _circlesDefault.default));
+parcelHelpers.export(exports, "CirclesWithBar", ()=>(0, _circlesWithBarDefault.default));
+parcelHelpers.export(exports, "ColorRing", ()=>(0, _colorRingDefault.default));
+parcelHelpers.export(exports, "Comment", ()=>(0, _commentDefault.default));
+parcelHelpers.export(exports, "Discuss", ()=>(0, _discussDefault.default));
+parcelHelpers.export(exports, "Dna", ()=>(0, _dnaDefault.default));
+parcelHelpers.export(exports, "Grid", ()=>(0, _gridDefault.default));
+parcelHelpers.export(exports, "FallingLines", ()=>(0, _fallingLinesDefault.default));
+parcelHelpers.export(exports, "FidgetSpinner", ()=>(0, _fidgetSpinnerDefault.default));
+parcelHelpers.export(exports, "Hearts", ()=>(0, _heartsDefault.default));
+parcelHelpers.export(exports, "InfinitySpin", ()=>(0, _infinitySpinDefault.default));
+parcelHelpers.export(exports, "LineWave", ()=>(0, _lineWaveDefault.default));
+parcelHelpers.export(exports, "MagnifyingGlass", ()=>(0, _magnifyingGlassDefault.default));
+parcelHelpers.export(exports, "MutatingDots", ()=>(0, _mutatingDotsDefault.default));
+parcelHelpers.export(exports, "Oval", ()=>(0, _ovalDefault.default));
+parcelHelpers.export(exports, "ProgressBar", ()=>(0, _progressBarDefault.default));
+parcelHelpers.export(exports, "Puff", ()=>(0, _puffDefault.default));
+parcelHelpers.export(exports, "Radio", ()=>(0, _radioDefault.default));
+parcelHelpers.export(exports, "RevolvingDot", ()=>(0, _revolvingDotDefault.default));
+parcelHelpers.export(exports, "RotatingSquare", ()=>(0, _rotatingSquareDefault.default));
+parcelHelpers.export(exports, "RotatingLines", ()=>(0, _rotatingLinesDefault.default));
+parcelHelpers.export(exports, "Rings", ()=>(0, _ringsDefault.default));
+parcelHelpers.export(exports, "TailSpin", ()=>(0, _tailSpinDefault.default));
+parcelHelpers.export(exports, "ThreeDots", ()=>(0, _threeDotsDefault.default));
+parcelHelpers.export(exports, "ThreeCircles", ()=>(0, _threeCirclesDefault.default));
+parcelHelpers.export(exports, "Triangle", ()=>(0, _triangleDefault.default));
+parcelHelpers.export(exports, "RotatingTriangles", ()=>(0, _rotatingTrianglesDefault.default));
+parcelHelpers.export(exports, "Watch", ()=>(0, _watchDefault.default));
+parcelHelpers.export(exports, "Vortex", ()=>(0, _vortexDefault.default));
+var _audio = require("./loader/Audio");
+var _audioDefault = parcelHelpers.interopDefault(_audio);
+var _ballTriangle = require("./loader/BallTriangle");
+var _ballTriangleDefault = parcelHelpers.interopDefault(_ballTriangle);
+var _bars = require("./loader/Bars");
+var _barsDefault = parcelHelpers.interopDefault(_bars);
+var _circles = require("./loader/Circles");
+var _circlesDefault = parcelHelpers.interopDefault(_circles);
+var _circlesWithBar = require("./loader/CirclesWithBar");
+var _circlesWithBarDefault = parcelHelpers.interopDefault(_circlesWithBar);
+var _grid = require("./loader/Grid");
+var _gridDefault = parcelHelpers.interopDefault(_grid);
+var _hearts = require("./loader/Hearts");
+var _heartsDefault = parcelHelpers.interopDefault(_hearts);
+var _infinitySpin = require("./loader/InfinitySpin");
+var _infinitySpinDefault = parcelHelpers.interopDefault(_infinitySpin);
+var _lineWave = require("./loader/LineWave");
+var _lineWaveDefault = parcelHelpers.interopDefault(_lineWave);
+var _mutatingDots = require("./loader/MutatingDots");
+var _mutatingDotsDefault = parcelHelpers.interopDefault(_mutatingDots);
+var _oval = require("./loader/Oval");
+var _ovalDefault = parcelHelpers.interopDefault(_oval);
+var _puff = require("./loader/Puff");
+var _puffDefault = parcelHelpers.interopDefault(_puff);
+var _revolvingDot = require("./loader/RevolvingDot");
+var _revolvingDotDefault = parcelHelpers.interopDefault(_revolvingDot);
+var _rings = require("./loader/Rings");
+var _ringsDefault = parcelHelpers.interopDefault(_rings);
+var _rotatingSquare = require("./loader/RotatingSquare");
+var _rotatingSquareDefault = parcelHelpers.interopDefault(_rotatingSquare);
+var _rotatingLines = require("./loader/RotatingLines");
+var _rotatingLinesDefault = parcelHelpers.interopDefault(_rotatingLines);
+var _tailSpin = require("./loader/TailSpin");
+var _tailSpinDefault = parcelHelpers.interopDefault(_tailSpin);
+var _threeCircles = require("./loader/ThreeCircles");
+var _threeCirclesDefault = parcelHelpers.interopDefault(_threeCircles);
+var _threeDots = require("./loader/ThreeDots");
+var _threeDotsDefault = parcelHelpers.interopDefault(_threeDots);
+var _triangle = require("./loader/Triangle");
+var _triangleDefault = parcelHelpers.interopDefault(_triangle);
+var _watch = require("./loader/Watch");
+var _watchDefault = parcelHelpers.interopDefault(_watch);
+var _fallingLines = require("./loader/FallingLines");
+var _fallingLinesDefault = parcelHelpers.interopDefault(_fallingLines);
+var _vortex = require("./loader/Vortex");
+var _vortexDefault = parcelHelpers.interopDefault(_vortex);
+var _rotatingTriangles = require("./loader/RotatingTriangles");
+var _rotatingTrianglesDefault = parcelHelpers.interopDefault(_rotatingTriangles);
+var _radio = require("./loader/Radio");
+var _radioDefault = parcelHelpers.interopDefault(_radio);
+var _progressBar = require("./loader/ProgressBar");
+var _progressBarDefault = parcelHelpers.interopDefault(_progressBar);
+var _magnifyingGlass = require("./loader/MagnifyingGlass");
+var _magnifyingGlassDefault = parcelHelpers.interopDefault(_magnifyingGlass);
+var _fidgetSpinner = require("./loader/FidgetSpinner");
+var _fidgetSpinnerDefault = parcelHelpers.interopDefault(_fidgetSpinner);
+var _dna = require("./loader/Dna");
+var _dnaDefault = parcelHelpers.interopDefault(_dna);
+var _discuss = require("./loader/Discuss");
+var _discussDefault = parcelHelpers.interopDefault(_discuss);
+var _colorRing = require("./loader/ColorRing");
+var _colorRingDefault = parcelHelpers.interopDefault(_colorRing);
+var _comment = require("./loader/Comment");
+var _commentDefault = parcelHelpers.interopDefault(_comment);
+var _blocks = require("./loader/Blocks");
+var _blocksDefault = parcelHelpers.interopDefault(_blocks);
+
+},{"./loader/Audio":"hJArP","./loader/BallTriangle":"aiEqG","./loader/Bars":"9mkms","./loader/Circles":"4OpVn","./loader/CirclesWithBar":"jzh5C","./loader/Grid":"cMHZC","./loader/Hearts":"fKeKn","./loader/InfinitySpin":"aTXec","./loader/LineWave":"gHgzi","./loader/MutatingDots":"5eNTr","./loader/Oval":"2Nj0V","./loader/Puff":"4AZbw","./loader/RevolvingDot":"lqHMc","./loader/Rings":"iwK23","./loader/RotatingSquare":"jpxiA","./loader/RotatingLines":"cNRgP","./loader/TailSpin":"iUFYk","./loader/ThreeCircles":"4TiLQ","./loader/ThreeDots":"hAzfd","./loader/Triangle":"gleNi","./loader/Watch":"cO9xi","./loader/FallingLines":"hnKPn","./loader/Vortex":"f9qQh","./loader/RotatingTriangles":"1dMLD","./loader/Radio":"3smQ1","./loader/ProgressBar":"c5W93","./loader/MagnifyingGlass":"bsash","./loader/FidgetSpinner":"lVca0","./loader/Dna":"blaHe","./loader/Discuss":"kYQiE","./loader/ColorRing":"PGatB","./loader/Comment":"lqxs2","./loader/Blocks":"kywQJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hJArP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Audio = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? "100" : _b, _c = _a.width, width = _c === void 0 ? "100" : _c, _d = _a.color, color = _d === void 0 ? (0, _type.DEFAULT_COLOR) : _d, _e = _a.ariaLabel, ariaLabel = _e === void 0 ? "audio-loading" : _e, _f = _a.wrapperStyle, wrapperStyle = _f === void 0 ? {} : _f, wrapperClass = _a.wrapperClass, _g = _a.visible, visible = _g === void 0 ? true : _g;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "audio-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        height: "".concat(height),
+        width: "".concat(width),
+        fill: color,
+        viewBox: "0 0 55 80",
+        xmlns: "http://www.w3.org/2000/svg",
+        "data-testid": "audio-svg"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "matrix(1 0 0 -1 0 80)"
+    }, (0, _reactDefault.default).createElement("rect", {
+        width: "10",
+        height: "20",
+        rx: "3"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0s",
+        dur: "4.3s",
+        values: "20;45;57;80;64;32;66;45;64;23;66;13;64;56;34;34;2;23;76;79;20",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "15",
+        width: "10",
+        height: "80",
+        rx: "3"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0s",
+        dur: "2s",
+        values: "80;55;33;5;75;23;73;33;12;14;60;80",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "30",
+        width: "10",
+        height: "50",
+        rx: "3"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0s",
+        dur: "1.4s",
+        values: "50;34;78;23;56;23;34;76;80;54;21;50",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "45",
+        width: "10",
+        height: "30",
+        rx: "3"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0s",
+        dur: "2s",
+        values: "30;45;13;80;56;72;45;76;34;23;67;30",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })))));
+};
+exports.default = Audio;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lM33v":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "getDefaultStyle", ()=>getDefaultStyle);
+var getDefaultStyle = function(visible) {
+    return {
+        display: visible ? "flex" : "none"
+    };
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5w37n":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DEFAULT_COLOR", ()=>DEFAULT_COLOR);
+parcelHelpers.export(exports, "DEFAULT_WAI_ARIA_ATTRIBUTE", ()=>DEFAULT_WAI_ARIA_ATTRIBUTE);
+var DEFAULT_COLOR = "#4fa94d";
+var DEFAULT_WAI_ARIA_ATTRIBUTE = {
+    "aria-busy": true,
+    role: "status"
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aiEqG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var BallTriangle = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 100 : _b, _c = _a.width, width = _c === void 0 ? 100 : _c, _d = _a.radius, radius = _d === void 0 ? 5 : _d, _e = _a.color, color = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.ariaLabel, ariaLabel = _f === void 0 ? "ball-triangle-loading" : _f, wrapperClass = _a.wrapperClass, wrapperStyle = _a.wrapperStyle, _g = _a.visible, visible = _g === void 0 ? true : _g;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "ball-triangle-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        height: height,
+        width: width,
+        stroke: color,
+        viewBox: "0 0 57 57",
+        xmlns: "http://www.w3.org/2000/svg",
+        "data-testid": "ball-triangle-svg"
+    }, (0, _reactDefault.default).createElement("g", {
+        fill: "none",
+        fillRule: "evenodd"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(1 1)",
+        strokeWidth: "2"
+    }, (0, _reactDefault.default).createElement("circle", {
+        cx: "5",
+        cy: "50",
+        r: radius
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        begin: "0s",
+        dur: "2.2s",
+        values: "50;5;50;50",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cx",
+        begin: "0s",
+        dur: "2.2s",
+        values: "5;27;49;5",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "27",
+        cy: "5",
+        r: radius
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        begin: "0s",
+        dur: "2.2s",
+        from: "5",
+        to: "5",
+        values: "5;50;50;5",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cx",
+        begin: "0s",
+        dur: "2.2s",
+        from: "27",
+        to: "27",
+        values: "27;49;5;27",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "49",
+        cy: "50",
+        r: radius
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        begin: "0s",
+        dur: "2.2s",
+        values: "50;50;5;50",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cx",
+        from: "49",
+        to: "49",
+        begin: "0s",
+        dur: "2.2s",
+        values: "49;5;27;49",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }))))));
+};
+exports.default = BallTriangle;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9mkms":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Bars = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.color, color = _d === void 0 ? (0, _type.DEFAULT_COLOR) : _d, _e = _a.ariaLabel, ariaLabel = _e === void 0 ? "bars-loading" : _e, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _f = _a.visible, visible = _f === void 0 ? true : _f;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "bars-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        fill: color,
+        viewBox: "0 0 135 140",
+        xmlns: "http://www.w3.org/2000/svg",
+        "data-testid": "bars-svg"
+    }, (0, _reactDefault.default).createElement("rect", {
+        y: "10",
+        width: "15",
+        height: "120",
+        rx: "6"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0.5s",
+        dur: "1s",
+        values: "120;110;100;90;80;70;60;50;40;140;120",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "y",
+        begin: "0.5s",
+        dur: "1s",
+        values: "10;15;20;25;30;35;40;45;50;0;10",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "30",
+        y: "10",
+        width: "15",
+        height: "120",
+        rx: "6"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0.25s",
+        dur: "1s",
+        values: "120;110;100;90;80;70;60;50;40;140;120",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "y",
+        begin: "0.25s",
+        dur: "1s",
+        values: "10;15;20;25;30;35;40;45;50;0;10",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "60",
+        width: "15",
+        height: "140",
+        rx: "6"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0s",
+        dur: "1s",
+        values: "120;110;100;90;80;70;60;50;40;140;120",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "y",
+        begin: "0s",
+        dur: "1s",
+        values: "10;15;20;25;30;35;40;45;50;0;10",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "90",
+        y: "10",
+        width: "15",
+        height: "120",
+        rx: "6"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0.25s",
+        dur: "1s",
+        values: "120;110;100;90;80;70;60;50;40;140;120",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "y",
+        begin: "0.25s",
+        dur: "1s",
+        values: "10;15;20;25;30;35;40;45;50;0;10",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "120",
+        y: "10",
+        width: "15",
+        height: "120",
+        rx: "6"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        begin: "0.5s",
+        dur: "1s",
+        values: "120;110;100;90;80;70;60;50;40;140;120",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "y",
+        begin: "0.5s",
+        dur: "1s",
+        values: "10;15;20;25;30;35;40;45;50;0;10",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }))));
+};
+exports.default = Bars;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4OpVn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Circles = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.color, color = _d === void 0 ? (0, _type.DEFAULT_COLOR) : _d, _e = _a.ariaLabel, ariaLabel = _e === void 0 ? "circles-loading" : _e, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _f = _a.visible, visible = _f === void 0 ? true : _f;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "aria-label": ariaLabel,
+        "data-testid": "circles-loading"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        viewBox: "0 0 135 135",
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: color,
+        "data-testid": "circles-svg"
+    }, (0, _reactDefault.default).createElement("path", {
+        d: "M67.447 58c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10zm9.448 9.447c0 5.523 4.477 10 10 10 5.522 0 10-4.477 10-10s-4.478-10-10-10c-5.523 0-10 4.477-10 10zm-9.448 9.448c-5.523 0-10 4.477-10 10 0 5.522 4.477 10 10 10s10-4.478 10-10c0-5.523-4.477-10-10-10zM58 67.447c0-5.523-4.477-10-10-10s-10 4.477-10 10 4.477 10 10 10 10-4.477 10-10z"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        from: "0 67 67",
+        to: "-360 67 67",
+        dur: "2.5s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("path", {
+        d: "M28.19 40.31c6.627 0 12-5.374 12-12 0-6.628-5.373-12-12-12-6.628 0-12 5.372-12 12 0 6.626 5.372 12 12 12zm30.72-19.825c4.686 4.687 12.284 4.687 16.97 0 4.686-4.686 4.686-12.284 0-16.97-4.686-4.687-12.284-4.687-16.97 0-4.687 4.686-4.687 12.284 0 16.97zm35.74 7.705c0 6.627 5.37 12 12 12 6.626 0 12-5.373 12-12 0-6.628-5.374-12-12-12-6.63 0-12 5.372-12 12zm19.822 30.72c-4.686 4.686-4.686 12.284 0 16.97 4.687 4.686 12.285 4.686 16.97 0 4.687-4.686 4.687-12.284 0-16.97-4.685-4.687-12.283-4.687-16.97 0zm-7.704 35.74c-6.627 0-12 5.37-12 12 0 6.626 5.373 12 12 12s12-5.374 12-12c0-6.63-5.373-12-12-12zm-30.72 19.822c-4.686-4.686-12.284-4.686-16.97 0-4.686 4.687-4.686 12.285 0 16.97 4.686 4.687 12.284 4.687 16.97 0 4.687-4.685 4.687-12.283 0-16.97zm-35.74-7.704c0-6.627-5.372-12-12-12-6.626 0-12 5.373-12 12s5.374 12 12 12c6.628 0 12-5.373 12-12zm-19.823-30.72c4.687-4.686 4.687-12.284 0-16.97-4.686-4.686-12.284-4.686-16.97 0-4.687 4.686-4.687 12.284 0 16.97 4.686 4.687 12.284 4.687 16.97 0z"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        from: "0 67 67",
+        to: "360 67 67",
+        dur: "8s",
+        repeatCount: "indefinite"
+    }))));
+};
+exports.default = Circles;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jzh5C":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var CirclesWithBar = function(_a) {
+    var _b = _a.wrapperStyle, wrapperStyle = _b === void 0 ? {} : _b, _c = _a.visible, visible = _c === void 0 ? true : _c, _d = _a.wrapperClass, wrapperClass = _d === void 0 ? "" : _d, _e = _a.height, height = _e === void 0 ? 100 : _e, _f = _a.width, width = _f === void 0 ? 100 : _f, _g = _a.color, color = _g === void 0 ? (0, _type.DEFAULT_COLOR) : _g, outerCircleColor = _a.outerCircleColor, innerCircleColor = _a.innerCircleColor, barColor = _a.barColor, _h = _a.ariaLabel, ariaLabel = _h === void 0 ? "circles-with-bar-loading" : _h;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE), {
+        "data-testid": "circles-with-bar-wrapper"
+    }), (0, _reactDefault.default).createElement("svg", {
+        version: "1.1",
+        id: "L1",
+        xmlns: "http://www.w3.org/2000/svg",
+        x: "0px",
+        y: "0px",
+        height: "".concat(height),
+        width: "".concat(width),
+        viewBox: "0 0 100 100",
+        enableBackground: "new 0 0 100 100",
+        xmlSpace: "preserve",
+        "data-testid": "circles-with-bar-svg"
+    }, (0, _reactDefault.default).createElement("circle", {
+        fill: "none",
+        stroke: "".concat(outerCircleColor || color),
+        strokeWidth: "6",
+        strokeMiterlimit: "15",
+        strokeDasharray: "14.2472,14.2472",
+        cx: "50",
+        cy: "50",
+        r: "47"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        attributeType: "XML",
+        type: "rotate",
+        dur: "5s",
+        from: "0 50 50",
+        to: "360 50 50",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        fill: "none",
+        stroke: "".concat(innerCircleColor || color),
+        strokeWidth: "1",
+        strokeMiterlimit: "10",
+        strokeDasharray: "10,10",
+        cx: "50",
+        cy: "50",
+        r: "39"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        attributeType: "XML",
+        type: "rotate",
+        dur: "5s",
+        from: "0 50 50",
+        to: "-360 50 50",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("g", {
+        fill: "".concat(barColor || color),
+        "data-testid": "circles-with-bar-svg-bar"
+    }, (0, _reactDefault.default).createElement("rect", {
+        x: "30",
+        y: "35",
+        width: "5",
+        height: "30"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "1s",
+        type: "translate",
+        values: "0 5 ; 0 -5; 0 5",
+        repeatCount: "indefinite",
+        begin: "0.1"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "40",
+        y: "35",
+        width: "5",
+        height: "30"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "1s",
+        type: "translate",
+        values: "0 5 ; 0 -5; 0 5",
+        repeatCount: "indefinite",
+        begin: "0.2"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "50",
+        y: "35",
+        width: "5",
+        height: "30"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "1s",
+        type: "translate",
+        values: "0 5 ; 0 -5; 0 5",
+        repeatCount: "indefinite",
+        begin: "0.3"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "60",
+        y: "35",
+        width: "5",
+        height: "30"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "1s",
+        type: "translate",
+        values: "0 5 ; 0 -5; 0 5",
+        repeatCount: "indefinite",
+        begin: "0.4"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "70",
+        y: "35",
+        width: "5",
+        height: "30"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "1s",
+        type: "translate",
+        values: "0 5 ; 0 -5; 0 5",
+        repeatCount: "indefinite",
+        begin: "0.5"
+    })))));
+};
+exports.default = CirclesWithBar;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cMHZC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Grid", ()=>Grid);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Grid = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.radius, radius = _d === void 0 ? 12.5 : _d, _e = _a.color, color = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.ariaLabel, ariaLabel = _f === void 0 ? "grid-loading" : _f, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _g = _a.visible, visible = _g === void 0 ? true : _g;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "grid-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        viewBox: "0 0 105 105",
+        fill: color,
+        "data-testid": "grid-svg"
+    }, (0, _reactDefault.default).createElement("circle", {
+        cx: "12.5",
+        cy: "12.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "0s",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "12.5",
+        cy: "52.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "100ms",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "52.5",
+        cy: "12.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "300ms",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "52.5",
+        cy: "52.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "600ms",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "92.5",
+        cy: "12.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "800ms",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "92.5",
+        cy: "52.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "400ms",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "12.5",
+        cy: "92.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "700ms",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "52.5",
+        cy: "92.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "500ms",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "92.5",
+        cy: "92.5",
+        r: "".concat(radius)
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "200ms",
+        dur: "1s",
+        values: "1;.2;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }))));
+};
+exports.default = Grid;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fKeKn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Hearts = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.color, color = _d === void 0 ? (0, _type.DEFAULT_COLOR) : _d, _e = _a.ariaLabel, ariaLabel = _e === void 0 ? "hearts-loading" : _e, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _f = _a.visible, visible = _f === void 0 ? true : _f;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "hearts-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        viewBox: "0 0 140 64",
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: color,
+        "data-testid": "hearts-svg"
+    }, (0, _reactDefault.default).createElement("path", {
+        d: "M30.262 57.02L7.195 40.723c-5.84-3.976-7.56-12.06-3.842-18.063 3.715-6 11.467-7.65 17.306-3.68l4.52 3.76 2.6-5.274c3.717-6.002 11.47-7.65 17.305-3.68 5.84 3.97 7.56 12.054 3.842 18.062L34.49 56.118c-.897 1.512-2.793 1.915-4.228.9z",
+        attributeName: "fill-opacity",
+        from: "0",
+        to: ".5"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "0s",
+        dur: "1.4s",
+        values: "0.5;1;0.5",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("path", {
+        d: "M105.512 56.12l-14.44-24.272c-3.716-6.008-1.996-14.093 3.843-18.062 5.835-3.97 13.588-2.322 17.306 3.68l2.6 5.274 4.52-3.76c5.84-3.97 13.592-2.32 17.307 3.68 3.718 6.003 1.998 14.088-3.842 18.064L109.74 57.02c-1.434 1.014-3.33.61-4.228-.9z",
+        attributeName: "fill-opacity",
+        from: "0",
+        to: ".5"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        begin: "0.7s",
+        dur: "1.4s",
+        values: "0.5;1;0.5",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("path", {
+        d: "M67.408 57.834l-23.01-24.98c-5.864-6.15-5.864-16.108 0-22.248 5.86-6.14 15.37-6.14 21.234 0L70 16.168l4.368-5.562c5.863-6.14 15.375-6.14 21.235 0 5.863 6.14 5.863 16.098 0 22.247l-23.007 24.98c-1.43 1.556-3.757 1.556-5.188 0z"
+    })));
+};
+exports.default = Hearts;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aTXec":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _type = require("../type");
+var __makeTemplateObject = undefined && undefined.__makeTemplateObject || function(cooked, raw) {
+    if (Object.defineProperty) Object.defineProperty(cooked, "raw", {
+        value: raw
+    });
+    else cooked.raw = raw;
+    return cooked;
+};
+var len = 242.776657104492;
+var time = 1.6;
+var anim = (0, _styledComponents.keyframes)(templateObject_1 || (templateObject_1 = __makeTemplateObject([
+    "\n  12.5% {\n    stroke-dasharray: ",
+    "px, ",
+    "px;\n    stroke-dashoffset: -",
+    "px;\n  }\n  43.75% {\n    stroke-dasharray: ",
+    "px, ",
+    "px;\n    stroke-dashoffset: -",
+    "px;\n  }\n  100% {\n    stroke-dasharray: ",
+    "px, ",
+    "px;\n    stroke-dashoffset: -",
+    "px;\n  }\n"
+], [
+    "\n  12.5% {\n    stroke-dasharray: ",
+    "px, ",
+    "px;\n    stroke-dashoffset: -",
+    "px;\n  }\n  43.75% {\n    stroke-dasharray: ",
+    "px, ",
+    "px;\n    stroke-dashoffset: -",
+    "px;\n  }\n  100% {\n    stroke-dasharray: ",
+    "px, ",
+    "px;\n    stroke-dashoffset: -",
+    "px;\n  }\n"
+])), len * 0.14, len, len * 0.11, len * 0.35, len, len * 0.35, len * 0.01, len, len * 0.99);
+var Path = (0, _styledComponentsDefault.default).path(templateObject_2 || (templateObject_2 = __makeTemplateObject([
+    "\n  stroke-dasharray: ",
+    "px, ",
+    ";\n  stroke-dashoffset: 0;\n  animation: ",
+    " ",
+    "s linear infinite;\n"
+], [
+    "\n  stroke-dasharray: ",
+    "px, ",
+    ";\n  stroke-dashoffset: 0;\n  animation: ",
+    " ",
+    "s linear infinite;\n"
+])), len * 0.01, len, anim, time);
+var InfinitySpin = function(_a) {
+    var _b = _a.color, color = _b === void 0 ? (0, _type.DEFAULT_COLOR) : _b, _c = _a.width, width = _c === void 0 ? "200" : _c;
+    return (0, _reactDefault.default).createElement("svg", {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "".concat(width),
+        height: "".concat(Number(width) * 0.5),
+        viewBox: "0 0 ".concat(width, " ").concat(Number(100)),
+        "data-testid": "infinity-spin"
+    }, (0, _reactDefault.default).createElement(Path, {
+        "data-testid": "infinity-spin-path-1",
+        stroke: color,
+        fill: "none",
+        strokeWidth: "4",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeMiterlimit: "10",
+        d: "M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z"
+    }), (0, _reactDefault.default).createElement("path", {
+        "data-testid": "infinity-spin-path-2",
+        opacity: "0.07",
+        fill: "none",
+        stroke: color,
+        strokeWidth: "4",
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+        strokeMiterlimit: "10",
+        d: "M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z"
+    }));
+};
+exports.default = InfinitySpin;
+var templateObject_1, templateObject_2;
+
+},{"react":"21dqq","styled-components":"1U3k6","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1U3k6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ServerStyleSheet", ()=>Ue);
+parcelHelpers.export(exports, "StyleSheetConsumer", ()=>ue);
+parcelHelpers.export(exports, "StyleSheetContext", ()=>ce);
+parcelHelpers.export(exports, "StyleSheetManager", ()=>me);
+parcelHelpers.export(exports, "ThemeConsumer", ()=>Ge);
+parcelHelpers.export(exports, "ThemeContext", ()=>Me);
+parcelHelpers.export(exports, "ThemeProvider", ()=>Le);
+parcelHelpers.export(exports, "__PRIVATE__", ()=>Ze);
+parcelHelpers.export(exports, "createGlobalStyle", ()=>$e);
+parcelHelpers.export(exports, "css", ()=>Ae);
+parcelHelpers.export(exports, "isStyledComponent", ()=>_);
+parcelHelpers.export(exports, "keyframes", ()=>We);
+parcelHelpers.export(exports, "useTheme", ()=>Xe);
+parcelHelpers.export(exports, "version", ()=>A);
+parcelHelpers.export(exports, "withTheme", ()=>Je);
+var _reactIs = require("react-is");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _shallowequal = require("shallowequal");
+var _shallowequalDefault = parcelHelpers.interopDefault(_shallowequal);
+var _stylis = require("@emotion/stylis");
+var _stylisDefault = parcelHelpers.interopDefault(_stylis);
+var _unitless = require("@emotion/unitless");
+var _unitlessDefault = parcelHelpers.interopDefault(_unitless);
+var _isPropValid = require("@emotion/is-prop-valid");
+var _isPropValidDefault = parcelHelpers.interopDefault(_isPropValid);
+var _hoistNonReactStatics = require("hoist-non-react-statics");
+var _hoistNonReactStaticsDefault = parcelHelpers.interopDefault(_hoistNonReactStatics);
+var process = require("b02ddc9ff6cef110");
+function y() {
+    return (y = Object.assign || function(e) {
+        for(var t = 1; t < arguments.length; t++){
+            var n = arguments[t];
+            for(var r in n)Object.prototype.hasOwnProperty.call(n, r) && (e[r] = n[r]);
+        }
+        return e;
+    }).apply(this, arguments);
+}
+var v = function(e, t) {
+    for(var n = [
+        e[0]
+    ], r = 0, o = t.length; r < o; r += 1)n.push(t[r], e[r + 1]);
+    return n;
+}, g = function(t) {
+    return null !== t && "object" == typeof t && "[object Object]" === (t.toString ? t.toString() : Object.prototype.toString.call(t)) && !(0, _reactIs.typeOf)(t);
+}, S = Object.freeze([]), w = Object.freeze({});
+function E(e) {
+    return "function" == typeof e;
+}
+function b(e) {
+    return "string" == typeof e && e || e.displayName || e.name || "Component";
+}
+function _(e) {
+    return e && "string" == typeof e.styledComponentId;
+}
+var N = ("undefined" != typeof process && void 0 !== process.env && undefined, "data-styled"), A = "5.3.11", C = "undefined" != typeof window && "HTMLElement" in window, I = Boolean("boolean" == typeof SC_DISABLE_SPEEDY ? SC_DISABLE_SPEEDY : "undefined" != typeof process && void 0 !== process.env && true), P = {}, O = {
+    1: "Cannot create styled-component for component: %s.\n\n",
+    2: "Can't collect styles once you've consumed a `ServerStyleSheet`'s styles! `ServerStyleSheet` is a one off instance for each server-side render cycle.\n\n- Are you trying to reuse it across renders?\n- Are you accidentally calling collectStyles twice?\n\n",
+    3: "Streaming SSR is only supported in a Node.js environment; Please do not try to call this method in the browser.\n\n",
+    4: "The `StyleSheetManager` expects a valid target or sheet prop!\n\n- Does this error occur on the client and is your target falsy?\n- Does this error occur on the server and is the sheet falsy?\n\n",
+    5: "The clone method cannot be used on the client!\n\n- Are you running in a client-like environment on the server?\n- Are you trying to run SSR on the client?\n\n",
+    6: "Trying to insert a new style tag, but the given Node is unmounted!\n\n- Are you using a custom target that isn't mounted?\n- Does your document not have a valid head element?\n- Have you accidentally removed a style tag manually?\n\n",
+    7: 'ThemeProvider: Please return an object from your "theme" prop function, e.g.\n\n```js\ntheme={() => ({})}\n```\n\n',
+    8: 'ThemeProvider: Please make your "theme" prop an object.\n\n',
+    9: "Missing document `<head>`\n\n",
+    10: "Cannot find a StyleSheet instance. Usually this happens if there are multiple copies of styled-components loaded at once. Check out this issue for how to troubleshoot and fix the common cases where this situation can happen: https://github.com/styled-components/styled-components/issues/1941#issuecomment-417862021\n\n",
+    11: "_This error was replaced with a dev-time warning, it will be deleted for v4 final._ [createGlobalStyle] received children which will not be rendered. Please use the component without passing children elements.\n\n",
+    12: "It seems you are interpolating a keyframe declaration (%s) into an untagged string. This was supported in styled-components v3, but is not longer supported in v4 as keyframes are now injected on-demand. Please wrap your string in the css\\`\\` helper which ensures the styles are injected correctly. See https://www.styled-components.com/docs/api#css\n\n",
+    13: "%s is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details.\n\n",
+    14: 'ThemeProvider: "theme" prop is required.\n\n',
+    15: "A stylis plugin has been supplied that is not named. We need a name for each plugin to be able to prevent styling collisions between different stylis configurations within the same app. Before you pass your plugin to `<StyleSheetManager stylisPlugins={[]}>`, please make sure each plugin is uniquely-named, e.g.\n\n```js\nObject.defineProperty(importedPlugin, 'name', { value: 'some-unique-name' });\n```\n\n",
+    16: "Reached the limit of how many styled components may be created at group %s.\nYou may only create up to 1,073,741,824 components. If you're creating components dynamically,\nas for instance in your render method then you may be running into this limitation.\n\n",
+    17: "CSSStyleSheet could not be found on HTMLStyleElement.\nHas styled-components' style tag been unmounted or altered by another script?\n"
+};
+function R() {
+    for(var e = arguments.length <= 0 ? void 0 : arguments[0], t = [], n = 1, r = arguments.length; n < r; n += 1)t.push(n < 0 || arguments.length <= n ? void 0 : arguments[n]);
+    return t.forEach(function(t) {
+        e = e.replace(/%[a-z]/, t);
+    }), e;
+}
+function D(e) {
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)n[r - 1] = arguments[r];
+    throw new Error(R.apply(void 0, [
+        O[e]
+    ].concat(n)).trim());
+}
+var j = function() {
+    function e(e) {
+        this.groupSizes = new Uint32Array(512), this.length = 512, this.tag = e;
+    }
+    var t = e.prototype;
+    return t.indexOfGroup = function(e) {
+        for(var t = 0, n = 0; n < e; n++)t += this.groupSizes[n];
+        return t;
+    }, t.insertRules = function(e, t) {
+        if (e >= this.groupSizes.length) {
+            for(var n = this.groupSizes, r = n.length, o = r; e >= o;)(o <<= 1) < 0 && D(16, "" + e);
+            this.groupSizes = new Uint32Array(o), this.groupSizes.set(n), this.length = o;
+            for(var s = r; s < o; s++)this.groupSizes[s] = 0;
+        }
+        for(var i = this.indexOfGroup(e + 1), a = 0, c = t.length; a < c; a++)this.tag.insertRule(i, t[a]) && (this.groupSizes[e]++, i++);
+    }, t.clearGroup = function(e) {
+        if (e < this.length) {
+            var t = this.groupSizes[e], n = this.indexOfGroup(e), r = n + t;
+            this.groupSizes[e] = 0;
+            for(var o = n; o < r; o++)this.tag.deleteRule(n);
+        }
+    }, t.getGroup = function(e) {
+        var t = "";
+        if (e >= this.length || 0 === this.groupSizes[e]) return t;
+        for(var n = this.groupSizes[e], r = this.indexOfGroup(e), o = r + n, s = r; s < o; s++)t += this.tag.getRule(s) + "/*!sc*/\n";
+        return t;
+    }, e;
+}(), T = new Map, x = new Map, k = 1, V = function(e) {
+    if (T.has(e)) return T.get(e);
+    for(; x.has(k);)k++;
+    var t = k++;
+    return ((0 | t) < 0 || t > 1073741824) && D(16, "" + t), T.set(e, t), x.set(t, e), t;
+}, B = function(e) {
+    return x.get(e);
+}, z = function(e, t) {
+    t >= k && (k = t + 1), T.set(e, t), x.set(t, e);
+}, M = "style[" + N + '][data-styled-version="5.3.11"]', G = new RegExp("^" + N + '\\.g(\\d+)\\[id="([\\w\\d-]+)"\\].*?"([^"]*)'), L = function(e, t, n) {
+    for(var r, o = n.split(","), s = 0, i = o.length; s < i; s++)(r = o[s]) && e.registerName(t, r);
+}, F = function(e, t) {
+    for(var n = (t.textContent || "").split("/*!sc*/\n"), r = [], o = 0, s = n.length; o < s; o++){
+        var i = n[o].trim();
+        if (i) {
+            var a = i.match(G);
+            if (a) {
+                var c = 0 | parseInt(a[1], 10), u = a[2];
+                0 !== c && (z(u, c), L(e, u, a[3]), e.getTag().insertRules(c, r)), r.length = 0;
+            } else r.push(i);
+        }
+    }
+}, Y = function() {
+    return "undefined" != typeof __webpack_nonce__ ? __webpack_nonce__ : null;
+}, q = function(e) {
+    var t = document.head, n = e || t, r = document.createElement("style"), o = function(e) {
+        for(var t = e.childNodes, n = t.length; n >= 0; n--){
+            var r = t[n];
+            if (r && 1 === r.nodeType && r.hasAttribute(N)) return r;
+        }
+    }(n), s = void 0 !== o ? o.nextSibling : null;
+    r.setAttribute(N, "active"), r.setAttribute("data-styled-version", "5.3.11");
+    var i = Y();
+    return i && r.setAttribute("nonce", i), n.insertBefore(r, s), r;
+}, H = function() {
+    function e(e) {
+        var t = this.element = q(e);
+        t.appendChild(document.createTextNode("")), this.sheet = function(e) {
+            if (e.sheet) return e.sheet;
+            for(var t = document.styleSheets, n = 0, r = t.length; n < r; n++){
+                var o = t[n];
+                if (o.ownerNode === e) return o;
+            }
+            D(17);
+        }(t), this.length = 0;
+    }
+    var t = e.prototype;
+    return t.insertRule = function(e, t) {
+        try {
+            return this.sheet.insertRule(t, e), this.length++, !0;
+        } catch (e) {
+            return !1;
+        }
+    }, t.deleteRule = function(e) {
+        this.sheet.deleteRule(e), this.length--;
+    }, t.getRule = function(e) {
+        var t = this.sheet.cssRules[e];
+        return void 0 !== t && "string" == typeof t.cssText ? t.cssText : "";
+    }, e;
+}(), $ = function() {
+    function e(e) {
+        var t = this.element = q(e);
+        this.nodes = t.childNodes, this.length = 0;
+    }
+    var t = e.prototype;
+    return t.insertRule = function(e, t) {
+        if (e <= this.length && e >= 0) {
+            var n = document.createTextNode(t), r = this.nodes[e];
+            return this.element.insertBefore(n, r || null), this.length++, !0;
+        }
+        return !1;
+    }, t.deleteRule = function(e) {
+        this.element.removeChild(this.nodes[e]), this.length--;
+    }, t.getRule = function(e) {
+        return e < this.length ? this.nodes[e].textContent : "";
+    }, e;
+}(), W = function() {
+    function e(e) {
+        this.rules = [], this.length = 0;
+    }
+    var t = e.prototype;
+    return t.insertRule = function(e, t) {
+        return e <= this.length && (this.rules.splice(e, 0, t), this.length++, !0);
+    }, t.deleteRule = function(e) {
+        this.rules.splice(e, 1), this.length--;
+    }, t.getRule = function(e) {
+        return e < this.length ? this.rules[e] : "";
+    }, e;
+}(), U = C, J = {
+    isServer: !C,
+    useCSSOMInjection: !I
+}, X = function() {
+    function e(e, t, n) {
+        void 0 === e && (e = w), void 0 === t && (t = {}), this.options = y({}, J, {}, e), this.gs = t, this.names = new Map(n), this.server = !!e.isServer, !this.server && C && U && (U = !1, function(e) {
+            for(var t = document.querySelectorAll(M), n = 0, r = t.length; n < r; n++){
+                var o = t[n];
+                o && "active" !== o.getAttribute(N) && (F(e, o), o.parentNode && o.parentNode.removeChild(o));
+            }
+        }(this));
+    }
+    e.registerId = function(e) {
+        return V(e);
+    };
+    var t = e.prototype;
+    return t.reconstructWithOptions = function(t, n) {
+        return void 0 === n && (n = !0), new e(y({}, this.options, {}, t), this.gs, n && this.names || void 0);
+    }, t.allocateGSInstance = function(e) {
+        return this.gs[e] = (this.gs[e] || 0) + 1;
+    }, t.getTag = function() {
+        var e, t, n, r, o;
+        return this.tag || (this.tag = (n = (t = this.options).isServer, r = t.useCSSOMInjection, o = t.target, e = n ? new W(o) : r ? new H(o) : new $(o), new j(e)));
+    }, t.hasNameForId = function(e, t) {
+        return this.names.has(e) && this.names.get(e).has(t);
+    }, t.registerName = function(e, t) {
+        if (V(e), this.names.has(e)) this.names.get(e).add(t);
+        else {
+            var n = new Set;
+            n.add(t), this.names.set(e, n);
+        }
+    }, t.insertRules = function(e, t, n) {
+        this.registerName(e, t), this.getTag().insertRules(V(e), n);
+    }, t.clearNames = function(e) {
+        this.names.has(e) && this.names.get(e).clear();
+    }, t.clearRules = function(e) {
+        this.getTag().clearGroup(V(e)), this.clearNames(e);
+    }, t.clearTag = function() {
+        this.tag = void 0;
+    }, t.toString = function() {
+        return function(e) {
+            for(var t = e.getTag(), n = t.length, r = "", o = 0; o < n; o++){
+                var s = B(o);
+                if (void 0 !== s) {
+                    var i = e.names.get(s), a = t.getGroup(o);
+                    if (i && a && i.size) {
+                        var c = N + ".g" + o + '[id="' + s + '"]', u = "";
+                        void 0 !== i && i.forEach(function(e) {
+                            e.length > 0 && (u += e + ",");
+                        }), r += "" + a + c + '{content:"' + u + '"}/*!sc*/\n';
+                    }
+                }
+            }
+            return r;
+        }(this);
+    }, e;
+}(), Z = /(a)(d)/gi, K = function(e) {
+    return String.fromCharCode(e + (e > 25 ? 39 : 97));
+};
+function Q(e) {
+    var t, n = "";
+    for(t = Math.abs(e); t > 52; t = t / 52 | 0)n = K(t % 52) + n;
+    return (K(t % 52) + n).replace(Z, "$1-$2");
+}
+var ee = function(e, t) {
+    for(var n = t.length; n;)e = 33 * e ^ t.charCodeAt(--n);
+    return e;
+}, te = function(e) {
+    return ee(5381, e);
+};
+function ne(e) {
+    for(var t = 0; t < e.length; t += 1){
+        var n = e[t];
+        if (E(n) && !_(n)) return !1;
+    }
+    return !0;
+}
+var re = te("5.3.11"), oe = function() {
+    function e(e, t, n) {
+        this.rules = e, this.staticRulesId = "", this.isStatic = false, this.componentId = t, this.baseHash = ee(re, t), this.baseStyle = n, X.registerId(t);
+    }
+    return e.prototype.generateAndInjectStyles = function(e, t, n) {
+        var r = this.componentId, o = [];
+        if (this.baseStyle && o.push(this.baseStyle.generateAndInjectStyles(e, t, n)), this.isStatic && !n.hash) {
+            if (this.staticRulesId && t.hasNameForId(r, this.staticRulesId)) o.push(this.staticRulesId);
+            else {
+                var s = _e(this.rules, e, t, n).join(""), i = Q(ee(this.baseHash, s) >>> 0);
+                if (!t.hasNameForId(r, i)) {
+                    var a = n(s, "." + i, void 0, r);
+                    t.insertRules(r, i, a);
+                }
+                o.push(i), this.staticRulesId = i;
+            }
+        } else {
+            for(var c = this.rules.length, u = ee(this.baseHash, n.hash), l = "", d = 0; d < c; d++){
+                var h = this.rules[d];
+                if ("string" == typeof h) l += h, u = ee(u, h + d);
+                else if (h) {
+                    var p = _e(h, e, t, n), f = Array.isArray(p) ? p.join("") : p;
+                    u = ee(u, f + d), l += f;
+                }
+            }
+            if (l) {
+                var m = Q(u >>> 0);
+                if (!t.hasNameForId(r, m)) {
+                    var y = n(l, "." + m, void 0, r);
+                    t.insertRules(r, m, y);
+                }
+                o.push(m);
+            }
+        }
+        return o.join(" ");
+    }, e;
+}(), se = /^\s*\/\/.*$/gm, ie = [
+    ":",
+    "[",
+    ".",
+    "#"
+];
+function ae(e) {
+    var t, n, r, o, s = void 0 === e ? w : e, i = s.options, a = void 0 === i ? w : i, c = s.plugins, u = void 0 === c ? S : c, l = new (0, _stylisDefault.default)(a), d = [], p = function(e) {
+        function t(t) {
+            if (t) try {
+                e(t + "}");
+            } catch (e) {}
+        }
+        return function(n, r, o, s, i, a, c, u, l, d) {
+            switch(n){
+                case 1:
+                    if (0 === l && 64 === r.charCodeAt(0)) return e(r + ";"), "";
+                    break;
+                case 2:
+                    if (0 === u) return r + "/*|*/";
+                    break;
+                case 3:
+                    switch(u){
+                        case 102:
+                        case 112:
+                            return e(o[0] + r), "";
+                        default:
+                            return r + (0 === d ? "/*|*/" : "");
+                    }
+                case -2:
+                    r.split("/*|*/}").forEach(t);
+            }
+        };
+    }(function(e) {
+        d.push(e);
+    }), f = function(e, r, s) {
+        return 0 === r && -1 !== ie.indexOf(s[n.length]) || s.match(o) ? e : "." + t;
+    };
+    function m(e, s, i, a) {
+        void 0 === a && (a = "&");
+        var c = e.replace(se, ""), u = s && i ? i + " " + s + " { " + c + " }" : c;
+        return t = a, n = s, r = new RegExp("\\" + n + "\\b", "g"), o = new RegExp("(\\" + n + "\\b){2,}"), l(i || !s ? "" : s, u);
+    }
+    return l.use([].concat(u, [
+        function(e, t, o) {
+            2 === e && o.length && o[0].lastIndexOf(n) > 0 && (o[0] = o[0].replace(r, f));
+        },
+        p,
+        function(e) {
+            if (-2 === e) {
+                var t = d;
+                return d = [], t;
+            }
+        }
+    ])), m.hash = u.length ? u.reduce(function(e, t) {
+        return t.name || D(15), ee(e, t.name);
+    }, 5381).toString() : "", m;
+}
+var ce = (0, _reactDefault.default).createContext(), ue = ce.Consumer, le = (0, _reactDefault.default).createContext(), de = (le.Consumer, new X), he = ae();
+function pe() {
+    return (0, _react.useContext)(ce) || de;
+}
+function fe() {
+    return (0, _react.useContext)(le) || he;
+}
+function me(e) {
+    var t = (0, _react.useState)(e.stylisPlugins), n = t[0], s = t[1], c = pe(), u = (0, _react.useMemo)(function() {
+        var t = c;
+        return e.sheet ? t = e.sheet : e.target && (t = t.reconstructWithOptions({
+            target: e.target
+        }, !1)), e.disableCSSOMInjection && (t = t.reconstructWithOptions({
+            useCSSOMInjection: !1
+        })), t;
+    }, [
+        e.disableCSSOMInjection,
+        e.sheet,
+        e.target
+    ]), l = (0, _react.useMemo)(function() {
+        return ae({
+            options: {
+                prefix: !e.disableVendorPrefixes
+            },
+            plugins: n
+        });
+    }, [
+        e.disableVendorPrefixes,
+        n
+    ]);
+    return (0, _react.useEffect)(function() {
+        (0, _shallowequalDefault.default)(n, e.stylisPlugins) || s(e.stylisPlugins);
+    }, [
+        e.stylisPlugins
+    ]), (0, _reactDefault.default).createElement(ce.Provider, {
+        value: u
+    }, (0, _reactDefault.default).createElement(le.Provider, {
+        value: l
+    }, (0, _reactDefault.default).Children.only(e.children)));
+}
+var ye = function() {
+    function e(e, t) {
+        var n = this;
+        this.inject = function(e, t) {
+            void 0 === t && (t = he);
+            var r = n.name + t.hash;
+            e.hasNameForId(n.id, r) || e.insertRules(n.id, r, t(n.rules, r, "@keyframes"));
+        }, this.toString = function() {
+            return D(12, String(n.name));
+        }, this.name = e, this.id = "sc-keyframes-" + e, this.rules = t;
+    }
+    return e.prototype.getName = function(e) {
+        return void 0 === e && (e = he), this.name + e.hash;
+    }, e;
+}(), ve = /([A-Z])/, ge = /([A-Z])/g, Se = /^ms-/, we = function(e) {
+    return "-" + e.toLowerCase();
+};
+function Ee(e) {
+    return ve.test(e) ? e.replace(ge, we).replace(Se, "-ms-") : e;
+}
+var be = function(e) {
+    return null == e || !1 === e || "" === e;
+};
+function _e(e, n, r, o) {
+    if (Array.isArray(e)) {
+        for(var s, i = [], a = 0, c = e.length; a < c; a += 1)"" !== (s = _e(e[a], n, r, o)) && (Array.isArray(s) ? i.push.apply(i, s) : i.push(s));
+        return i;
+    }
+    if (be(e)) return "";
+    if (_(e)) return "." + e.styledComponentId;
+    if (E(e)) {
+        if ("function" != typeof (l = e) || l.prototype && l.prototype.isReactComponent || !n) return e;
+        var u = e(n);
+        return (0, _reactIs.isElement)(u) && console.warn(b(e) + " is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details."), _e(u, n, r, o);
+    }
+    var l;
+    return e instanceof ye ? r ? (e.inject(r, o), e.getName(o)) : e : g(e) ? function e(t, n) {
+        var r, o, s = [];
+        for(var i in t)t.hasOwnProperty(i) && !be(t[i]) && (Array.isArray(t[i]) && t[i].isCss || E(t[i]) ? s.push(Ee(i) + ":", t[i], ";") : g(t[i]) ? s.push.apply(s, e(t[i], i)) : s.push(Ee(i) + ": " + (r = i, null == (o = t[i]) || "boolean" == typeof o || "" === o ? "" : "number" != typeof o || 0 === o || r in (0, _unitlessDefault.default) || r.startsWith("--") ? String(o).trim() : o + "px") + ";"));
+        return n ? [
+            n + " {"
+        ].concat(s, [
+            "}"
+        ]) : s;
+    }(e) : e.toString();
+}
+var Ne = function(e) {
+    return Array.isArray(e) && (e.isCss = !0), e;
+};
+function Ae(e) {
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)n[r - 1] = arguments[r];
+    return E(e) || g(e) ? Ne(_e(v(S, [
+        e
+    ].concat(n)))) : 0 === n.length && 1 === e.length && "string" == typeof e[0] ? e : Ne(_e(v(e, n)));
+}
+var Ce = /invalid hook call/i, Ie = new Set, Pe = function(e, t) {
+    var n = "The component " + e + (t ? ' with the id of "' + t + '"' : "") + " has been created dynamically.\nYou may see this warning because you've called styled inside another component.\nTo resolve this only create new StyledComponents outside of any render method and function component.", r = console.error;
+    try {
+        var o = !0;
+        console.error = function(e) {
+            if (Ce.test(e)) o = !1, Ie.delete(n);
+            else {
+                for(var t = arguments.length, s = new Array(t > 1 ? t - 1 : 0), i = 1; i < t; i++)s[i - 1] = arguments[i];
+                r.apply(void 0, [
+                    e
+                ].concat(s));
+            }
+        }, (0, _react.useRef)(), o && !Ie.has(n) && (console.warn(n), Ie.add(n));
+    } catch (e) {
+        Ce.test(e.message) && Ie.delete(n);
+    } finally{
+        console.error = r;
+    }
+}, Oe = function(e, t, n) {
+    return void 0 === n && (n = w), e.theme !== n.theme && e.theme || t || n.theme;
+}, Re = /[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~-]+/g, De = /(^-|-$)/g;
+function je(e) {
+    return e.replace(Re, "-").replace(De, "");
+}
+var Te = function(e) {
+    return Q(te(e) >>> 0);
+};
+function xe(e) {
+    return "string" == typeof e && e.charAt(0) === e.charAt(0).toLowerCase();
+}
+var ke = function(e) {
+    return "function" == typeof e || "object" == typeof e && null !== e && !Array.isArray(e);
+}, Ve = function(e) {
+    return "__proto__" !== e && "constructor" !== e && "prototype" !== e;
+};
+function Be(e, t, n) {
+    var r = e[n];
+    ke(t) && ke(r) ? ze(r, t) : e[n] = t;
+}
+function ze(e) {
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)n[r - 1] = arguments[r];
+    for(var o = 0, s = n; o < s.length; o++){
+        var i = s[o];
+        if (ke(i)) for(var a in i)Ve(a) && Be(e, i[a], a);
+    }
+    return e;
+}
+var Me = (0, _reactDefault.default).createContext(), Ge = Me.Consumer;
+function Le(e) {
+    var t = (0, _react.useContext)(Me), n = (0, _react.useMemo)(function() {
+        return function(e, t) {
+            if (!e) return D(14);
+            if (E(e)) {
+                var n = e(t);
+                return null !== n && !Array.isArray(n) && "object" == typeof n ? n : D(7);
+            }
+            return Array.isArray(e) || "object" != typeof e ? D(8) : t ? y({}, t, {}, e) : e;
+        }(e.theme, t);
+    }, [
+        e.theme,
+        t
+    ]);
+    return e.children ? (0, _reactDefault.default).createElement(Me.Provider, {
+        value: n
+    }, e.children) : null;
+}
+var Fe = {};
+function Ye(e, t, n) {
+    var o = _(e), i = !xe(e), a = t.attrs, c = void 0 === a ? S : a, l = t.componentId, d = void 0 === l ? function(e, t) {
+        var n = "string" != typeof e ? "sc" : je(e);
+        Fe[n] = (Fe[n] || 0) + 1;
+        var r = n + "-" + Te("5.3.11" + n + Fe[n]);
+        return t ? t + "-" + r : r;
+    }(t.displayName, t.parentComponentId) : l, h = t.displayName, p = void 0 === h ? function(e) {
+        return xe(e) ? "styled." + e : "Styled(" + b(e) + ")";
+    }(e) : h, v = t.displayName && t.componentId ? je(t.displayName) + "-" + t.componentId : t.componentId || d, g = o && e.attrs ? Array.prototype.concat(e.attrs, c).filter(Boolean) : c, N = t.shouldForwardProp;
+    o && e.shouldForwardProp && (N = t.shouldForwardProp ? function(n, r, o) {
+        return e.shouldForwardProp(n, r, o) && t.shouldForwardProp(n, r, o);
+    } : e.shouldForwardProp);
+    var A, C = new oe(n, v, o ? e.componentStyle : void 0), I = C.isStatic && 0 === c.length, P = function(e, t) {
+        return function(e, t, n, r) {
+            var o = e.attrs, i = e.componentStyle, a = e.defaultProps, c = e.foldedComponentIds, l = e.shouldForwardProp, d = e.styledComponentId, h = e.target, p = function(e, t, n) {
+                void 0 === e && (e = w);
+                var r = y({}, t, {
+                    theme: e
+                }), o = {};
+                return n.forEach(function(e) {
+                    var t, n, s, i = e;
+                    for(t in E(i) && (i = i(r)), i)r[t] = o[t] = "className" === t ? (n = o[t], s = i[t], n && s ? n + " " + s : n || s) : i[t];
+                }), [
+                    r,
+                    o
+                ];
+            }(Oe(t, (0, _react.useContext)(Me), a) || w, t, o), m = p[0], v = p[1], g = function(e, t, n, r) {
+                var o = pe(), s = fe(), i = t ? e.generateAndInjectStyles(w, o, s) : e.generateAndInjectStyles(n, o, s);
+                return !t && r && r(i), i;
+            }(i, r, m, (0, e.warnTooManyClasses)), S = n, b = v.$as || t.$as || v.as || t.as || h, _ = xe(b), N = v !== t ? y({}, t, {}, v) : t, A = {};
+            for(var C in N)"$" !== C[0] && "as" !== C && ("forwardedAs" === C ? A.as = N[C] : (l ? l(C, (0, _isPropValidDefault.default), b) : !_ || (0, _isPropValidDefault.default)(C)) && (A[C] = N[C]));
+            return t.style && v.style !== t.style && (A.style = y({}, t.style, {}, v.style)), A.className = Array.prototype.concat(c, d, g !== d ? g : null, t.className, v.className).filter(Boolean).join(" "), A.ref = S, (0, _react.createElement)(b, A);
+        }(A, e, t, I);
+    };
+    return P.displayName = p, (A = (0, _reactDefault.default).forwardRef(P)).attrs = g, A.componentStyle = C, A.displayName = p, A.shouldForwardProp = N, A.foldedComponentIds = o ? Array.prototype.concat(e.foldedComponentIds, e.styledComponentId) : S, A.styledComponentId = v, A.target = o ? e.target : e, A.withComponent = function(e) {
+        var r = t.componentId, o = function(e, t) {
+            if (null == e) return {};
+            var n, r, o = {}, s = Object.keys(e);
+            for(r = 0; r < s.length; r++)n = s[r], t.indexOf(n) >= 0 || (o[n] = e[n]);
+            return o;
+        }(t, [
+            "componentId"
+        ]), s = r && r + "-" + (xe(e) ? e : je(b(e)));
+        return Ye(e, y({}, o, {
+            attrs: g,
+            componentId: s
+        }), n);
+    }, Object.defineProperty(A, "defaultProps", {
+        get: function() {
+            return this._foldedDefaultProps;
+        },
+        set: function(t) {
+            this._foldedDefaultProps = o ? ze({}, e.defaultProps, t) : t;
+        }
+    }), Pe(p, v), A.warnTooManyClasses = function(e, t) {
+        var n = {}, r = !1;
+        return function(o) {
+            if (!r && (n[o] = !0, Object.keys(n).length >= 200)) {
+                var s = t ? ' with the id of "' + t + '"' : "";
+                console.warn("Over 200 classes were generated for component " + e + s + ".\nConsider using the attrs method, together with a style object for frequently changed styles.\nExample:\n  const Component = styled.div.attrs(props => ({\n    style: {\n      background: props.background,\n    },\n  }))`width: 100%;`\n\n  <Component />"), r = !0, n = {};
+            }
+        };
+    }(p, v), Object.defineProperty(A, "toString", {
+        value: function() {
+            return "." + A.styledComponentId;
+        }
+    }), i && (0, _hoistNonReactStaticsDefault.default)(A, e, {
+        attrs: !0,
+        componentStyle: !0,
+        displayName: !0,
+        foldedComponentIds: !0,
+        shouldForwardProp: !0,
+        styledComponentId: !0,
+        target: !0,
+        withComponent: !0
+    }), A;
+}
+var qe = function(e) {
+    return function e(t, r, o) {
+        if (void 0 === o && (o = w), !(0, _reactIs.isValidElementType)(r)) return D(1, String(r));
+        var s = function() {
+            return t(r, o, Ae.apply(void 0, arguments));
+        };
+        return s.withConfig = function(n) {
+            return e(t, r, y({}, o, {}, n));
+        }, s.attrs = function(n) {
+            return e(t, r, y({}, o, {
+                attrs: Array.prototype.concat(o.attrs, n).filter(Boolean)
+            }));
+        }, s;
+    }(Ye, e);
+};
+[
+    "a",
+    "abbr",
+    "address",
+    "area",
+    "article",
+    "aside",
+    "audio",
+    "b",
+    "base",
+    "bdi",
+    "bdo",
+    "big",
+    "blockquote",
+    "body",
+    "br",
+    "button",
+    "canvas",
+    "caption",
+    "cite",
+    "code",
+    "col",
+    "colgroup",
+    "data",
+    "datalist",
+    "dd",
+    "del",
+    "details",
+    "dfn",
+    "dialog",
+    "div",
+    "dl",
+    "dt",
+    "em",
+    "embed",
+    "fieldset",
+    "figcaption",
+    "figure",
+    "footer",
+    "form",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "head",
+    "header",
+    "hgroup",
+    "hr",
+    "html",
+    "i",
+    "iframe",
+    "img",
+    "input",
+    "ins",
+    "kbd",
+    "keygen",
+    "label",
+    "legend",
+    "li",
+    "link",
+    "main",
+    "map",
+    "mark",
+    "marquee",
+    "menu",
+    "menuitem",
+    "meta",
+    "meter",
+    "nav",
+    "noscript",
+    "object",
+    "ol",
+    "optgroup",
+    "option",
+    "output",
+    "p",
+    "param",
+    "picture",
+    "pre",
+    "progress",
+    "q",
+    "rp",
+    "rt",
+    "ruby",
+    "s",
+    "samp",
+    "script",
+    "section",
+    "select",
+    "small",
+    "source",
+    "span",
+    "strong",
+    "style",
+    "sub",
+    "summary",
+    "sup",
+    "table",
+    "tbody",
+    "td",
+    "textarea",
+    "tfoot",
+    "th",
+    "thead",
+    "time",
+    "title",
+    "tr",
+    "track",
+    "u",
+    "ul",
+    "var",
+    "video",
+    "wbr",
+    "circle",
+    "clipPath",
+    "defs",
+    "ellipse",
+    "foreignObject",
+    "g",
+    "image",
+    "line",
+    "linearGradient",
+    "marker",
+    "mask",
+    "path",
+    "pattern",
+    "polygon",
+    "polyline",
+    "radialGradient",
+    "rect",
+    "stop",
+    "svg",
+    "text",
+    "textPath",
+    "tspan"
+].forEach(function(e) {
+    qe[e] = qe(e);
+});
+var He = function() {
+    function e(e, t) {
+        this.rules = e, this.componentId = t, this.isStatic = ne(e), X.registerId(this.componentId + 1);
+    }
+    var t = e.prototype;
+    return t.createStyles = function(e, t, n, r) {
+        var o = r(_e(this.rules, t, n, r).join(""), ""), s = this.componentId + e;
+        n.insertRules(s, s, o);
+    }, t.removeStyles = function(e, t) {
+        t.clearRules(this.componentId + e);
+    }, t.renderStyles = function(e, t, n, r) {
+        e > 2 && X.registerId(this.componentId + e), this.removeStyles(e, n), this.createStyles(e, t, n, r);
+    }, e;
+}();
+function $e(e) {
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), o = 1; o < t; o++)n[o - 1] = arguments[o];
+    var i = Ae.apply(void 0, [
+        e
+    ].concat(n)), a = "sc-global-" + Te(JSON.stringify(i)), u = new He(i, a);
+    function d(e) {
+        var t = pe(), n = fe(), o = (0, _react.useContext)(Me), d = (0, _react.useRef)(t.allocateGSInstance(a)).current;
+        return (0, _reactDefault.default).Children.count(e.children) && console.warn("The global style component " + a + " was given child JSX. createGlobalStyle does not render children."), i.some(function(e) {
+            return "string" == typeof e && -1 !== e.indexOf("@import");
+        }) && console.warn("Please do not use @import CSS syntax in createGlobalStyle at this time, as the CSSOM APIs we use in production do not handle it well. Instead, we recommend using a library such as react-helmet to inject a typical <link> meta tag to the stylesheet, or simply embedding it manually in your index.html <head> section for a simpler app."), t.server && h(d, e, t, o, n), (0, _react.useLayoutEffect)(function() {
+            if (!t.server) return h(d, e, t, o, n), function() {
+                return u.removeStyles(d, t);
+            };
+        }, [
+            d,
+            e,
+            t,
+            o,
+            n
+        ]), null;
+    }
+    function h(e, t, n, r, o) {
+        if (u.isStatic) u.renderStyles(e, P, n, o);
+        else {
+            var s = y({}, t, {
+                theme: Oe(t, r, d.defaultProps)
+            });
+            u.renderStyles(e, s, n, o);
+        }
+    }
+    return Pe(a), (0, _reactDefault.default).memo(d);
+}
+function We(e) {
+    "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("`keyframes` cannot be used on ReactNative, only on the web. To do animation in ReactNative please use Animated.");
+    for(var t = arguments.length, n = new Array(t > 1 ? t - 1 : 0), r = 1; r < t; r++)n[r - 1] = arguments[r];
+    var o = Ae.apply(void 0, [
+        e
+    ].concat(n)).join(""), s = Te(o);
+    return new ye(s, o);
+}
+var Ue = function() {
+    function e() {
+        var e = this;
+        this._emitSheetCSS = function() {
+            var t = e.instance.toString();
+            if (!t) return "";
+            var n = Y();
+            return "<style " + [
+                n && 'nonce="' + n + '"',
+                N + '="true"',
+                'data-styled-version="5.3.11"'
+            ].filter(Boolean).join(" ") + ">" + t + "</style>";
+        }, this.getStyleTags = function() {
+            return e.sealed ? D(2) : e._emitSheetCSS();
+        }, this.getStyleElement = function() {
+            var t;
+            if (e.sealed) return D(2);
+            var n = ((t = {})[N] = "", t["data-styled-version"] = "5.3.11", t.dangerouslySetInnerHTML = {
+                __html: e.instance.toString()
+            }, t), o = Y();
+            return o && (n.nonce = o), [
+                (0, _reactDefault.default).createElement("style", y({}, n, {
+                    key: "sc-0-0"
+                }))
+            ];
+        }, this.seal = function() {
+            e.sealed = !0;
+        }, this.instance = new X({
+            isServer: !0
+        }), this.sealed = !1;
+    }
+    var t = e.prototype;
+    return t.collectStyles = function(e) {
+        return this.sealed ? D(2) : (0, _reactDefault.default).createElement(me, {
+            sheet: this.instance
+        }, e);
+    }, t.interleaveWithNodeStream = function(e) {
+        return D(3);
+    }, e;
+}(), Je = function(e) {
+    var t = (0, _reactDefault.default).forwardRef(function(t, n) {
+        var o = (0, _react.useContext)(Me), i = e.defaultProps, a = Oe(t, o, i);
+        return void 0 === a && console.warn('[withTheme] You are not using a ThemeProvider nor passing a theme prop or a theme in defaultProps in component class "' + b(e) + '"'), (0, _reactDefault.default).createElement(e, y({}, t, {
+            theme: a,
+            ref: n
+        }));
+    });
+    return (0, _hoistNonReactStaticsDefault.default)(t, e), t.displayName = "WithTheme(" + b(e) + ")", t;
+}, Xe = function() {
+    return (0, _react.useContext)(Me);
+}, Ze = {
+    StyleSheet: X,
+    masterSheet: de
+};
+"undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "undefined" != typeof window && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
+exports.default = qe;
+
+},{"b02ddc9ff6cef110":"d5jf4","react-is":"7EuwB","react":"21dqq","shallowequal":"fjwkp","@emotion/stylis":"fGS9o","@emotion/unitless":"g3QHG","@emotion/is-prop-valid":"9JzNk","hoist-non-react-statics":"1GfsB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fjwkp":[function(require,module,exports) {
+//
+module.exports = function shallowEqual(objA, objB, compare, compareContext) {
+    var ret = compare ? compare.call(compareContext, objA, objB) : void 0;
+    if (ret !== void 0) return !!ret;
+    if (objA === objB) return true;
+    if (typeof objA !== "object" || !objA || typeof objB !== "object" || !objB) return false;
+    var keysA = Object.keys(objA);
+    var keysB = Object.keys(objB);
+    if (keysA.length !== keysB.length) return false;
+    var bHasOwnProperty = Object.prototype.hasOwnProperty.bind(objB);
+    // Test for A's keys different from B.
+    for(var idx = 0; idx < keysA.length; idx++){
+        var key = keysA[idx];
+        if (!bHasOwnProperty(key)) return false;
+        var valueA = objA[key];
+        var valueB = objB[key];
+        ret = compare ? compare.call(compareContext, valueA, valueB, key) : void 0;
+        if (ret === false || ret === void 0 && valueA !== valueB) return false;
+    }
+    return true;
+};
+
+},{}],"fGS9o":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+function stylis_min(W) {
+    function M(d, c, e, h, a) {
+        for(var m = 0, b = 0, v = 0, n = 0, q, g, x = 0, K = 0, k, u = k = q = 0, l = 0, r = 0, I = 0, t = 0, B = e.length, J = B - 1, y, f = "", p = "", F = "", G = "", C; l < B;){
+            g = e.charCodeAt(l);
+            l === J && 0 !== b + n + v + m && (0 !== b && (g = 47 === b ? 10 : 47), n = v = m = 0, B++, J++);
+            if (0 === b + n + v + m) {
+                if (l === J && (0 < r && (f = f.replace(N, "")), 0 < f.trim().length)) {
+                    switch(g){
+                        case 32:
+                        case 9:
+                        case 59:
+                        case 13:
+                        case 10:
+                            break;
+                        default:
+                            f += e.charAt(l);
+                    }
+                    g = 59;
+                }
+                switch(g){
+                    case 123:
+                        f = f.trim();
+                        q = f.charCodeAt(0);
+                        k = 1;
+                        for(t = ++l; l < B;){
+                            switch(g = e.charCodeAt(l)){
+                                case 123:
+                                    k++;
+                                    break;
+                                case 125:
+                                    k--;
+                                    break;
+                                case 47:
+                                    switch(g = e.charCodeAt(l + 1)){
+                                        case 42:
+                                        case 47:
+                                            a: {
+                                                for(u = l + 1; u < J; ++u)switch(e.charCodeAt(u)){
+                                                    case 47:
+                                                        if (42 === g && 42 === e.charCodeAt(u - 1) && l + 2 !== u) {
+                                                            l = u + 1;
+                                                            break a;
+                                                        }
+                                                        break;
+                                                    case 10:
+                                                        if (47 === g) {
+                                                            l = u + 1;
+                                                            break a;
+                                                        }
+                                                }
+                                                l = u;
+                                            }
+                                    }
+                                    break;
+                                case 91:
+                                    g++;
+                                case 40:
+                                    g++;
+                                case 34:
+                                case 39:
+                                    for(; l++ < J && e.charCodeAt(l) !== g;);
+                            }
+                            if (0 === k) break;
+                            l++;
+                        }
+                        k = e.substring(t, l);
+                        0 === q && (q = (f = f.replace(ca, "").trim()).charCodeAt(0));
+                        switch(q){
+                            case 64:
+                                0 < r && (f = f.replace(N, ""));
+                                g = f.charCodeAt(1);
+                                switch(g){
+                                    case 100:
+                                    case 109:
+                                    case 115:
+                                    case 45:
+                                        r = c;
+                                        break;
+                                    default:
+                                        r = O;
+                                }
+                                k = M(c, r, k, g, a + 1);
+                                t = k.length;
+                                0 < A && (r = X(O, f, I), C = H(3, k, r, c, D, z, t, g, a, h), f = r.join(""), void 0 !== C && 0 === (t = (k = C.trim()).length) && (g = 0, k = ""));
+                                if (0 < t) switch(g){
+                                    case 115:
+                                        f = f.replace(da, ea);
+                                    case 100:
+                                    case 109:
+                                    case 45:
+                                        k = f + "{" + k + "}";
+                                        break;
+                                    case 107:
+                                        f = f.replace(fa, "$1 $2");
+                                        k = f + "{" + k + "}";
+                                        k = 1 === w || 2 === w && L("@" + k, 3) ? "@-webkit-" + k + "@" + k : "@" + k;
+                                        break;
+                                    default:
+                                        k = f + k, 112 === h && (k = (p += k, ""));
+                                }
+                                else k = "";
+                                break;
+                            default:
+                                k = M(c, X(c, f, I), k, h, a + 1);
+                        }
+                        F += k;
+                        k = I = r = u = q = 0;
+                        f = "";
+                        g = e.charCodeAt(++l);
+                        break;
+                    case 125:
+                    case 59:
+                        f = (0 < r ? f.replace(N, "") : f).trim();
+                        if (1 < (t = f.length)) switch(0 === u && (q = f.charCodeAt(0), 45 === q || 96 < q && 123 > q) && (t = (f = f.replace(" ", ":")).length), 0 < A && void 0 !== (C = H(1, f, c, d, D, z, p.length, h, a, h)) && 0 === (t = (f = C.trim()).length) && (f = "\0\0"), q = f.charCodeAt(0), g = f.charCodeAt(1), q){
+                            case 0:
+                                break;
+                            case 64:
+                                if (105 === g || 99 === g) {
+                                    G += f + e.charAt(l);
+                                    break;
+                                }
+                            default:
+                                58 !== f.charCodeAt(t - 1) && (p += P(f, q, g, f.charCodeAt(2)));
+                        }
+                        I = r = u = q = 0;
+                        f = "";
+                        g = e.charCodeAt(++l);
+                }
+            }
+            switch(g){
+                case 13:
+                case 10:
+                    47 === b ? b = 0 : 0 === 1 + q && 107 !== h && 0 < f.length && (r = 1, f += "\0");
+                    0 < A * Y && H(0, f, c, d, D, z, p.length, h, a, h);
+                    z = 1;
+                    D++;
+                    break;
+                case 59:
+                case 125:
+                    if (0 === b + n + v + m) {
+                        z++;
+                        break;
+                    }
+                default:
+                    z++;
+                    y = e.charAt(l);
+                    switch(g){
+                        case 9:
+                        case 32:
+                            if (0 === n + m + b) switch(x){
+                                case 44:
+                                case 58:
+                                case 9:
+                                case 32:
+                                    y = "";
+                                    break;
+                                default:
+                                    32 !== g && (y = " ");
+                            }
+                            break;
+                        case 0:
+                            y = "\\0";
+                            break;
+                        case 12:
+                            y = "\\f";
+                            break;
+                        case 11:
+                            y = "\\v";
+                            break;
+                        case 38:
+                            0 === n + b + m && (r = I = 1, y = "\f" + y);
+                            break;
+                        case 108:
+                            if (0 === n + b + m + E && 0 < u) switch(l - u){
+                                case 2:
+                                    112 === x && 58 === e.charCodeAt(l - 3) && (E = x);
+                                case 8:
+                                    111 === K && (E = K);
+                            }
+                            break;
+                        case 58:
+                            0 === n + b + m && (u = l);
+                            break;
+                        case 44:
+                            0 === b + v + n + m && (r = 1, y += "\r");
+                            break;
+                        case 34:
+                        case 39:
+                            0 === b && (n = n === g ? 0 : 0 === n ? g : n);
+                            break;
+                        case 91:
+                            0 === n + b + v && m++;
+                            break;
+                        case 93:
+                            0 === n + b + v && m--;
+                            break;
+                        case 41:
+                            0 === n + b + m && v--;
+                            break;
+                        case 40:
+                            if (0 === n + b + m) {
+                                if (0 === q) switch(2 * x + 3 * K){
+                                    case 533:
+                                        break;
+                                    default:
+                                        q = 1;
+                                }
+                                v++;
+                            }
+                            break;
+                        case 64:
+                            0 === b + v + n + m + u + k && (k = 1);
+                            break;
+                        case 42:
+                        case 47:
+                            if (!(0 < n + m + v)) switch(b){
+                                case 0:
+                                    switch(2 * g + 3 * e.charCodeAt(l + 1)){
+                                        case 235:
+                                            b = 47;
+                                            break;
+                                        case 220:
+                                            t = l, b = 42;
+                                    }
+                                    break;
+                                case 42:
+                                    47 === g && 42 === x && t + 2 !== l && (33 === e.charCodeAt(t + 2) && (p += e.substring(t, l + 1)), y = "", b = 0);
+                            }
+                    }
+                    0 === b && (f += y);
+            }
+            K = x;
+            x = g;
+            l++;
+        }
+        t = p.length;
+        if (0 < t) {
+            r = c;
+            if (0 < A && (C = H(2, p, r, d, D, z, t, h, a, h), void 0 !== C && 0 === (p = C).length)) return G + p + F;
+            p = r.join(",") + "{" + p + "}";
+            if (0 !== w * E) {
+                2 !== w || L(p, 2) || (E = 0);
+                switch(E){
+                    case 111:
+                        p = p.replace(ha, ":-moz-$1") + p;
+                        break;
+                    case 112:
+                        p = p.replace(Q, "::-webkit-input-$1") + p.replace(Q, "::-moz-$1") + p.replace(Q, ":-ms-input-$1") + p;
+                }
+                E = 0;
+            }
+        }
+        return G + p + F;
+    }
+    function X(d, c, e) {
+        var h = c.trim().split(ia);
+        c = h;
+        var a = h.length, m = d.length;
+        switch(m){
+            case 0:
+            case 1:
+                var b = 0;
+                for(d = 0 === m ? "" : d[0] + " "; b < a; ++b)c[b] = Z(d, c[b], e).trim();
+                break;
+            default:
+                var v = b = 0;
+                for(c = []; b < a; ++b)for(var n = 0; n < m; ++n)c[v++] = Z(d[n] + " ", h[b], e).trim();
+        }
+        return c;
+    }
+    function Z(d, c, e) {
+        var h = c.charCodeAt(0);
+        33 > h && (h = (c = c.trim()).charCodeAt(0));
+        switch(h){
+            case 38:
+                return c.replace(F, "$1" + d.trim());
+            case 58:
+                return d.trim() + c.replace(F, "$1" + d.trim());
+            default:
+                if (0 < 1 * e && 0 < c.indexOf("\f")) return c.replace(F, (58 === d.charCodeAt(0) ? "" : "$1") + d.trim());
+        }
+        return d + c;
+    }
+    function P(d, c, e, h) {
+        var a = d + ";", m = 2 * c + 3 * e + 4 * h;
+        if (944 === m) {
+            d = a.indexOf(":", 9) + 1;
+            var b = a.substring(d, a.length - 1).trim();
+            b = a.substring(0, d).trim() + b + ";";
+            return 1 === w || 2 === w && L(b, 1) ? "-webkit-" + b + b : b;
+        }
+        if (0 === w || 2 === w && !L(a, 1)) return a;
+        switch(m){
+            case 1015:
+                return 97 === a.charCodeAt(10) ? "-webkit-" + a + a : a;
+            case 951:
+                return 116 === a.charCodeAt(3) ? "-webkit-" + a + a : a;
+            case 963:
+                return 110 === a.charCodeAt(5) ? "-webkit-" + a + a : a;
+            case 1009:
+                if (100 !== a.charCodeAt(4)) break;
+            case 969:
+            case 942:
+                return "-webkit-" + a + a;
+            case 978:
+                return "-webkit-" + a + "-moz-" + a + a;
+            case 1019:
+            case 983:
+                return "-webkit-" + a + "-moz-" + a + "-ms-" + a + a;
+            case 883:
+                if (45 === a.charCodeAt(8)) return "-webkit-" + a + a;
+                if (0 < a.indexOf("image-set(", 11)) return a.replace(ja, "$1-webkit-$2") + a;
+                break;
+            case 932:
+                if (45 === a.charCodeAt(4)) switch(a.charCodeAt(5)){
+                    case 103:
+                        return "-webkit-box-" + a.replace("-grow", "") + "-webkit-" + a + "-ms-" + a.replace("grow", "positive") + a;
+                    case 115:
+                        return "-webkit-" + a + "-ms-" + a.replace("shrink", "negative") + a;
+                    case 98:
+                        return "-webkit-" + a + "-ms-" + a.replace("basis", "preferred-size") + a;
+                }
+                return "-webkit-" + a + "-ms-" + a + a;
+            case 964:
+                return "-webkit-" + a + "-ms-flex-" + a + a;
+            case 1023:
+                if (99 !== a.charCodeAt(8)) break;
+                b = a.substring(a.indexOf(":", 15)).replace("flex-", "").replace("space-between", "justify");
+                return "-webkit-box-pack" + b + "-webkit-" + a + "-ms-flex-pack" + b + a;
+            case 1005:
+                return ka.test(a) ? a.replace(aa, ":-webkit-") + a.replace(aa, ":-moz-") + a : a;
+            case 1e3:
+                b = a.substring(13).trim();
+                c = b.indexOf("-") + 1;
+                switch(b.charCodeAt(0) + b.charCodeAt(c)){
+                    case 226:
+                        b = a.replace(G, "tb");
+                        break;
+                    case 232:
+                        b = a.replace(G, "tb-rl");
+                        break;
+                    case 220:
+                        b = a.replace(G, "lr");
+                        break;
+                    default:
+                        return a;
+                }
+                return "-webkit-" + a + "-ms-" + b + a;
+            case 1017:
+                if (-1 === a.indexOf("sticky", 9)) break;
+            case 975:
+                c = (a = d).length - 10;
+                b = (33 === a.charCodeAt(c) ? a.substring(0, c) : a).substring(d.indexOf(":", 7) + 1).trim();
+                switch(m = b.charCodeAt(0) + (b.charCodeAt(7) | 0)){
+                    case 203:
+                        if (111 > b.charCodeAt(8)) break;
+                    case 115:
+                        a = a.replace(b, "-webkit-" + b) + ";" + a;
+                        break;
+                    case 207:
+                    case 102:
+                        a = a.replace(b, "-webkit-" + (102 < m ? "inline-" : "") + "box") + ";" + a.replace(b, "-webkit-" + b) + ";" + a.replace(b, "-ms-" + b + "box") + ";" + a;
+                }
+                return a + ";";
+            case 938:
+                if (45 === a.charCodeAt(5)) switch(a.charCodeAt(6)){
+                    case 105:
+                        return b = a.replace("-items", ""), "-webkit-" + a + "-webkit-box-" + b + "-ms-flex-" + b + a;
+                    case 115:
+                        return "-webkit-" + a + "-ms-flex-item-" + a.replace(ba, "") + a;
+                    default:
+                        return "-webkit-" + a + "-ms-flex-line-pack" + a.replace("align-content", "").replace(ba, "") + a;
+                }
+                break;
+            case 973:
+            case 989:
+                if (45 !== a.charCodeAt(3) || 122 === a.charCodeAt(4)) break;
+            case 931:
+            case 953:
+                if (!0 === la.test(d)) return 115 === (b = d.substring(d.indexOf(":") + 1)).charCodeAt(0) ? P(d.replace("stretch", "fill-available"), c, e, h).replace(":fill-available", ":stretch") : a.replace(b, "-webkit-" + b) + a.replace(b, "-moz-" + b.replace("fill-", "")) + a;
+                break;
+            case 962:
+                if (a = "-webkit-" + a + (102 === a.charCodeAt(5) ? "-ms-" + a : "") + a, 211 === e + h && 105 === a.charCodeAt(13) && 0 < a.indexOf("transform", 10)) return a.substring(0, a.indexOf(";", 27) + 1).replace(ma, "$1-webkit-$2") + a;
+        }
+        return a;
+    }
+    function L(d, c) {
+        var e = d.indexOf(1 === c ? ":" : "{"), h = d.substring(0, 3 !== c ? e : 10);
+        e = d.substring(e + 1, d.length - 1);
+        return R(2 !== c ? h : h.replace(na, "$1"), e, c);
+    }
+    function ea(d, c) {
+        var e = P(c, c.charCodeAt(0), c.charCodeAt(1), c.charCodeAt(2));
+        return e !== c + ";" ? e.replace(oa, " or ($1)").substring(4) : "(" + c + ")";
+    }
+    function H(d, c, e, h, a, m, b, v, n, q) {
+        for(var g = 0, x = c, w; g < A; ++g)switch(w = S[g].call(B, d, x, e, h, a, m, b, v, n, q)){
+            case void 0:
+            case !1:
+            case !0:
+            case null:
+                break;
+            default:
+                x = w;
+        }
+        if (x !== c) return x;
+    }
+    function T(d) {
+        switch(d){
+            case void 0:
+            case null:
+                A = S.length = 0;
+                break;
+            default:
+                if ("function" === typeof d) S[A++] = d;
+                else if ("object" === typeof d) for(var c = 0, e = d.length; c < e; ++c)T(d[c]);
+                else Y = !!d | 0;
+        }
+        return T;
+    }
+    function U(d) {
+        d = d.prefix;
+        void 0 !== d && (R = null, d ? "function" !== typeof d ? w = 1 : (w = 2, R = d) : w = 0);
+        return U;
+    }
+    function B(d, c) {
+        var e = d;
+        33 > e.charCodeAt(0) && (e = e.trim());
+        V = e;
+        e = [
+            V
+        ];
+        if (0 < A) {
+            var h = H(-1, c, e, e, D, z, 0, 0, 0, 0);
+            void 0 !== h && "string" === typeof h && (c = h);
+        }
+        var a = M(O, e, c, 0, 0);
+        0 < A && (h = H(-2, a, e, e, D, z, a.length, 0, 0, 0), void 0 !== h && (a = h));
+        V = "";
+        E = 0;
+        z = D = 1;
+        return a;
+    }
+    var ca = /^\0+/g, N = /[\0\r\f]/g, aa = /: */g, ka = /zoo|gra/, ma = /([,: ])(transform)/g, ia = /,\r+?/g, F = /([\t\r\n ])*\f?&/g, fa = /@(k\w+)\s*(\S*)\s*/, Q = /::(place)/g, ha = /:(read-only)/g, G = /[svh]\w+-[tblr]{2}/, da = /\(\s*(.*)\s*\)/g, oa = /([\s\S]*?);/g, ba = /-self|flex-/g, na = /[^]*?(:[rp][el]a[\w-]+)[^]*/, la = /stretch|:\s*\w+\-(?:conte|avail)/, ja = /([^-])(image-set\()/, z = 1, D = 1, E = 0, w = 1, O = [], S = [], A = 0, R = null, Y = 0, V = "";
+    B.use = T;
+    B.set = U;
+    void 0 !== W && U(W);
+    return B;
+}
+exports.default = stylis_min;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g3QHG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var unitlessKeys = {
+    animationIterationCount: 1,
+    borderImageOutset: 1,
+    borderImageSlice: 1,
+    borderImageWidth: 1,
+    boxFlex: 1,
+    boxFlexGroup: 1,
+    boxOrdinalGroup: 1,
+    columnCount: 1,
+    columns: 1,
+    flex: 1,
+    flexGrow: 1,
+    flexPositive: 1,
+    flexShrink: 1,
+    flexNegative: 1,
+    flexOrder: 1,
+    gridRow: 1,
+    gridRowEnd: 1,
+    gridRowSpan: 1,
+    gridRowStart: 1,
+    gridColumn: 1,
+    gridColumnEnd: 1,
+    gridColumnSpan: 1,
+    gridColumnStart: 1,
+    msGridRow: 1,
+    msGridRowSpan: 1,
+    msGridColumn: 1,
+    msGridColumnSpan: 1,
+    fontWeight: 1,
+    lineHeight: 1,
+    opacity: 1,
+    order: 1,
+    orphans: 1,
+    tabSize: 1,
+    widows: 1,
+    zIndex: 1,
+    zoom: 1,
+    WebkitLineClamp: 1,
+    // SVG-related properties
+    fillOpacity: 1,
+    floodOpacity: 1,
+    stopOpacity: 1,
+    strokeDasharray: 1,
+    strokeDashoffset: 1,
+    strokeMiterlimit: 1,
+    strokeOpacity: 1,
+    strokeWidth: 1
+};
+exports.default = unitlessKeys;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gHgzi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var LineWave = function(_a) {
+    var _b = _a.wrapperStyle, wrapperStyle = _b === void 0 ? {} : _b, _c = _a.visible, visible = _c === void 0 ? true : _c, _d = _a.wrapperClass, wrapperClass = _d === void 0 ? "" : _d, _e = _a.height, height = _e === void 0 ? 100 : _e, _f = _a.width, width = _f === void 0 ? 100 : _f, _g = _a.color, color = _g === void 0 ? (0, _type.DEFAULT_COLOR) : _g, _h = _a.ariaLabel, ariaLabel = _h === void 0 ? "line-wave-loading" : _h, firstLineColor = _a.firstLineColor, middleLineColor = _a.middleLineColor, lastLineColor = _a.lastLineColor;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "line-wave-wrapper",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        version: "1.1",
+        height: "".concat(height),
+        width: "".concat(width),
+        xmlns: "http://www.w3.org/2000/svg",
+        x: "0px",
+        y: "0px",
+        viewBox: "0 0 100 100",
+        enableBackground: "new 0 0 0 0",
+        xmlSpace: "preserve",
+        "data-testid": "line-wave-svg"
+    }, (0, _reactDefault.default).createElement("rect", {
+        x: "20",
+        y: "50",
+        width: "4",
+        height: "10",
+        fill: firstLineColor || color
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeType: "xml",
+        attributeName: "transform",
+        type: "translate",
+        values: "0 0; 0 20; 0 0",
+        begin: "0",
+        dur: "0.6s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "30",
+        y: "50",
+        width: "4",
+        height: "10",
+        fill: middleLineColor || color
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeType: "xml",
+        attributeName: "transform",
+        type: "translate",
+        values: "0 0; 0 20; 0 0",
+        begin: "0.2s",
+        dur: "0.6s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "40",
+        y: "50",
+        width: "4",
+        height: "10",
+        fill: lastLineColor || color
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeType: "xml",
+        attributeName: "transform",
+        type: "translate",
+        values: "0 0; 0 20; 0 0",
+        begin: "0.4s",
+        dur: "0.6s",
+        repeatCount: "indefinite"
+    }))));
+};
+exports.default = LineWave;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5eNTr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var MutatingDots = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 90 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.radius, radius = _d === void 0 ? 12.5 : _d, _e = _a.color, color = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.secondaryColor, secondaryColor = _f === void 0 ? (0, _type.DEFAULT_COLOR) : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "mutating-dots-loading" : _g, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _h = _a.visible, visible = _h === void 0 ? true : _h;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "mutating-dots-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        id: "goo-loader",
+        width: width,
+        height: height,
+        "data-testid": "mutating-dots-svg"
+    }, (0, _reactDefault.default).createElement("filter", {
+        id: "fancy-goo"
+    }, (0, _reactDefault.default).createElement("feGaussianBlur", {
+        in: "SourceGraphic",
+        stdDeviation: "6",
+        result: "blur"
+    }), (0, _reactDefault.default).createElement("feColorMatrix", {
+        in: "blur",
+        mode: "matrix",
+        values: "1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9",
+        result: "goo"
+    }), (0, _reactDefault.default).createElement("feComposite", {
+        in: "SourceGraphic",
+        in2: "goo",
+        operator: "atop"
+    })), (0, _reactDefault.default).createElement("g", {
+        filter: "url(#fancy-goo)"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        id: "mainAnim",
+        attributeName: "transform",
+        attributeType: "XML",
+        type: "rotate",
+        from: "0 50 50",
+        to: "359 50 50",
+        dur: "1.2s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("circle", {
+        cx: "50%",
+        cy: "40",
+        r: radius,
+        fill: color
+    }, (0, _reactDefault.default).createElement("animate", {
+        id: "cAnim1",
+        attributeType: "XML",
+        attributeName: "cy",
+        dur: "0.6s",
+        begin: "0;cAnim1.end+0.2s",
+        calcMode: "spline",
+        values: "40;20;40",
+        keyTimes: "0;0.3;1",
+        keySplines: "0.09, 0.45, 0.16, 1;0.09, 0.45, 0.16, 1"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "50%",
+        cy: "60",
+        r: radius,
+        fill: secondaryColor
+    }, (0, _reactDefault.default).createElement("animate", {
+        id: "cAnim2",
+        attributeType: "XML",
+        attributeName: "cy",
+        dur: "0.6s",
+        begin: "0.4s;cAnim2.end+0.2s",
+        calcMode: "spline",
+        values: "60;80;60",
+        keyTimes: "0;0.3;1",
+        keySplines: "0.09, 0.45, 0.16, 1;0.09, 0.45, 0.16, 1"
+    })))));
+};
+exports.default = MutatingDots;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2Nj0V":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var RADIUS = 20;
+var getPath = function(radius) {
+    return [
+        "M" + radius + " 0c0-9.94-8.06",
+        radius,
+        radius,
+        radius
+    ].join("-");
+};
+var getViewBoxSize = function(strokeWidth, secondaryStrokeWidth, radius) {
+    var maxStrokeWidth = Math.max(strokeWidth, secondaryStrokeWidth);
+    var startingPoint = -radius - maxStrokeWidth / 2 + 1;
+    var endpoint = radius * 2 + maxStrokeWidth;
+    return [
+        startingPoint,
+        startingPoint,
+        endpoint,
+        endpoint
+    ].join(" ");
+};
+var Oval = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.color, color = _d === void 0 ? (0, _type.DEFAULT_COLOR) : _d, _e = _a.secondaryColor, secondaryColor = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.ariaLabel, ariaLabel = _f === void 0 ? "oval-loading" : _f, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _g = _a.visible, visible = _g === void 0 ? true : _g, _h = _a.strokeWidth, strokeWidth = _h === void 0 ? 2 : _h, strokeWidthSecondary = _a.strokeWidthSecondary;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle), {
+            padding: 3
+        }),
+        className: wrapperClass,
+        "data-testid": "oval-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        viewBox: getViewBoxSize(Number(strokeWidth), Number(strokeWidthSecondary || strokeWidth), RADIUS),
+        xmlns: "http://www.w3.org/2000/svg",
+        stroke: color,
+        "data-testid": "oval-svg"
+    }, (0, _reactDefault.default).createElement("g", {
+        fill: "none",
+        fillRule: "evenodd"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(1 1)",
+        strokeWidth: Number(strokeWidthSecondary || strokeWidth),
+        "data-testid": "oval-secondary-group"
+    }, (0, _reactDefault.default).createElement("circle", {
+        strokeOpacity: ".5",
+        cx: "0",
+        cy: "0",
+        r: RADIUS,
+        stroke: secondaryColor,
+        strokeWidth: strokeWidth
+    }), (0, _reactDefault.default).createElement("path", {
+        d: getPath(RADIUS)
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        from: "0 0 0",
+        to: "360 0 0",
+        dur: "1s",
+        repeatCount: "indefinite"
+    }))))));
+};
+exports.default = Oval;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4AZbw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Puff", ()=>Puff);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Puff = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.radius, radius = _d === void 0 ? 1 : _d, _e = _a.color, color = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.ariaLabel, ariaLabel = _f === void 0 ? "puff-loading" : _f, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _g = _a.visible, visible = _g === void 0 ? true : _g;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "puff-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        viewBox: "0 0 44 44",
+        xmlns: "http://www.w3.org/2000/svg",
+        stroke: color,
+        "data-testid": "puff-svg"
+    }, (0, _reactDefault.default).createElement("g", {
+        fill: "none",
+        fillRule: "evenodd",
+        strokeWidth: "2"
+    }, (0, _reactDefault.default).createElement("circle", {
+        cx: "22",
+        cy: "22",
+        r: radius
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        begin: "0s",
+        dur: "1.8s",
+        values: "1; 20",
+        calcMode: "spline",
+        keyTimes: "0; 1",
+        keySplines: "0.165, 0.84, 0.44, 1",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "strokeOpacity",
+        begin: "0s",
+        dur: "1.8s",
+        values: "1; 0",
+        calcMode: "spline",
+        keyTimes: "0; 1",
+        keySplines: "0.3, 0.61, 0.355, 1",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "22",
+        cy: "22",
+        r: radius
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        begin: "-0.9s",
+        dur: "1.8s",
+        values: "1; 20",
+        calcMode: "spline",
+        keyTimes: "0; 1",
+        keySplines: "0.165, 0.84, 0.44, 1",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "strokeOpacity",
+        begin: "-0.9s",
+        dur: "1.8s",
+        values: "1; 0",
+        calcMode: "spline",
+        keyTimes: "0; 1",
+        keySplines: "0.3, 0.61, 0.355, 1",
+        repeatCount: "indefinite"
+    })))));
+};
+exports.default = Puff;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lqHMc":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var RevolvingDot = function(_a) {
+    var _b = _a.radius, radius = _b === void 0 ? 45 : _b, _c = _a.strokeWidth, strokeWidth = _c === void 0 ? 5 : _c, _d = _a.color, color = _d === void 0 ? (0, _type.DEFAULT_COLOR) : _d, secondaryColor = _a.secondaryColor, _e = _a.ariaLabel, ariaLabel = _e === void 0 ? "revolving-dot-loading" : _e, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _f = _a.visible, visible = _f === void 0 ? true : _f;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "aria-label": ariaLabel,
+        "data-testid": "revolving-dot-loading"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        version: "1.1",
+        width: "calc(".concat(radius, " * 2.5)"),
+        height: "calc(".concat(radius, " * 2.5)"),
+        xmlns: "http://www.w3.org/2000/svg",
+        x: "0px",
+        y: "0px",
+        "data-testid": "revolving-dot-svg"
+    }, (0, _reactDefault.default).createElement("circle", {
+        fill: "none",
+        stroke: secondaryColor || color,
+        strokeWidth: strokeWidth,
+        cx: "calc(".concat(radius, " * 1.28)"),
+        cy: "calc(".concat(radius, " * 1.28)"),
+        r: radius,
+        style: {
+            opacity: 0.5
+        }
+    }), (0, _reactDefault.default).createElement("circle", {
+        fill: color,
+        stroke: color,
+        strokeWidth: "3",
+        cx: "calc(".concat(radius, " * 1.28)"),
+        cy: "calc(".concat(radius, " / 3.5)"),
+        r: "calc(".concat(radius, " / 5)"),
+        style: {
+            transformOrigin: "50% 50%"
+        }
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "2s",
+        type: "rotate",
+        from: "0",
+        to: "360",
+        repeatCount: "indefinite"
+    }))));
+};
+exports.default = RevolvingDot;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iwK23":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Rings", ()=>Rings);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Rings = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.radius, radius = _d === void 0 ? 6 : _d, _e = _a.color, color = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.ariaLabel, ariaLabel = _f === void 0 ? "rings-loading" : _f, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _g = _a.visible, visible = _g === void 0 ? true : _g;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "rings-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        viewBox: "0 0 45 45",
+        xmlns: "http://www.w3.org/2000/svg",
+        stroke: color,
+        "data-testid": "rings-svg"
+    }, (0, _reactDefault.default).createElement("g", {
+        fill: "none",
+        fillRule: "evenodd",
+        transform: "translate(1 1)",
+        strokeWidth: "2"
+    }, (0, _reactDefault.default).createElement("circle", {
+        cx: "22",
+        cy: "22",
+        r: radius,
+        strokeOpacity: "0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        begin: "1.5s",
+        dur: "3s",
+        values: "6;22",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "stroke-opacity",
+        begin: "1.5s",
+        dur: "3s",
+        values: "1;0",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "stroke-width",
+        begin: "1.5s",
+        dur: "3s",
+        values: "2;0",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "22",
+        cy: "22",
+        r: radius,
+        strokeOpacity: "0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        begin: "3s",
+        dur: "3s",
+        values: "6;22",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "strokeOpacity",
+        begin: "3s",
+        dur: "3s",
+        values: "1;0",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "strokeWidth",
+        begin: "3s",
+        dur: "3s",
+        values: "2;0",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "22",
+        cy: "22",
+        r: Number(radius) + 2
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        begin: "0s",
+        dur: "1.5s",
+        values: "6;1;2;3;4;5;6",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })))));
+};
+exports.default = Rings;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jpxiA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var RotatingSquare = function(_a) {
+    var _b = _a.wrapperClass, wrapperClass = _b === void 0 ? "" : _b, _c = _a.color, color = _c === void 0 ? (0, _type.DEFAULT_COLOR) : _c, _d = _a.height, height = _d === void 0 ? 100 : _d, _e = _a.width, width = _e === void 0 ? 100 : _e, _f = _a.strokeWidth, strokeWidth = _f === void 0 ? 4 : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "rotating-square-loading" : _g, _h = _a.wrapperStyle, wrapperStyle = _h === void 0 ? {} : _h, _j = _a.visible, visible = _j === void 0 ? true : _j;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "rotating-square-wrapper",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        version: "1.1",
+        xmlns: "http://www.w3.org/2000/svg",
+        x: "0px",
+        y: "0px",
+        viewBox: "0 0 100 100",
+        enableBackground: "new 0 0 100 100",
+        height: "".concat(height),
+        width: "".concat(width),
+        "data-testid": "rotating-square-svg",
+        xmlSpace: "preserve"
+    }, (0, _reactDefault.default).createElement("rect", {
+        fill: "none",
+        stroke: color,
+        strokeWidth: strokeWidth,
+        x: "25",
+        y: "25",
+        width: "50",
+        height: "50"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "0.5s",
+        from: "0 50 50",
+        to: "180 50 50",
+        type: "rotate",
+        id: "strokeBox",
+        attributeType: "XML",
+        begin: "rectBox.end"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "27",
+        y: "27",
+        fill: color,
+        width: "46",
+        height: "50"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "height",
+        dur: "1.3s",
+        attributeType: "XML",
+        from: "50",
+        to: "0",
+        id: "rectBox",
+        fill: "freeze",
+        begin: "0s;strokeBox.end"
+    }))));
+};
+exports.default = RotatingSquare;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cNRgP":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _styledTools = require("styled-tools");
+var _type = require("../type");
+var __makeTemplateObject = undefined && undefined.__makeTemplateObject || function(cooked, raw) {
+    if (Object.defineProperty) Object.defineProperty(cooked, "raw", {
+        value: raw
+    });
+    else cooked.raw = raw;
+    return cooked;
+};
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var spin = (0, _styledComponents.keyframes)(templateObject_1 || (templateObject_1 = __makeTemplateObject([
+    "\n to {\n    transform: rotate(360deg);\n  }\n"
+], [
+    "\n to {\n    transform: rotate(360deg);\n  }\n"
+])));
+var POINTS = [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330
+];
+var Svg = (0, _styledComponentsDefault.default).svg(templateObject_2 || (templateObject_2 = __makeTemplateObject([
+    "\n  animation: ",
+    " 0.75s steps(12, end) infinite;\n  animation-duration: ",
+    "s;\n"
+], [
+    "\n  animation: ",
+    " 0.75s steps(12, end) infinite;\n  animation-duration: ",
+    "s;\n"
+])), spin, (0, _styledTools.prop)("speed", "0.75"));
+var Polyline = (0, _styledComponentsDefault.default).polyline(templateObject_3 || (templateObject_3 = __makeTemplateObject([
+    "\n  stroke-width: ",
+    "px;\n  stroke-linecap: round;\n\n  &:nth-child(12n + 0) {\n    stroke-opacity: 0.08;\n  }\n\n  &:nth-child(12n + 1) {\n    stroke-opacity: 0.17;\n  }\n\n  &:nth-child(12n + 2) {\n    stroke-opacity: 0.25;\n  }\n\n  &:nth-child(12n + 3) {\n    stroke-opacity: 0.33;\n  }\n\n  &:nth-child(12n + 4) {\n    stroke-opacity: 0.42;\n  }\n\n  &:nth-child(12n + 5) {\n    stroke-opacity: 0.5;\n  }\n\n  &:nth-child(12n + 6) {\n    stroke-opacity: 0.58;\n  }\n\n  &:nth-child(12n + 7) {\n    stroke-opacity: 0.66;\n  }\n\n  &:nth-child(12n + 8) {\n    stroke-opacity: 0.75;\n  }\n\n  &:nth-child(12n + 9) {\n    stroke-opacity: 0.83;\n  }\n\n  &:nth-child(12n + 11) {\n    stroke-opacity: 0.92;\n  }\n"
+], [
+    "\n  stroke-width: ",
+    "px;\n  stroke-linecap: round;\n\n  &:nth-child(12n + 0) {\n    stroke-opacity: 0.08;\n  }\n\n  &:nth-child(12n + 1) {\n    stroke-opacity: 0.17;\n  }\n\n  &:nth-child(12n + 2) {\n    stroke-opacity: 0.25;\n  }\n\n  &:nth-child(12n + 3) {\n    stroke-opacity: 0.33;\n  }\n\n  &:nth-child(12n + 4) {\n    stroke-opacity: 0.42;\n  }\n\n  &:nth-child(12n + 5) {\n    stroke-opacity: 0.5;\n  }\n\n  &:nth-child(12n + 6) {\n    stroke-opacity: 0.58;\n  }\n\n  &:nth-child(12n + 7) {\n    stroke-opacity: 0.66;\n  }\n\n  &:nth-child(12n + 8) {\n    stroke-opacity: 0.75;\n  }\n\n  &:nth-child(12n + 9) {\n    stroke-opacity: 0.83;\n  }\n\n  &:nth-child(12n + 11) {\n    stroke-opacity: 0.92;\n  }\n"
+])), function(props) {
+    return props.width;
+});
+function RotatingLines(_a) {
+    var _b = _a.strokeColor, strokeColor = _b === void 0 ? (0, _type.DEFAULT_COLOR) : _b, _c = _a.strokeWidth, strokeWidth = _c === void 0 ? "5" : _c, _d = _a.animationDuration, animationDuration = _d === void 0 ? "0.75" : _d, _e = _a.width, width = _e === void 0 ? "96" : _e, _f = _a.visible, visible = _f === void 0 ? true : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "rotating-lines-loading" : _g;
+    var lines = (0, _react.useCallback)(function() {
+        return POINTS.map(function(point) {
+            return (0, _reactDefault.default).createElement(Polyline, {
+                key: point,
+                points: "24,12 24,4",
+                width: strokeWidth,
+                transform: "rotate(".concat(point, ", 24, 24)")
+            });
+        });
+    }, [
+        strokeWidth
+    ]);
+    return !visible ? null : (0, _reactDefault.default).createElement(Svg, __assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 48 48",
+        width: width,
+        stroke: strokeColor,
+        speed: animationDuration,
+        "data-testid": "rotating-lines-svg",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), lines());
+}
+exports.default = RotatingLines;
+var templateObject_1, templateObject_2, templateObject_3;
+
+},{"react":"21dqq","styled-components":"1U3k6","styled-tools":"lhd1s","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lhd1s":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ifNotProp", ()=>(0, _ifNotPropDefault.default));
+parcelHelpers.export(exports, "ifProp", ()=>(0, _ifPropDefault.default));
+parcelHelpers.export(exports, "prop", ()=>(0, _propDefault.default));
+parcelHelpers.export(exports, "palette", ()=>(0, _paletteDefault.default));
+parcelHelpers.export(exports, "switchProp", ()=>(0, _switchPropDefault.default));
+parcelHelpers.export(exports, "theme", ()=>(0, _themeDefault.default));
+parcelHelpers.export(exports, "withProp", ()=>(0, _withPropDefault.default));
+var _ifNotProp = require("./ifNotProp");
+var _ifNotPropDefault = parcelHelpers.interopDefault(_ifNotProp);
+var _ifProp = require("./ifProp");
+var _ifPropDefault = parcelHelpers.interopDefault(_ifProp);
+var _prop = require("./prop");
+var _propDefault = parcelHelpers.interopDefault(_prop);
+var _palette = require("./palette");
+var _paletteDefault = parcelHelpers.interopDefault(_palette);
+var _switchProp = require("./switchProp");
+var _switchPropDefault = parcelHelpers.interopDefault(_switchProp);
+var _theme = require("./theme");
+var _themeDefault = parcelHelpers.interopDefault(_theme);
+var _withProp = require("./withProp");
+var _withPropDefault = parcelHelpers.interopDefault(_withProp);
+
+},{"./ifNotProp":"dAPIH","./ifProp":"8AUte","./prop":"kBNR9","./palette":"3ukXw","./switchProp":"c6VDe","./theme":"bixf2","./withProp":"lWWtL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dAPIH":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _ifProp = require("./ifProp");
+var _ifPropDefault = parcelHelpers.interopDefault(_ifProp);
+/**
+ * Returns `pass` if prop is falsy. Otherwise returns `fail`
+ * @example
+ * import styled from "styled-components";
+ * import { ifNotProp } from "styled-tools";
+ *
+ * const Button = styled.button`
+ *   font-size: ${ifNotProp("large", "20px", "30px")};
+ * `;
+ */ var ifNotProp = function ifNotProp(test, pass, fail) {
+    return (0, _ifPropDefault.default)(test, fail, pass);
+};
+exports.default = ifNotProp;
+
+},{"./ifProp":"8AUte","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8AUte":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+/* eslint-disable no-use-before-define */ var _prop = require("./prop");
+var _propDefault = parcelHelpers.interopDefault(_prop);
+function _typeof(obj) {
+    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") _typeof = function _typeof(obj) {
+        return typeof obj;
+    };
+    else _typeof = function _typeof(obj) {
+        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    };
+    return _typeof(obj);
+}
+var parseFunction = function parseFunction(props, test) {
+    return Boolean(test(props));
+};
+var parseObject = function parseObject(props, test) {
+    var keys = Object.keys(test);
+    var length = keys.length;
+    for(var index = 0; index < length; index += 1){
+        var key = keys[index];
+        var expected = test[key];
+        var value = (0, _propDefault.default)(key)(props);
+        if (expected !== value) return false;
+    }
+    return true;
+};
+var parseString = function parseString(props, test) {
+    return Boolean((0, _propDefault.default)(test)(props));
+};
+var parseMap = {
+    function: parseFunction,
+    object: parseObject,
+    string: parseString
+};
+/**
+ * Returns `pass` if prop is truthy. Otherwise returns `fail`
+ * @example
+ * import styled from "styled-components";
+ * import { ifProp, palette } from "styled-tools";
+ *
+ * const Button = styled.button`
+ *   background-color: ${ifProp("transparent", "transparent", palette(0))};
+ *   color: ${ifProp(["transparent", "accent"], palette("secondary"))};
+ *   font-size: ${ifProp({ size: "large" }, "20px", ifProp({ size: "medium" }, "16px", "12px"))};
+ * `;
+ */ var ifProp = function ifProp(test) {
+    var pass = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
+    var fail = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : "";
+    return function() {
+        var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+        var result = true;
+        if (Array.isArray(test)) {
+            var length = test.length;
+            var index = 0;
+            while(result && index < length){
+                result = parseMap[_typeof(test[index])](props, test[index]);
+                index += 1;
+            }
+        } else result = parseMap[_typeof(test)](props, test);
+        var value = result ? pass : fail;
+        return typeof value === "function" ? value(props) : value;
+    };
+};
+exports.default = ifProp;
+
+},{"./prop":"kBNR9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kBNR9":[function(require,module,exports) {
+/**
+ * Returns the value of `props[path]` or `defaultValue`
+ * @example
+ * import styled from "styled-components";
+ * import { prop } from "styled-tools";
+ *
+ * const Button = styled.button`
+ *   color: ${prop("color", "red")};
+ * `;
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var prop = function prop(path, defaultValue) {
+    return function() {
+        var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+        if (typeof props[path] !== "undefined") return props[path];
+        if (path && path.indexOf(".") > 0) {
+            var paths = path.split(".");
+            var length = paths.length;
+            var object = props[paths[0]];
+            var index = 1;
+            while(object != null && index < length){
+                object = object[paths[index]];
+                index += 1;
+            }
+            if (typeof object !== "undefined") return object;
+        }
+        return defaultValue;
+    };
+};
+exports.default = prop;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3ukXw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var toArray = function toArray(arg) {
+    return Array.isArray(arg) ? arg : [
+        arg
+    ];
+};
+var clamp = function clamp(number, min, max) {
+    if (number < min) return min;
+    if (number > max) return max;
+    return number;
+};
+/**
+ * Returns `props.theme.palette[key || props.palette][tone || props.tone || 0]` or `defaultValue`.
+ * @example
+ * import styled, { ThemeProvider } from "styled-components";
+ * import { palette } from "styled-tools";
+ *
+ * const theme = {
+ *   palette: {
+ *     primary: ['#1976d2', '#2196f3', '#71bcf7', '#c2e2fb'],
+ *     secondary: ['#c2185b', '#e91e63', '#f06292', '#f8bbd0']
+ *   }
+ * };
+ *
+ * const Button = styled.button`
+ *   color: ${palette(1)};                    // props.theme.palette[props.palette][1]
+ *   color: ${palette("primary", 1)};         // props.theme.palette.primary[1]
+ *   color: ${palette("primary")};            // props.theme.palette.primary[props.tone || 0]
+ *   color: ${palette("primary", -1)};        // props.theme.palette.primary[3]
+ *   color: ${palette("primary", 10)};        // props.theme.palette.primary[3]
+ *   color: ${palette("primary", -10)};       // props.theme.palette.primary[0]
+ *   color: ${palette("primary", 0, "red")};  // props.theme.palette.primary[0] || red
+ * `;
+ *
+ * <ThemeProvider theme={theme}>
+ *   <Button palette="secondary" />
+ * </ThemeProvider>
+ */ var palette = function palette(keyOrTone, toneOrDefaultValue, defaultValue) {
+    return function(props) {
+        var key = typeof keyOrTone === "string" ? keyOrTone : props.palette;
+        var tone = typeof keyOrTone === "number" ? keyOrTone : typeof toneOrDefaultValue === "number" ? toneOrDefaultValue : props.tone || 0;
+        var finalDefaultValue = toneOrDefaultValue !== tone ? toneOrDefaultValue : defaultValue;
+        if (!props.theme.palette || !props.theme.palette[key]) return finalDefaultValue;
+        var tones = toArray(props.theme.palette[key]);
+        if (tone < 0) return tones[clamp(tones.length + tone, 0, tones.length - 1)];
+        return tones[clamp(tone, 0, tones.length - 1)];
+    };
+};
+exports.default = palette;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c6VDe":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _prop = require("./prop");
+var _propDefault = parcelHelpers.interopDefault(_prop);
+/**
+ * Switches on a given prop. Returns the value or function for a given prop value. Third parameter is default value.
+ * @example
+ * import styled, { css } from "styled-components";
+ * import { switchProp, prop } from "styled-tools";
+ *
+ * const Button = styled.button`
+ *   font-size: ${switchProp(prop("size", "medium"), {
+ *     small: prop("theme.sizes.sm", "12px"),
+ *     medium: prop("theme.sizes.md", "16px"),
+ *     large: prop("theme.sizes.lg", "20px")
+ *   }, prop("theme.sizes.md", "16px"))};
+ *   ${switchProp("theme.kind", {
+ *     light: css`
+ *       color: LightBlue;
+ *     `,
+ *     dark: css`
+ *       color: DarkBlue;
+ *     `
+ *   }, css`color: black;`)}
+ * `;
+ *
+ * <Button size="large" theme={{ kind: "light" }} />
+ */ var switchProp = function switchProp(needle, cases, defaultCase) {
+    return function() {
+        var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+        var value = typeof needle === "function" ? needle(props) : (0, _propDefault.default)(needle)(props);
+        var finalCases = typeof cases === "function" ? cases(props) : cases;
+        if (value in finalCases) return finalCases[value];
+        return defaultCase;
+    };
+};
+exports.default = switchProp;
+
+},{"./prop":"kBNR9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bixf2":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _prop = require("./prop");
+var _propDefault = parcelHelpers.interopDefault(_prop);
+/**
+ * Same as `prop`, except that it returns `props.theme[path]` instead of
+ * `props[path]`.
+ * @example
+ * import styled from "styled-components";
+ * import { theme } from "styled-tools";
+ *
+ * const Button = styled.button`
+ *  color: ${theme("button.color", "red")};
+ * `;
+ */ var theme = function theme(path, defaultValue) {
+    return function(props) {
+        return (0, _propDefault.default)(path, defaultValue)(props.theme);
+    };
+};
+exports.default = theme;
+
+},{"./prop":"kBNR9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lWWtL":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _prop = require("./prop");
+var _propDefault = parcelHelpers.interopDefault(_prop);
+function _toConsumableArray(arr) {
+    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();
+}
+function _nonIterableSpread() {
+    throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+function _iterableToArray(iter) {
+    if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+}
+function _arrayWithoutHoles(arr) {
+    if (Array.isArray(arr)) {
+        for(var i = 0, arr2 = new Array(arr.length); i < arr.length; i++)arr2[i] = arr[i];
+        return arr2;
+    }
+}
+/**
+ * Calls a function passing properties values as arguments.
+ * @example
+ * // example with polished
+ * import styled from "styled-components";
+ * import { darken } from "polished";
+ * import { withProp, prop } from "styled-tools";
+ *
+ * const Button = styled.button`
+ *   border-color: ${withProp(prop("theme.primaryColor", "blue"), darken(0.5))};
+ *   font-size: ${withProp("theme.size", size => `${size + 1}px`)};
+ *   background: ${withProp(["foo", "bar"], (foo, bar) => `${foo}${bar}`)};
+ * `;
+ */ var withProp = function withProp(needle, fn) {
+    return function() {
+        var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+        if (Array.isArray(needle)) {
+            var needles = needle.map(function(arg) {
+                return withProp(arg, function(x) {
+                    return x;
+                })(props);
+            });
+            return fn.apply(void 0, _toConsumableArray(needles));
+        }
+        if (typeof needle === "function") return fn(needle(props));
+        return fn((0, _propDefault.default)(needle)(props));
+    };
+};
+exports.default = withProp;
+
+},{"./prop":"kBNR9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iUFYk":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "TailSpin", ()=>TailSpin);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var TailSpin = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.radius, radius = _d === void 0 ? 1 : _d, _e = _a.color, color = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.ariaLabel, ariaLabel = _f === void 0 ? "tail-spin-loading" : _f, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _g = _a.visible, visible = _g === void 0 ? true : _g;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "tail-spin-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        viewBox: "0 0 38 38",
+        xmlns: "http://www.w3.org/2000/svg",
+        "data-testid": "tail-spin-svg"
+    }, (0, _reactDefault.default).createElement("defs", null, (0, _reactDefault.default).createElement("linearGradient", {
+        x1: "8.042%",
+        y1: "0%",
+        x2: "65.682%",
+        y2: "23.865%",
+        id: "a"
+    }, (0, _reactDefault.default).createElement("stop", {
+        stopColor: color,
+        stopOpacity: "0",
+        offset: "0%"
+    }), (0, _reactDefault.default).createElement("stop", {
+        stopColor: color,
+        stopOpacity: ".631",
+        offset: "63.146%"
+    }), (0, _reactDefault.default).createElement("stop", {
+        stopColor: color,
+        offset: "100%"
+    }))), (0, _reactDefault.default).createElement("g", {
+        fill: "none",
+        fillRule: "evenodd"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(1 1)"
+    }, (0, _reactDefault.default).createElement("path", {
+        d: "M36 18c0-9.94-8.06-18-18-18",
+        id: "Oval-2",
+        stroke: color,
+        strokeWidth: "2"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        from: "0 18 18",
+        to: "360 18 18",
+        dur: "0.9s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        fill: "#fff",
+        cx: "36",
+        cy: "18",
+        r: radius
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        from: "0 18 18",
+        to: "360 18 18",
+        dur: "0.9s",
+        repeatCount: "indefinite"
+    }))))));
+};
+exports.default = TailSpin;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4TiLQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var ThreeCircles = function(_a) {
+    var _b = _a.wrapperStyle, wrapperStyle = _b === void 0 ? {} : _b, _c = _a.visible, visible = _c === void 0 ? true : _c, _d = _a.wrapperClass, wrapperClass = _d === void 0 ? "" : _d, _e = _a.height, height = _e === void 0 ? 100 : _e, _f = _a.width, width = _f === void 0 ? 100 : _f, _g = _a.color, color = _g === void 0 ? (0, _type.DEFAULT_COLOR) : _g, _h = _a.ariaLabel, ariaLabel = _h === void 0 ? "three-circles-loading" : _h, outerCircleColor = _a.outerCircleColor, innerCircleColor = _a.innerCircleColor, middleCircleColor = _a.middleCircleColor;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "three-circles-wrapper",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        version: "1.1",
+        height: "".concat(height),
+        width: "".concat(width),
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        enableBackground: "new 0 0 100 100",
+        xmlSpace: "preserve",
+        "data-testid": "three-circles-svg"
+    }, (0, _reactDefault.default).createElement("path", {
+        fill: outerCircleColor || color,
+        d: "M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3\n  c-8.4-21.3,2-45.4,23.3-53.8L31.6,3.5z"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        attributeType: "XML",
+        type: "rotate",
+        dur: "2s",
+        from: "0 50 50",
+        to: "360 50 50",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("path", {
+        fill: middleCircleColor || color,
+        d: "M42.3,39.6c5.7-4.3,13.9-3.1,18.1,2.7c4.3,5.7,3.1,13.9-2.7,18.1l4.1,5.5c8.8-6.5,10.6-19,4.1-27.7\n  c-6.5-8.8-19-10.6-27.7-4.1L42.3,39.6z"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        attributeType: "XML",
+        type: "rotate",
+        dur: "1s",
+        from: "0 50 50",
+        to: "-360 50 50",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("path", {
+        fill: innerCircleColor || color,
+        d: "M82,35.7C74.1,18,53.4,10.1,35.7,18S10.1,46.6,18,64.3l7.6-3.4c-6-13.5,0-29.3,13.5-35.3s29.3,0,35.3,13.5\n  L82,35.7z"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        attributeType: "XML",
+        type: "rotate",
+        dur: "2s",
+        from: "0 50 50",
+        to: "360 50 50",
+        repeatCount: "indefinite"
+    }))));
+};
+exports.default = ThreeCircles;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hAzfd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var ThreeDots = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.radius, radius = _d === void 0 ? 9 : _d, _e = _a.color, color = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.ariaLabel, ariaLabel = _f === void 0 ? "three-dots-loading" : _f, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _g = _a.visible, visible = _g === void 0 ? true : _g;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "three-dots-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        viewBox: "0 0 120 30",
+        xmlns: "http://www.w3.org/2000/svg",
+        fill: color,
+        "data-testid": "three-dots-svg"
+    }, (0, _reactDefault.default).createElement("circle", {
+        cx: "15",
+        cy: "15",
+        r: Number(radius) + 6
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        from: "15",
+        to: "15",
+        begin: "0s",
+        dur: "0.8s",
+        values: "15;9;15",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        from: "1",
+        to: "1",
+        begin: "0s",
+        dur: "0.8s",
+        values: "1;.5;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "60",
+        cy: "15",
+        r: radius,
+        attributeName: "fill-opacity",
+        from: "1",
+        to: "0.3"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        from: "9",
+        to: "9",
+        begin: "0s",
+        dur: "0.8s",
+        values: "9;15;9",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        from: "0.5",
+        to: "0.5",
+        begin: "0s",
+        dur: "0.8s",
+        values: ".5;1;.5",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "105",
+        cy: "15",
+        r: Number(radius) + 6
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        from: "15",
+        to: "15",
+        begin: "0s",
+        dur: "0.8s",
+        values: "15;9;15",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        from: "1",
+        to: "1",
+        begin: "0s",
+        dur: "0.8s",
+        values: "1;.5;1",
+        calcMode: "linear",
+        repeatCount: "indefinite"
+    }))));
+};
+exports.default = ThreeDots;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gleNi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __makeTemplateObject = undefined && undefined.__makeTemplateObject || function(cooked, raw) {
+    if (Object.defineProperty) Object.defineProperty(cooked, "raw", {
+        value: raw
+    });
+    else cooked.raw = raw;
+    return cooked;
+};
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var dash = (0, _styledComponents.keyframes)(templateObject_1 || (templateObject_1 = __makeTemplateObject([
+    "\n to {\n    stroke-dashoffset: 136;\n  }\n"
+], [
+    "\n to {\n    stroke-dashoffset: 136;\n  }\n"
+])));
+var Polygon = (0, _styledComponentsDefault.default).polygon(templateObject_2 || (templateObject_2 = __makeTemplateObject([
+    "\n  stroke-dasharray: 17;\n  animation: ",
+    " 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;\n"
+], [
+    "\n  stroke-dasharray: 17;\n  animation: ",
+    " 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;\n"
+])), dash);
+var SVG = (0, _styledComponentsDefault.default).svg(templateObject_3 || (templateObject_3 = __makeTemplateObject([
+    "\n  transform-origin: 50% 65%;\n"
+], [
+    "\n  transform-origin: 50% 65%;\n"
+])));
+var Triangle = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.color, color = _d === void 0 ? (0, _type.DEFAULT_COLOR) : _d, _e = _a.ariaLabel, ariaLabel = _e === void 0 ? "triangle-loading" : _e, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _f = _a.visible, visible = _f === void 0 ? true : _f;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: "".concat(wrapperClass),
+        "data-testid": "triangle-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement(SVG, {
+        id: "triangle",
+        width: width,
+        height: height,
+        viewBox: "-3 -4 39 39",
+        "data-testid": "triangle-svg"
+    }, (0, _reactDefault.default).createElement(Polygon, {
+        fill: "transparent",
+        stroke: color,
+        strokeWidth: "1",
+        points: "16,0 32,32 0,32"
+    })));
+};
+exports.default = Triangle;
+var templateObject_1, templateObject_2, templateObject_3;
+
+},{"react":"21dqq","styled-components":"1U3k6","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cO9xi":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _helpers = require("../helpers");
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Watch = function(_a) {
+    var _b = _a.height, height = _b === void 0 ? 80 : _b, _c = _a.width, width = _c === void 0 ? 80 : _c, _d = _a.radius, radius = _d === void 0 ? 48 : _d, _e = _a.color, color = _e === void 0 ? (0, _type.DEFAULT_COLOR) : _e, _f = _a.ariaLabel, ariaLabel = _f === void 0 ? "watch-loading" : _f, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _g = _a.visible, visible = _g === void 0 ? true : _g;
+    return (0, _reactDefault.default).createElement("div", __assign({
+        style: __assign(__assign({}, (0, _helpers.getDefaultStyle)(visible)), wrapperStyle),
+        className: wrapperClass,
+        "data-testid": "watch-loading",
+        "aria-label": ariaLabel
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("svg", {
+        width: width,
+        height: height,
+        version: "1.1",
+        id: "L2",
+        xmlns: "http://www.w3.org/2000/svg",
+        x: "0px",
+        y: "0px",
+        viewBox: "0 0 100 100",
+        enableBackground: "new 0 0 100 100",
+        xmlSpace: "preserve",
+        "data-testid": "watch-svg"
+    }, (0, _reactDefault.default).createElement("circle", {
+        fill: "none",
+        stroke: color,
+        strokeWidth: "4",
+        strokeMiterlimit: "10",
+        cx: "50",
+        cy: "50",
+        r: radius
+    }), (0, _reactDefault.default).createElement("line", {
+        fill: "none",
+        strokeLinecap: "round",
+        stroke: color,
+        strokeWidth: "4",
+        strokeMiterlimit: "10",
+        x1: "50",
+        y1: "50",
+        x2: "85",
+        y2: "50.5"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "2s",
+        type: "rotate",
+        from: "0 50 50",
+        to: "360 50 50",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("line", {
+        fill: "none",
+        strokeLinecap: "round",
+        stroke: color,
+        strokeWidth: "4",
+        strokeMiterlimit: "10",
+        x1: "50",
+        y1: "50",
+        x2: "49.5",
+        y2: "74"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        dur: "15s",
+        type: "rotate",
+        from: "0 50 50",
+        to: "360 50 50",
+        repeatCount: "indefinite"
+    }))));
+};
+exports.default = Watch;
+
+},{"react":"21dqq","../helpers":"lM33v","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hnKPn":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var FallingLines = function(_a) {
+    var _b = _a.color, color = _b === void 0 ? (0, _type.DEFAULT_COLOR) : _b, _c = _a.width, width = _c === void 0 ? "100" : _c, _d = _a.visible, visible = _d === void 0 ? true : _d;
+    return visible ? (0, _reactDefault.default).createElement("svg", __assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        width: width,
+        height: width,
+        viewBox: "0 0 100 100",
+        "data-testid": "falling-lines"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("rect", {
+        y: "25",
+        width: "10",
+        height: "50",
+        rx: "4",
+        ry: "4",
+        fill: color,
+        "data-testid": "falling-lines-rect-1"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "x",
+        values: "10;100",
+        dur: "1.2s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        from: "0 10 70",
+        to: "-60 100 70",
+        dur: "1.2s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "opacity",
+        values: "0;1;0",
+        dur: "1.2s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        y: "25",
+        width: "10",
+        height: "50",
+        rx: "4",
+        ry: "4",
+        fill: color
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "x",
+        values: "10;100",
+        dur: "1.2s",
+        begin: "0.4s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        from: "0 10 70",
+        to: "-60 100 70",
+        dur: "1.2s",
+        begin: "0.4s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "opacity",
+        values: "0;1;0",
+        dur: "1.2s",
+        begin: "0.4s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("rect", {
+        y: "25",
+        width: "10",
+        height: "50",
+        rx: "4",
+        ry: "4",
+        fill: color,
+        "data-testid": "falling-lines-rect-2"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "x",
+        values: "10;100",
+        dur: "1.2s",
+        begin: "0.8s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        from: "0 10 70",
+        to: "-60 100 70",
+        dur: "1.2s",
+        begin: "0.8s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "opacity",
+        values: "0;1;0",
+        dur: "1.2s",
+        begin: "0.8s",
+        repeatCount: "indefinite"
+    }))) : null;
+};
+exports.default = FallingLines;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f9qQh":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var Vortex = function(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.height, height = _c === void 0 ? "80" : _c, _d = _a.width, width = _d === void 0 ? "80" : _d, _e = _a.ariaLabel, ariaLabel = _e === void 0 ? "vortex-loading" : _e, wrapperStyle = _a.wrapperStyle, wrapperClass = _a.wrapperClass, _f = _a.colors, colors = _f === void 0 ? [
+        "#1B5299",
+        "#EF8354",
+        "#DB5461",
+        "#1B5299",
+        "#EF8354",
+        "#DB5461"
+    ] : _f;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        height: height,
+        width: width,
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        "data-testid": "vortex-svg",
+        "aria-label": ariaLabel,
+        style: wrapperStyle,
+        className: wrapperClass
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("g", {
+        transform: "translate(50,50)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "scale(0.7)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(-50,-50)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "rotate(137.831 50 50)"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        repeatCount: "indefinite",
+        values: "360 50 50;0 50 50",
+        keyTimes: "0;1",
+        dur: "1",
+        keySplines: "0.5 0.5 0.5 0.5",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("path", {
+        fill: colors[0],
+        d: "M30.4,9.7c-7.4,10.9-11.8,23.8-12.3,37.9c0.2,1,0.5,1.9,0.7,2.8c1.4-5.2,3.4-10.3,6.2-15.1 c2.6-4.4,5.6-8.4,9-12c0.7-0.7,1.4-1.4,2.1-2.1c7.4-7,16.4-12,26-14.6C51.5,3.6,40.2,4.9,30.4,9.7z"
+    }), (0, _reactDefault.default).createElement("path", {
+        fill: colors[1],
+        d: "M24.8,64.2c-2.6-4.4-4.5-9.1-5.9-13.8c-0.3-0.9-0.5-1.9-0.7-2.8c-2.4-9.9-2.2-20.2,0.4-29.8 C10.6,25.5,6,36,5.3,46.8C11,58.6,20,68.9,31.9,76.3c0.9,0.3,1.9,0.5,2.8,0.8C31,73.3,27.6,69,24.8,64.2z"
+    }), (0, _reactDefault.default).createElement("path", {
+        fill: colors[2],
+        d: "M49.6,78.9c-5.1,0-10.1-0.6-14.9-1.8c-1-0.2-1.9-0.5-2.8-0.8c-9.8-2.9-18.5-8.2-25.6-15.2 c2.8,10.8,9.5,20,18.5,26c13.1,0.9,26.6-1.7,38.9-8.3c0.7-0.7,1.4-1.4,2.1-2.1C60.7,78.2,55.3,78.9,49.6,78.9z"
+    }), (0, _reactDefault.default).createElement("path", {
+        fill: colors[3],
+        d: "M81.1,49.6c-1.4,5.2-3.4,10.3-6.2,15.1c-2.6,4.4-5.6,8.4-9,12c-0.7,0.7-1.4,1.4-2.1,2.1 c-7.4,7-16.4,12-26,14.6c10.7,3,22.1,1.7,31.8-3.1c7.4-10.9,11.8-23.8,12.3-37.9C81.6,51.5,81.4,50.6,81.1,49.6z"
+    }), (0, _reactDefault.default).createElement("path", {
+        fill: colors[4],
+        d: "M75.2,12.9c-13.1-0.9-26.6,1.7-38.9,8.3c-0.7,0.7-1.4,1.4-2.1,2.1c5.2-1.4,10.6-2.2,16.2-2.2 c5.1,0,10.1,0.6,14.9,1.8c1,0.2,1.9,0.5,2.8,0.8c9.8,2.9,18.5,8.2,25.6,15.2C90.9,28.1,84.2,18.9,75.2,12.9z"
+    }), (0, _reactDefault.default).createElement("path", {
+        fill: colors[5],
+        d: "M94.7,53.2C89,41.4,80,31.1,68.1,23.7c-0.9-0.3-1.9-0.5-2.8-0.8c3.8,3.8,7.2,8.1,10,13 c2.6,4.4,4.5,9.1,5.9,13.8c0.3,0.9,0.5,1.9,0.7,2.8c2.4,9.9,2.2,20.2-0.4,29.8C89.4,74.5,94,64,94.7,53.2z"
+    }))))));
+};
+exports.default = Vortex;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1dMLD":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function RotatingTriangles(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.height, height = _c === void 0 ? "80" : _c, _d = _a.width, width = _d === void 0 ? "80" : _d, _e = _a.wrapperClass, wrapperClass = _e === void 0 ? "" : _e, _f = _a.wrapperStyle, wrapperStyle = _f === void 0 ? {} : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "rotating-triangle-loading" : _g, _h = _a.colors, colors = _h === void 0 ? [
+        "#1B5299",
+        "#EF8354",
+        "#DB5461"
+    ] : _h;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        width: width,
+        height: height,
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "rotating-triangle-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("g", {
+        transform: "translate(50,42)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "scale(0.8)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(-50,-50)"
+    }, (0, _reactDefault.default).createElement("polygon", {
+        "ng-attr-fill": "{{config.c1}}",
+        points: "72.5,50 50,11 27.5,50 50,50",
+        fill: colors[0],
+        transform: "rotate(186 50 38.5)"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        calcMode: "linear",
+        values: "0 50 38.5;360 50 38.5",
+        keyTimes: "0;1",
+        dur: "1s",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("polygon", {
+        "ng-attr-fill": "{{config.c2}}",
+        points: "5,89 50,89 27.5,50",
+        fill: colors[1],
+        transform: "rotate(186 27.5 77.5)"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        calcMode: "linear",
+        values: "0 27.5 77.5;360 27.5 77.5",
+        keyTimes: "0;1",
+        dur: "1s",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("polygon", {
+        "ng-attr-fill": "{{config.c3}}",
+        points: "72.5,50 50,89 95,89",
+        fill: colors[2],
+        transform: "rotate(186 72.2417 77.5)"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        calcMode: "linear",
+        values: "0 72.5 77.5;360 72 77.5",
+        keyTimes: "0;1",
+        dur: "1s",
+        begin: "0s",
+        repeatCount: "indefinite"
+    }))))));
+}
+exports.default = RotatingTriangles;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3smQ1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function Radio(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.height, height = _c === void 0 ? "80" : _c, _d = _a.width, width = _d === void 0 ? "80" : _d, _e = _a.wrapperClass, wrapperClass = _e === void 0 ? "" : _e, _f = _a.wrapperStyle, wrapperStyle = _f === void 0 ? {} : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "radio-loading" : _g, _h = _a.colors, colors = _h === void 0 ? [
+        (0, _type.DEFAULT_COLOR),
+        (0, _type.DEFAULT_COLOR),
+        (0, _type.DEFAULT_COLOR)
+    ] : _h;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        width: width,
+        height: height,
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "radio-bar-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("circle", {
+        cx: "28",
+        cy: "75",
+        r: "11",
+        "ng-attr-fill": "{{config.c1}}",
+        fill: colors[0]
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill-opacity",
+        calcMode: "linear",
+        values: "0;1;1",
+        keyTimes: "0;0.2;1",
+        dur: "1",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("path", {
+        d: "M28 47A28 28 0 0 1 56 75",
+        fill: "none",
+        "ng-attr-stroke": "{{config.c2}}",
+        strokeWidth: "10",
+        stroke: colors[1]
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "stroke-opacity",
+        calcMode: "linear",
+        values: "0;1;1",
+        keyTimes: "0;0.2;1",
+        dur: "1",
+        begin: "0.1s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("path", {
+        d: "M28 25A50 50 0 0 1 78 75",
+        fill: "none",
+        "ng-attr-stroke": "{{config.c3}}",
+        strokeWidth: "10",
+        stroke: colors[2]
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "stroke-opacity",
+        calcMode: "linear",
+        values: "0;1;1",
+        keyTimes: "0;0.2;1",
+        dur: "1",
+        begin: "0.2s",
+        repeatCount: "indefinite"
+    })));
+}
+exports.default = Radio;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c5W93":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function ProgressBar(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.height, height = _c === void 0 ? "80" : _c, _d = _a.width, width = _d === void 0 ? "80" : _d, _e = _a.wrapperClass, wrapperClass = _e === void 0 ? "" : _e, _f = _a.wrapperStyle, wrapperStyle = _f === void 0 ? {} : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "progress-bar-loading" : _g, _h = _a.borderColor, borderColor = _h === void 0 ? "#F4442E" : _h, _j = _a.barColor, barColor = _j === void 0 ? "#51E5FF" : _j;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        width: width,
+        height: height,
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "progress-bar-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("defs", null, (0, _reactDefault.default).createElement("clipPath", {
+        "ng-attr-id": "{{config.cpid}}",
+        x: "0",
+        y: "0",
+        width: "100",
+        height: "100",
+        id: "lds-progress-cpid-5009611b8a418"
+    }, (0, _reactDefault.default).createElement("rect", {
+        x: "0",
+        y: "0",
+        width: "66.6667",
+        height: "100"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "width",
+        calcMode: "linear",
+        values: "0;100;100",
+        keyTimes: "0;0.5;1",
+        dur: "1",
+        begin: "0s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "x",
+        calcMode: "linear",
+        values: "0;0;100",
+        keyTimes: "0;0.5;1",
+        dur: "1",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })))), (0, _reactDefault.default).createElement("path", {
+        fill: "none",
+        "ng-attr-stroke": "{{config.c1}}",
+        strokeWidth: "2.7928",
+        d: "M82,63H18c-7.2,0-13-5.8-13-13v0c0-7.2,5.8-13,13-13h64c7.2,0,13,5.8,13,13v0C95,57.2,89.2,63,82,63z",
+        stroke: borderColor
+    }), (0, _reactDefault.default).createElement("path", {
+        "ng-attr-fill": "{{config.c2}}",
+        "ng-attr-clip-path": "url(#{{config.cpid}})",
+        d: "M81.3,58.7H18.7c-4.8,0-8.7-3.9-8.7-8.7v0c0-4.8,3.9-8.7,8.7-8.7h62.7c4.8,0,8.7,3.9,8.7,8.7v0C90,54.8,86.1,58.7,81.3,58.7z",
+        fill: barColor,
+        clipPath: "url(#lds-progress-cpid-5009611b8a418)"
+    }));
+}
+exports.default = ProgressBar;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bsash":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function MagnifyingGlass(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.height, height = _c === void 0 ? "80" : _c, _d = _a.width, width = _d === void 0 ? "80" : _d, _e = _a.wrapperClass, wrapperClass = _e === void 0 ? "" : _e, _f = _a.wrapperStyle, wrapperStyle = _f === void 0 ? {} : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "magnifying-glass-loading" : _g, _h = _a.glassColor, glassColor = _h === void 0 ? "#c0efff" : _h, _j = _a.color, color = _j === void 0 ? "#e15b64" : _j;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        width: width,
+        height: height,
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "magnifying-glass-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("g", {
+        transform: "translate(50,50)"
+    }, (0, _reactDefault.default).createElement("g", {
+        "ng-attr-transform": "scale({{config.scale}})",
+        transform: "scale(0.82)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(-50,-50)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(16.3636 -20)"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "translate",
+        calcMode: "linear",
+        values: "-20 -20;20 -20;0 20;-20 -20",
+        keyTimes: "0;0.33;0.66;1",
+        dur: "1s",
+        begin: "0s",
+        repeatCount: "indefinite"
+    }), (0, _reactDefault.default).createElement("path", {
+        "ng-attr-fill": "{{config.glass}}",
+        d: "M44.19,26.158c-4.817,0-9.345,1.876-12.751,5.282c-3.406,3.406-5.282,7.934-5.282,12.751 c0,4.817,1.876,9.345,5.282,12.751c3.406,3.406,7.934,5.282,12.751,5.282s9.345-1.876,12.751-5.282 c3.406-3.406,5.282-7.934,5.282-12.751c0-4.817-1.876-9.345-5.282-12.751C53.536,28.033,49.007,26.158,44.19,26.158z",
+        fill: glassColor
+    }), (0, _reactDefault.default).createElement("path", {
+        "ng-attr-fill": "{{config.frame}}",
+        d: "M78.712,72.492L67.593,61.373l-3.475-3.475c1.621-2.352,2.779-4.926,3.475-7.596c1.044-4.008,1.044-8.23,0-12.238 c-1.048-4.022-3.146-7.827-6.297-10.979C56.572,22.362,50.381,20,44.19,20C38,20,31.809,22.362,27.085,27.085 c-9.447,9.447-9.447,24.763,0,34.21C31.809,66.019,38,68.381,44.19,68.381c4.798,0,9.593-1.425,13.708-4.262l9.695,9.695 l4.899,4.899C73.351,79.571,74.476,80,75.602,80s2.251-0.429,3.11-1.288C80.429,76.994,80.429,74.209,78.712,72.492z M56.942,56.942 c-3.406,3.406-7.934,5.282-12.751,5.282s-9.345-1.876-12.751-5.282c-3.406-3.406-5.282-7.934-5.282-12.751 c0-4.817,1.876-9.345,5.282-12.751c3.406-3.406,7.934-5.282,12.751-5.282c4.817,0,9.345,1.876,12.751,5.282 c3.406,3.406,5.282,7.934,5.282,12.751C62.223,49.007,60.347,53.536,56.942,56.942z",
+        fill: color
+    }))))));
+}
+exports.default = MagnifyingGlass;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lVca0":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function FidgetSpinner(_a) {
+    var _b = _a.width, width = _b === void 0 ? "80" : _b, _c = _a.height, height = _c === void 0 ? "80" : _c, _d = _a.backgroundColor, backgroundColor = _d === void 0 ? (0, _type.DEFAULT_COLOR) : _d, _e = _a.ballColors, ballColors = _e === void 0 ? [
+        "#fc636b",
+        "#6a67ce",
+        "#ffb900"
+    ] : _e, _f = _a.wrapperClass, wrapperClass = _f === void 0 ? "" : _f, _g = _a.wrapperStyle, wrapperStyle = _g === void 0 ? {} : _g, _h = _a.ariaLabel, ariaLabel = _h === void 0 ? "fidget-spinner-loader" : _h, _j = _a.visible, visible = _j === void 0 ? true : _j;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        width: width,
+        height: height,
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "fidget-spinner-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("g", {
+        transform: "rotate(6 50 50)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(50 50)"
+    }, (0, _reactDefault.default).createElement("g", {
+        "ng-attr-transform": "scale({{config.r}})",
+        transform: "scale(0.9)"
+    }, (0, _reactDefault.default).createElement("g", {
+        transform: "translate(-50 -58)"
+    }, (0, _reactDefault.default).createElement("path", {
+        "ng-attr-fill": "{{config.c2}}",
+        d: "M27.1,79.4c-1.1,0.6-2.4,1-3.7,1c-2.6,0-5.1-1.4-6.4-3.7c-2-3.5-0.8-8,2.7-10.1c1.1-0.6,2.4-1,3.7-1c2.6,0,5.1,1.4,6.4,3.7 C31.8,72.9,30.6,77.4,27.1,79.4z",
+        fill: ballColors[0]
+    }), (0, _reactDefault.default).createElement("path", {
+        "ng-attr-fill": "{{config.c3}}",
+        d: "M72.9,79.4c1.1,0.6,2.4,1,3.7,1c2.6,0,5.1-1.4,6.4-3.7c2-3.5,0.8-8-2.7-10.1c-1.1-0.6-2.4-1-3.7-1c-2.6,0-5.1,1.4-6.4,3.7 C68.2,72.9,69.4,77.4,72.9,79.4z",
+        fill: ballColors[1]
+    }), (0, _reactDefault.default).createElement("circle", {
+        "ng-attr-fill": "{{config.c4}}",
+        cx: "50",
+        cy: "27",
+        r: "7.4",
+        fill: ballColors[2]
+    }), (0, _reactDefault.default).createElement("path", {
+        "ng-attr-fill": "{{config.c1}}",
+        d: "M86.5,57.5c-3.1-1.9-6.4-2.8-9.8-2.8c-0.5,0-0.9,0-1.4,0c-0.4,0-0.8,0-1.1,0c-2.1,0-4.2-0.4-6.2-1.2 c-0.8-3.6-2.8-6.9-5.4-9.3c0.4-2.5,1.3-4.8,2.7-6.9c2-2.9,3.2-6.5,3.2-10.4c0-10.2-8.2-18.4-18.4-18.4c-0.3,0-0.6,0-0.9,0 C39.7,9,32,16.8,31.6,26.2c-0.2,4.1,1,7.9,3.2,11c1.4,2.1,2.3,4.5,2.7,6.9c-2.6,2.5-4.6,5.7-5.4,9.3c-1.9,0.7-4,1.1-6.1,1.1 c-0.4,0-0.8,0-1.2,0c-0.5,0-0.9-0.1-1.4-0.1c-3.1,0-6.3,0.8-9.2,2.5c-9.1,5.2-12,17-6.3,25.9c3.5,5.4,9.5,8.4,15.6,8.4 c2.9,0,5.8-0.7,8.5-2.1c3.6-1.9,6.3-4.9,8-8.3c1.1-2.3,2.7-4.2,4.6-5.8c1.7,0.5,3.5,0.8,5.4,0.8c1.9,0,3.7-0.3,5.4-0.8 c1.9,1.6,3.5,3.5,4.6,5.7c1.5,3.2,4,6,7.4,8c2.9,1.7,6.1,2.5,9.2,2.5c6.6,0,13.1-3.6,16.4-10C97.3,73.1,94.4,62.5,86.5,57.5z M29.6,83.7c-1.9,1.1-4,1.6-6.1,1.6c-4.2,0-8.4-2.2-10.6-6.1c-3.4-5.9-1.4-13.4,4.5-16.8c1.9-1.1,4-1.6,6.1-1.6 c4.2,0,8.4,2.2,10.6,6.1C37.5,72.8,35.4,80.3,29.6,83.7z M50,39.3c-6.8,0-12.3-5.5-12.3-12.3S43.2,14.7,50,14.7 c6.8,0,12.3,5.5,12.3,12.3S56.8,39.3,50,39.3z M87.2,79.2c-2.3,3.9-6.4,6.1-10.6,6.1c-2.1,0-4.2-0.5-6.1-1.6 c-5.9-3.4-7.9-10.9-4.5-16.8c2.3-3.9,6.4-6.1,10.6-6.1c2.1,0,4.2,0.5,6.1,1.6C88.6,65.8,90.6,73.3,87.2,79.2z",
+        fill: backgroundColor
+    })))), (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        calcMode: "linear",
+        values: "0 50 50;360 50 50",
+        keyTimes: "0;1",
+        dur: "1s",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })));
+}
+exports.default = FidgetSpinner;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"blaHe":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function DNA(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.width, width = _c === void 0 ? "80" : _c, _d = _a.height, height = _d === void 0 ? "80" : _d, _e = _a.wrapperClass, wrapperClass = _e === void 0 ? "" : _e, _f = _a.wrapperStyle, wrapperStyle = _f === void 0 ? {} : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "dna-loading" : _g;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        xmlnsXlink: "http://www.w3.org/1999/xlink",
+        width: width,
+        height: height,
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "dna-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("circle", {
+        cx: "6.451612903225806",
+        cy: "60.6229",
+        r: "3.41988",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.5s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "0s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.5s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "6.451612903225806",
+        cy: "39.3771",
+        r: "2.58012",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.5s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.5s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "16.129032258064512",
+        cy: "68.1552",
+        r: "3.17988",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.7s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.2s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.7s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "16.129032258064512",
+        cy: "31.8448",
+        r: "2.82012",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.7s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.2s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.7s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "25.806451612903224",
+        cy: "69.3634",
+        r: "2.93988",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.9s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.4s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.9s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "25.806451612903224",
+        cy: "30.6366",
+        r: "3.06012",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.9s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.4s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.9s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "35.48387096774193",
+        cy: "65.3666",
+        r: "2.69988",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.1s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.6s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.1s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "35.48387096774193",
+        cy: "34.6334",
+        r: "3.30012",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.1s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.6s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.1s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "45.16129032258064",
+        cy: "53.8474",
+        r: "2.45988",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.3s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-0.8s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.3s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "45.16129032258064",
+        cy: "46.1526",
+        r: "3.54012",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.3s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.8s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.3s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "54.838709677419345",
+        cy: "39.3771",
+        r: "2.58012",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.5s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.5s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "54.838709677419345",
+        cy: "60.6229",
+        r: "3.41988",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.5s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.5s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "64.51612903225805",
+        cy: "31.8448",
+        r: "2.82012",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.7s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.2s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.7s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "64.51612903225805",
+        cy: "68.1552",
+        r: "3.17988",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.7s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.2s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.7s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "74.19354838709677",
+        cy: "30.6366",
+        r: "3.06012",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.9s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.4s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.9s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "74.19354838709677",
+        cy: "69.3634",
+        r: "2.93988",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.9s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.4s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.9s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "83.87096774193547",
+        cy: "34.6334",
+        r: "3.30012",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.1s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.6s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.1s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "83.87096774193547",
+        cy: "65.3666",
+        r: "2.69988",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-3.1s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.6s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.1s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "93.54838709677418",
+        cy: "46.1526",
+        r: "3.54012",
+        fill: "rgba(233, 12, 89, 0.5125806451612902)"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.3s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-1.8s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "rgba(233, 12, 89, 0.5125806451612902);#ff0033;rgba(233, 12, 89, 0.5125806451612902)",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.3s"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "93.54838709677418",
+        cy: "53.8474",
+        r: "2.45988",
+        fill: "#46dff0"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "r",
+        keyTimes: "0;0.5;1",
+        values: "2.4000000000000004;3.5999999999999996;2.4000000000000004",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-3.3s"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "cy",
+        keyTimes: "0;0.5;1",
+        values: "30.5;69.5;30.5",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.8s",
+        keySplines: "0.5 0 0.5 1;0.5 0 0.5 1",
+        calcMode: "spline"
+    }), (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        keyTimes: "0;0.5;1",
+        values: "#46dff0;rgba(53, 58, 57, 0.1435483870967742);#46dff0",
+        dur: "2s",
+        repeatCount: "indefinite",
+        begin: "-2.3s"
+    })));
+}
+exports.default = DNA;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kYQiE":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function Discuss(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.width, width = _c === void 0 ? "80" : _c, _d = _a.height, height = _d === void 0 ? "80" : _d, _e = _a.wrapperClass, wrapperClass = _e === void 0 ? "" : _e, _f = _a.wrapperStyle, wrapperStyle = _f === void 0 ? {} : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "discuss-loading" : _g, _h = _a.colors, colors = _h === void 0 ? [
+        "#ff727d",
+        "#ff727d"
+    ] : _h;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        width: width,
+        height: height,
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "discuss-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("path", {
+        "ng-attr-d": "{{config.d}}",
+        "ng-attr-stroke-width": "{{config.width}}",
+        "ng-attr-stroke": "{{config.stroke}}",
+        fill: "none",
+        d: "M82 50A32 32 0 1 1 23.533421623214014 32.01333190873183 L21.71572875253809 21.7157287525381 L32.013331908731814 23.53342162321403 A32 32 0 0 1 82 50",
+        strokeWidth: "5",
+        stroke: colors[0]
+    }), (0, _reactDefault.default).createElement("circle", {
+        cx: "50",
+        cy: "50",
+        "ng-attr-r": "{{config.radius2}}",
+        "ng-attr-stroke-width": "{{config.width}}",
+        "ng-attr-stroke": "{{config.stroke}}",
+        "ng-attr-stroke-dasharray": "{{config.dasharray}}",
+        fill: "none",
+        strokeLinecap: "round",
+        r: "20",
+        strokeWidth: "5",
+        stroke: colors[1],
+        strokeDasharray: "31.41592653589793 31.41592653589793",
+        transform: "rotate(96 50 50)"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        calcMode: "linear",
+        values: "0 50 50;360 50 50",
+        keyTimes: "0;1",
+        dur: "1s",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })));
+}
+exports.default = Discuss;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"PGatB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function ColorRing(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.width, width = _c === void 0 ? "80" : _c, _d = _a.height, height = _d === void 0 ? "80" : _d, _e = _a.colors, colors = _e === void 0 ? [
+        "#e15b64",
+        "#f47e60",
+        "#f8b26a",
+        "#abbd81",
+        "#849b87"
+    ] : _e, _f = _a.wrapperClass, wrapperClass = _f === void 0 ? "" : _f, _g = _a.wrapperStyle, wrapperStyle = _g === void 0 ? {} : _g, _h = _a.ariaLabel, ariaLabel = _h === void 0 ? "color-ring-loading" : _h;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        xmlns: "http://www.w3.org/2000/svg",
+        xmlnsXlink: "http://www.w3.org/1999/xlink",
+        width: width,
+        height: height,
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "color-ring-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("defs", null, (0, _reactDefault.default).createElement("mask", {
+        id: "ldio-4offds5dlws-mask"
+    }, (0, _reactDefault.default).createElement("circle", {
+        cx: "50",
+        cy: "50",
+        r: "26",
+        stroke: "#fff",
+        strokeLinecap: "round",
+        strokeDasharray: "122.52211349000194 40.840704496667314",
+        strokeWidth: "9",
+        transform: "rotate(198.018 50 50)"
+    }, (0, _reactDefault.default).createElement("animateTransform", {
+        attributeName: "transform",
+        type: "rotate",
+        values: "0 50 50;360 50 50",
+        keyTimes: "0;1",
+        dur: "1s",
+        repeatCount: "indefinite"
+    })))), (0, _reactDefault.default).createElement("g", {
+        mask: "url(#ldio-4offds5dlws-mask)"
+    }, (0, _reactDefault.default).createElement("rect", {
+        x: "14.5",
+        y: "0",
+        width: "15",
+        height: "100",
+        fill: colors[0]
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: colors.join(";").toString(),
+        keyTimes: "0;0.25;0.5;0.75;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "-0.8s"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "28.5",
+        y: "0",
+        width: "15",
+        height: "100",
+        fill: colors[1]
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: colors.join(";").toString(),
+        keyTimes: "0;0.25;0.5;0.75;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "-0.6s"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "42.5",
+        y: "0",
+        width: "15",
+        height: "100",
+        fill: colors[2]
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: colors.join(";").toString(),
+        keyTimes: "0;0.25;0.5;0.75;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "-0.4s"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "56.5",
+        y: "0",
+        width: "15",
+        height: "100",
+        fill: colors[3]
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: colors.join(";").toString(),
+        keyTimes: "0;0.25;0.5;0.75;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "-0.2s"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "70.5",
+        y: "0",
+        width: "15",
+        height: "100",
+        fill: colors[4]
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: colors.join(";").toString(),
+        keyTimes: "0;0.25;0.5;0.75;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0s"
+    }))));
+}
+exports.default = ColorRing;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lqxs2":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function Comment(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.width, width = _c === void 0 ? "80" : _c, _d = _a.height, height = _d === void 0 ? "80" : _d, _e = _a.backgroundColor, backgroundColor = _e === void 0 ? "#ff6d00" : _e, _f = _a.color, color = _f === void 0 ? "#fff" : _f, _g = _a.wrapperClass, wrapperClass = _g === void 0 ? "" : _g, _h = _a.wrapperStyle, wrapperStyle = _h === void 0 ? {} : _h, _j = _a.ariaLabel, ariaLabel = _j === void 0 ? "comment-loading" : _j;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        width: width,
+        height: height,
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        className: wrapperClass,
+        style: wrapperStyle,
+        "aria-label": ariaLabel,
+        "data-testid": "comment-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("path", {
+        d: "M78,19H22c-6.6,0-12,5.4-12,12v31c0,6.6,5.4,12,12,12h37.2c0.4,3,1.8,5.6,3.7,7.6c2.4,2.5,5.1,4.1,9.1,4 c-1.4-2.1-2-7.2-2-10.3c0-0.4,0-0.8,0-1.3h8c6.6,0,12-5.4,12-12V31C90,24.4,84.6,19,78,19z",
+        "ng-attr-fill": "{{config.c1}}",
+        fill: backgroundColor
+    }), (0, _reactDefault.default).createElement("circle", {
+        cx: "30",
+        cy: "47",
+        r: "5",
+        "ng-attr-fill": "{{config.c2}}",
+        fill: color
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "opacity",
+        calcMode: "linear",
+        values: "0;1;1",
+        keyTimes: "0;0.2;1",
+        dur: "1",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "50",
+        cy: "47",
+        r: "5",
+        "ng-attr-fill": "{{config.c3}}",
+        fill: color
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "opacity",
+        calcMode: "linear",
+        values: "0;0;1;1",
+        keyTimes: "0;0.2;0.4;1",
+        dur: "1",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })), (0, _reactDefault.default).createElement("circle", {
+        cx: "70",
+        cy: "47",
+        r: "5",
+        "ng-attr-fill": "{{config.c4}}",
+        fill: color
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "opacity",
+        calcMode: "linear",
+        values: "0;0;1;1",
+        keyTimes: "0;0.4;0.6;1",
+        dur: "1",
+        begin: "0s",
+        repeatCount: "indefinite"
+    })));
+}
+exports.default = Comment;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kywQJ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _type = require("../type");
+var __assign = undefined && undefined.__assign || function() {
+    __assign = Object.assign || function(t) {
+        for(var s, i = 1, n = arguments.length; i < n; i++){
+            s = arguments[i];
+            for(var p in s)if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+function Blocks(_a) {
+    var _b = _a.visible, visible = _b === void 0 ? true : _b, _c = _a.width, width = _c === void 0 ? "80" : _c, _d = _a.height, height = _d === void 0 ? "80" : _d, _e = _a.wrapperClass, wrapperClass = _e === void 0 ? "" : _e, _f = _a.wrapperStyle, wrapperStyle = _f === void 0 ? {} : _f, _g = _a.ariaLabel, ariaLabel = _g === void 0 ? "blocks-loading" : _g;
+    return !visible ? null : (0, _reactDefault.default).createElement("svg", __assign({
+        width: width,
+        height: height,
+        className: wrapperClass,
+        style: wrapperStyle,
+        xmlns: "http://www.w3.org/2000/svg",
+        xmlnsXlink: "http://www.w3.org/1999/xlink",
+        viewBox: "0 0 100 100",
+        preserveAspectRatio: "xMidYMid",
+        "aria-label": ariaLabel,
+        "data-testid": "blocks-svg"
+    }, (0, _type.DEFAULT_WAI_ARIA_ATTRIBUTE)), (0, _reactDefault.default).createElement("rect", {
+        x: "17",
+        y: "17",
+        width: "20",
+        height: "20",
+        fill: "#577c9b"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: "#0dceff;#577c9b;#577c9b",
+        keyTimes: "0;0.125;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0s",
+        calcMode: "discrete"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "40",
+        y: "17",
+        width: "20",
+        height: "20",
+        fill: "#577c9b"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: "#0dceff;#577c9b;#577c9b",
+        keyTimes: "0;0.125;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0.125s",
+        calcMode: "discrete"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "63",
+        y: "17",
+        width: "20",
+        height: "20",
+        fill: "#577c9b"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: "#0dceff;#577c9b;#577c9b",
+        keyTimes: "0;0.125;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0.25s",
+        calcMode: "discrete"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "17",
+        y: "40",
+        width: "20",
+        height: "20",
+        fill: "#577c9b"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: "#0dceff;#577c9b;#577c9b",
+        keyTimes: "0;0.125;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0.875s",
+        calcMode: "discrete"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "63",
+        y: "40",
+        width: "20",
+        height: "20",
+        fill: "#577c9b"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: "#0dceff;#577c9b;#577c9b",
+        keyTimes: "0;0.125;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0.375s",
+        calcMode: "discrete"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "17",
+        y: "63",
+        width: "20",
+        height: "20",
+        fill: "#577c9b"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: "#0dceff;#577c9b;#577c9b",
+        keyTimes: "0;0.125;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0.75s",
+        calcMode: "discrete"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "40",
+        y: "63",
+        width: "20",
+        height: "20",
+        fill: "#577c9b"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: "#0dceff;#577c9b;#577c9b",
+        keyTimes: "0;0.125;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0.625s",
+        calcMode: "discrete"
+    })), (0, _reactDefault.default).createElement("rect", {
+        x: "63",
+        y: "63",
+        width: "20",
+        height: "20",
+        fill: "#577c9b"
+    }, (0, _reactDefault.default).createElement("animate", {
+        attributeName: "fill",
+        values: "#0dceff;#577c9b;#577c9b",
+        keyTimes: "0;0.125;1",
+        dur: "1s",
+        repeatCount: "indefinite",
+        begin: "0.5s",
+        calcMode: "discrete"
+    })));
+}
+exports.default = Blocks;
+
+},{"react":"21dqq","../type":"5w37n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gJ2JA":[function(require,module,exports) {
+module.exports = require("f6a2557ce707abc2").getBundleURL("aXMci") + "home1.8fa30578.jpg" + "?" + Date.now();
+
+},{"f6a2557ce707abc2":"lgJ39"}],"cgAOG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ee46 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -57823,6 +63100,17 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _close = require("@mui/icons-material/Close");
 var _closeDefault = parcelHelpers.interopDefault(_close);
+var _hub = require("@mui/icons-material/Hub");
+var _hubDefault = parcelHelpers.interopDefault(_hub);
+var _map = require("@mui/icons-material/Map");
+var _mapDefault = parcelHelpers.interopDefault(_map);
+var _call = require("@mui/icons-material/Call");
+var _callDefault = parcelHelpers.interopDefault(_call);
+var _send = require("@mui/icons-material/Send");
+var _sendDefault = parcelHelpers.interopDefault(_send);
+var _react = require("react");
+var _browser = require("@emailjs/browser");
+var _browserDefault = parcelHelpers.interopDefault(_browser);
 var _home = require("./Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _reactRouterDom = require("react-router-dom");
@@ -57833,8 +63121,19 @@ const Contact = ()=>{
     const backHome = ()=>{
         navigate("/");
     };
+    const form = (0, _react.useRef)();
+    const sendEmail = (e)=>{
+        e.preventDefault();
+        (0, _browserDefault.default).sendForm("service_ebd359j", "template_xdyzkjh", form.current, "Xl_bMOAgBlREeleuV").then((result)=>{
+            console.log(result);
+            alert("Message Send Succesfully");
+        }, (error)=>{
+            console.log(error.text);
+            alert(error.text);
+        });
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "bg-[#111] text-white w-screen h-screen",
+        className: "bg-[#111] text-white w-screen h-screen max-md:h-[1250px]",
         style: {
             fontFamily: "Poppins,sans-serif"
         },
@@ -57849,35 +63148,463 @@ const Contact = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/components/Contact.js",
-                        lineNumber: 12,
+                        lineNumber: 33,
                         columnNumber: 44
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/Contact.js",
-                    lineNumber: 12,
+                    lineNumber: 33,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Contact.js",
-                lineNumber: 11,
+                lineNumber: 32,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "text-thin text-[#9f9f9f] absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-[102px] max-md:text-center",
+                children: "Feel free to contact me anytimes"
+            }, void 0, false, {
+                fileName: "src/components/Contact.js",
+                lineNumber: 35,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "absolute text-4xl font-extrabold -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4",
+                className: "absolute text-4xl -translate-x-2/4 -translate-y-2/4 top-40 max-md:top-36 max-md:text-2xl left-2/4",
                 children: "Contact Me"
             }, void 0, false, {
                 fileName: "src/components/Contact.js",
-                lineNumber: 14,
+                lineNumber: 36,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "w-3/4 m-24 flex max-md:flex-col sm:top-[65%] sm:mt-0 max-md:top-full max-md:mt-24 max-md:m-0 absolute -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: " md:px-12 lg:w-2/4 lg:pl-5 lg:pr-10 rounded-2xl shadow-2xl ",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    className: "font-bold text-2xl",
+                                    children: "Send us a message"
+                                }, void 0, false, {
+                                    fileName: "src/components/Contact.js",
+                                    lineNumber: 41,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 40,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                                ref: form,
+                                onSubmit: sendEmail,
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "grid gap-3 md:grid-cols-2 mt-5",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                className: "w-full bg-[#161616] text-[#777] mt-2 p-3 focus:outline-none focus:shadow-outline",
+                                                type: "text",
+                                                placeholder: "Name",
+                                                name: "name",
+                                                autoComplete: "off",
+                                                required: true
+                                            }, void 0, false, {
+                                                fileName: "src/components/Contact.js",
+                                                lineNumber: 45,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                className: "w-full bg-[#161616] text-[#777] mt-2 p-3 focus:outline-none focus:shadow-outline",
+                                                type: "email",
+                                                placeholder: "Email",
+                                                name: "email",
+                                                autoComplete: "off",
+                                                required: true
+                                            }, void 0, false, {
+                                                fileName: "src/components/Contact.js",
+                                                lineNumber: 47,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                className: "w-full bg-[#161616] text-[#777] mt-2 p-3 focus:outline-none focus:shadow-outline",
+                                                type: "text",
+                                                placeholder: "Subject",
+                                                name: "subject",
+                                                autoComplete: "off",
+                                                required: true
+                                            }, void 0, false, {
+                                                fileName: "src/components/Contact.js",
+                                                lineNumber: 49,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Contact.js",
+                                        lineNumber: 44,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "my-4",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                            placeholder: "Message",
+                                            name: "message",
+                                            className: "w-full h-32 bg-[#161616] text-[#777] mt-2 p-3 focus:outline-none focus:shadow-outline ",
+                                            autoComplete: "off",
+                                            required: true
+                                        }, void 0, false, {
+                                            fileName: "src/components/Contact.js",
+                                            lineNumber: 53,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Contact.js",
+                                        lineNumber: 52,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "my-2 w-1/2 lg:w-1/4 ",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            className: "bg-[#009e66] text-gray-100 p-3 rounded-full w-full focus:outline-none focus:shadow-outline hover:bg-[#117351]",
+                                            type: "submit",
+                                            value: "Send",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sendDefault.default), {
+                                                        sx: {
+                                                            marginLeft: "3px"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Contact.js",
+                                                        lineNumber: 57,
+                                                        columnNumber: 116
+                                                    }, undefined),
+                                                    "Send"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Contact.js",
+                                                lineNumber: 57,
+                                                columnNumber: 110
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/components/Contact.js",
+                                            lineNumber: 56,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Contact.js",
+                                        lineNumber: 55,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 43,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 39,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "pl-4 rounded-2xl shadow-2xl max-md:mt-8",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "font-bold text-2xl pb-5",
+                                children: "Contact Info"
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 64,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-[#9f9f9f]",
+                                children: [
+                                    "Always available for work if the right project",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/Contact.js",
+                                        lineNumber: 65,
+                                        columnNumber: 97
+                                    }, undefined),
+                                    " comes along, Feel free to contact me!"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 65,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                className: "mt-3",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "flex pl-2 ",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: " pt-2 pr-8",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hubDefault.default), {
+                                                        sx: {
+                                                            color: "#009e66",
+                                                            fontSize: "35px"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Contact.js",
+                                                        lineNumber: 70,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Contact.js",
+                                                    lineNumber: 69,
+                                                    columnNumber: 33
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "border-l pl-8 pt-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                                                            children: "Name"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Contact.js",
+                                                            lineNumber: 73,
+                                                            columnNumber: 37
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                            className: "text-[#9f9f9f]",
+                                                            children: "Tushar Sahani"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Contact.js",
+                                                            lineNumber: 74,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Contact.js",
+                                                    lineNumber: 72,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Contact.js",
+                                            lineNumber: 68,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Contact.js",
+                                        lineNumber: 67,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "flex pl-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "pt-4 pr-8",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mapDefault.default), {
+                                                        sx: {
+                                                            color: "#009e66",
+                                                            fontSize: "35px"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Contact.js",
+                                                        lineNumber: 81,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Contact.js",
+                                                    lineNumber: 80,
+                                                    columnNumber: 33
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "border-l pl-8 pt-4",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                                                            children: "Location"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Contact.js",
+                                                            lineNumber: 84,
+                                                            columnNumber: 37
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                            className: "text-[#9f9f9f]",
+                                                            children: "Muradnagar, Ghaziabad"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Contact.js",
+                                                            lineNumber: 85,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Contact.js",
+                                                    lineNumber: 83,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Contact.js",
+                                            lineNumber: 79,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Contact.js",
+                                        lineNumber: 78,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "flex pl-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "pt-4 pr-8",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _callDefault.default), {
+                                                        sx: {
+                                                            color: "#009e66",
+                                                            fontSize: "35px"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Contact.js",
+                                                        lineNumber: 92,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Contact.js",
+                                                    lineNumber: 91,
+                                                    columnNumber: 33
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "border-l pl-8 pt-4",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                                                            children: "Call Me"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Contact.js",
+                                                            lineNumber: 95,
+                                                            columnNumber: 37
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                            className: "text-[#9f9f9f]",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                href: "tel:918858521178",
+                                                                children: "+91 8858521178"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Contact.js",
+                                                                lineNumber: 96,
+                                                                columnNumber: 70
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Contact.js",
+                                                            lineNumber: 96,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Contact.js",
+                                                    lineNumber: 94,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Contact.js",
+                                            lineNumber: 90,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Contact.js",
+                                        lineNumber: 89,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "flex pl-2 ",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                    className: "pt-4 pr-8",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sendDefault.default), {
+                                                        sx: {
+                                                            color: "#009e66",
+                                                            fontSize: "35px"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Contact.js",
+                                                        lineNumber: 103,
+                                                        columnNumber: 37
+                                                    }, undefined)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Contact.js",
+                                                    lineNumber: 102,
+                                                    columnNumber: 33
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "border-l pl-8 pt-4 max-sm:break-all",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                                                            children: "Email Me"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Contact.js",
+                                                            lineNumber: 106,
+                                                            columnNumber: 37
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                            className: "text-[#9f9f9f] ",
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                href: "mailto:tusharsahani000@gmail.com",
+                                                                children: "tusharsahani000@gmail.com"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/Contact.js",
+                                                                lineNumber: 107,
+                                                                columnNumber: 71
+                                                            }, undefined)
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Contact.js",
+                                                            lineNumber: 107,
+                                                            columnNumber: 37
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/Contact.js",
+                                                    lineNumber: 105,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/Contact.js",
+                                            lineNumber: 101,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/Contact.js",
+                                        lineNumber: 100,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 66,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 63,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Contact.js",
+                lineNumber: 38,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Contact.js",
-        lineNumber: 10,
+        lineNumber: 31,
         columnNumber: 9
     }, undefined);
 };
-_s(Contact, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+_s(Contact, "BH1YWn5QV4/WJMJRCmoUC0G4hKk=", false, function() {
     return [
         (0, _reactRouterDom.useNavigate)
     ];
@@ -57892,21 +63619,191 @@ $RefreshReg$(_c, "Contact");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","./Home":"hcu4N","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2z2cd":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","@mui/icons-material/Hub":"c5PAp","@mui/icons-material/Map":"5anHV","@mui/icons-material/Call":"k1PNC","@mui/icons-material/Send":"ibGJi","./Home":"hcu4N","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","@emailjs/browser":"kbSqr"}],"c5PAp":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("53eb48aa9bb5ac9c");
+var _interopRequireDefault = require("c3f8a7a380836e8a");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _createSvgIcon = _interopRequireDefault(require("6a199dde858fa74"));
-var _jsxRuntime = require("e0d981dac0826de4");
+var _createSvgIcon = _interopRequireDefault(require("69e0dfe7b7e2bc63"));
+var _jsxRuntime = require("29e03b131d6341c0");
 var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
-    d: "M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-}), "Close");
+    d: "M8.4 18.2c.38.5.6 1.12.6 1.8 0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3c.44 0 .85.09 1.23.26l1.41-1.77c-.92-1.03-1.29-2.39-1.09-3.69l-2.03-.68c-.54.83-1.46 1.38-2.52 1.38-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3c0 .07 0 .14-.01.21l2.03.68c.64-1.21 1.82-2.09 3.22-2.32V5.91C9.96 5.57 9 4.4 9 3c0-1.66 1.34-3 3-3s3 1.34 3 3c0 1.4-.96 2.57-2.25 2.91v2.16c1.4.23 2.58 1.11 3.22 2.32L18 9.71V9.5c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3c-1.06 0-1.98-.55-2.52-1.37l-2.03.68c.2 1.29-.16 2.65-1.09 3.69l1.41 1.77c.38-.18.79-.27 1.23-.27 1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3c0-.68.22-1.3.6-1.8l-1.41-1.77c-1.35.75-3.01.76-4.37 0L8.4 18.2z"
+}), "Hub");
 exports.default = _default;
 
-},{"53eb48aa9bb5ac9c":"7XM86","6a199dde858fa74":"lVV9C","e0d981dac0826de4":"6AEwr"}],"9R1Eu":[function(require,module,exports) {
+},{"c3f8a7a380836e8a":"7XM86","69e0dfe7b7e2bc63":"lVV9C","29e03b131d6341c0":"6AEwr"}],"5anHV":[function(require,module,exports) {
+"use strict";
+var _interopRequireDefault = require("d3b0372310fbb19b");
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = void 0;
+var _createSvgIcon = _interopRequireDefault(require("212b2a983cef5891"));
+var _jsxRuntime = require("25aad80fea8b6197");
+var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
+    d: "m20.5 3-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"
+}), "Map");
+exports.default = _default;
+
+},{"d3b0372310fbb19b":"7XM86","212b2a983cef5891":"lVV9C","25aad80fea8b6197":"6AEwr"}],"k1PNC":[function(require,module,exports) {
+"use strict";
+var _interopRequireDefault = require("233129acf02b6e02");
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = void 0;
+var _createSvgIcon = _interopRequireDefault(require("1051c0b7904bbd2b"));
+var _jsxRuntime = require("d2c58017658166c6");
+var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
+    d: "M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"
+}), "Call");
+exports.default = _default;
+
+},{"233129acf02b6e02":"7XM86","1051c0b7904bbd2b":"lVV9C","d2c58017658166c6":"6AEwr"}],"ibGJi":[function(require,module,exports) {
+"use strict";
+var _interopRequireDefault = require("27109108393f1358");
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = void 0;
+var _createSvgIcon = _interopRequireDefault(require("31dc5ec68b95febf"));
+var _jsxRuntime = require("8f53ab1026be8825");
+var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
+    d: "M2.01 21 23 12 2.01 3 2 10l15 2-15 2z"
+}), "Send");
+exports.default = _default;
+
+},{"27109108393f1358":"7XM86","31dc5ec68b95febf":"lVV9C","8f53ab1026be8825":"6AEwr"}],"kbSqr":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "init", ()=>(0, _init.init));
+parcelHelpers.export(exports, "send", ()=>(0, _send.send));
+parcelHelpers.export(exports, "sendForm", ()=>(0, _sendForm.sendForm));
+var _init = require("./methods/init/init");
+var _send = require("./methods/send/send");
+var _sendForm = require("./methods/sendForm/sendForm");
+exports.default = {
+    init: (0, _init.init),
+    send: (0, _send.send),
+    sendForm: (0, _sendForm.sendForm)
+};
+
+},{"./methods/init/init":"lqGq1","./methods/send/send":"m7CoX","./methods/sendForm/sendForm":"a1Cpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lqGq1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "init", ()=>init);
+var _store = require("../../store/store");
+const init = (publicKey, origin = "https://api.emailjs.com")=>{
+    (0, _store.store)._userID = publicKey;
+    (0, _store.store)._origin = origin;
+};
+
+},{"../../store/store":"3eehJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3eehJ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "store", ()=>store);
+const store = {
+    _origin: "https://api.emailjs.com"
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"m7CoX":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "send", ()=>send);
+var _store = require("../../store/store");
+var _validateParams = require("../../utils/validateParams");
+var _sendPost = require("../../api/sendPost");
+const send = (serviceID, templateID, templatePrams, publicKey)=>{
+    const uID = publicKey || (0, _store.store)._userID;
+    (0, _validateParams.validateParams)(uID, serviceID, templateID);
+    const params = {
+        lib_version: "3.11.0",
+        user_id: uID,
+        service_id: serviceID,
+        template_id: templateID,
+        template_params: templatePrams
+    };
+    return (0, _sendPost.sendPost)("/api/v1.0/email/send", JSON.stringify(params), {
+        "Content-type": "application/json"
+    });
+};
+
+},{"../../store/store":"3eehJ","../../utils/validateParams":"5GPWw","../../api/sendPost":"3pmzm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5GPWw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "validateParams", ()=>validateParams);
+const validateParams = (publicKey, serviceID, templateID)=>{
+    if (!publicKey) throw "The public key is required. Visit https://dashboard.emailjs.com/admin/account";
+    if (!serviceID) throw "The service ID is required. Visit https://dashboard.emailjs.com/admin";
+    if (!templateID) throw "The template ID is required. Visit https://dashboard.emailjs.com/admin/templates";
+    return true;
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3pmzm":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "sendPost", ()=>sendPost);
+var _emailJSResponseStatus = require("../models/EmailJSResponseStatus");
+var _store = require("../store/store");
+const sendPost = (url, data, headers = {})=>{
+    return new Promise((resolve, reject)=>{
+        const xhr = new XMLHttpRequest();
+        xhr.addEventListener("load", ({ target  })=>{
+            const responseStatus = new (0, _emailJSResponseStatus.EmailJSResponseStatus)(target);
+            if (responseStatus.status === 200 || responseStatus.text === "OK") resolve(responseStatus);
+            else reject(responseStatus);
+        });
+        xhr.addEventListener("error", ({ target  })=>{
+            reject(new (0, _emailJSResponseStatus.EmailJSResponseStatus)(target));
+        });
+        xhr.open("POST", (0, _store.store)._origin + url, true);
+        Object.keys(headers).forEach((key)=>{
+            xhr.setRequestHeader(key, headers[key]);
+        });
+        xhr.send(data);
+    });
+};
+
+},{"../models/EmailJSResponseStatus":"oZ06T","../store/store":"3eehJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"oZ06T":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "EmailJSResponseStatus", ()=>EmailJSResponseStatus);
+class EmailJSResponseStatus {
+    constructor(httpResponse){
+        this.status = httpResponse ? httpResponse.status : 0;
+        this.text = httpResponse ? httpResponse.responseText : "Network Error";
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a1Cpe":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "sendForm", ()=>sendForm);
+var _store = require("../../store/store");
+var _validateParams = require("../../utils/validateParams");
+var _sendPost = require("../../api/sendPost");
+const findHTMLForm = (form)=>{
+    let currentForm;
+    if (typeof form === "string") currentForm = document.querySelector(form);
+    else currentForm = form;
+    if (!currentForm || currentForm.nodeName !== "FORM") throw "The 3rd parameter is expected to be the HTML form element or the style selector of form";
+    return currentForm;
+};
+const sendForm = (serviceID, templateID, form, publicKey)=>{
+    const uID = publicKey || (0, _store.store)._userID;
+    const currentForm = findHTMLForm(form);
+    (0, _validateParams.validateParams)(uID, serviceID, templateID);
+    const formData = new FormData(currentForm);
+    formData.append("lib_version", "3.11.0");
+    formData.append("service_id", serviceID);
+    formData.append("template_id", templateID);
+    formData.append("user_id", uID);
+    return (0, _sendPost.sendPost)("/api/v1.0/email/send-form", formData);
+};
+
+},{"../../store/store":"3eehJ","../../utils/validateParams":"5GPWw","../../api/sendPost":"3pmzm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9R1Eu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5b98 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -57919,6 +63816,8 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _close = require("@mui/icons-material/Close");
 var _closeDefault = parcelHelpers.interopDefault(_close);
 var _reactRouterDom = require("react-router-dom");
+var _tusharJpg = require("../assets/Tushar.jpg");
+var _tusharJpgDefault = parcelHelpers.interopDefault(_tusharJpg);
 var _home = require("./Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _s = $RefreshSig$();
@@ -57929,7 +63828,7 @@ const About = ()=>{
         navigate("/");
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "bg-[#111] text-white w-screen h-screen",
+        className: "bg-[#111] text-white w-screen h-screen max-md:h-[995px]",
         style: {
             fontFamily: "Poppins,sans-serif"
         },
@@ -57944,69 +63843,260 @@ const About = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/components/About.js",
-                        lineNumber: 13,
+                        lineNumber: 15,
                         columnNumber: 44
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 13,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/About.js",
-                lineNumber: 12,
+                lineNumber: 14,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "text-thin text-[#9f9f9f] absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-[102px]",
+                children: "Get to Know About Me"
+            }, void 0, false, {
+                fileName: "src/components/About.js",
+                lineNumber: 17,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "absolute text-4xl font-extrabold -translate-x-2/4 -translate-y-2/4 top-1/4 left-2/4",
-                children: "About Me"
+                className: "absolute text-5xl -translate-x-2/4 -translate-y-2/4 top-40 left-2/4",
+                children: "About"
             }, void 0, false, {
                 fileName: "src/components/About.js",
-                lineNumber: 15,
+                lineNumber: 18,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "animation"
-            }, void 0, false, {
-                fileName: "src/components/About.js",
-                lineNumber: 16,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "",
+                className: "absolute w-3/4 max-md:w-full max-md:top-2/3 flex sm:max-lg:flex-col sm:max-lg:text-center sm:max-lg:p-auto max-md:flex-col max-md:text-center max-md:p-auto -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4 mt-20 ",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: "../assets/Tushar.jpg",
-                            alt: ""
-                        }, void 0, false, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 19,
-                            columnNumber: 21
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/components/About.js",
-                        lineNumber: 18,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: ""
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _tusharJpgDefault.default),
+                        className: "w-1/3 max-md:mb-7 max-md:max-lg:w-1/4 max-md:border-2 sm:max-lg:rounded-full sm:max-lg:m-auto sm:max-lg:mt-16 max-md:w-1/3 max-md:border-1 max-md:rounded-full max-md:m-auto max-md:mt-48",
+                        alt: "Tushar Sahani"
                     }, void 0, false, {
                         fileName: "src/components/About.js",
                         lineNumber: 21,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "ml-14 max-md:ml-0",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "p-5 ",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "text-[#009e66] text-2xl p-2 -mt-5 sm:max-lg:mr-10",
+                                        children: "Who am i?"
+                                    }, void 0, false, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 25,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "text-3xl font-bold p-3 max-md:text-xl",
+                                        children: "I'm Tuhsar Sahani, Full Stack Developer and Java Programmer"
+                                    }, void 0, false, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 26,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-[#9f9f9f] p-2",
+                                        children: "I am a B.Tech undergraduate student in Computer Science with a passion of developing solutions and a craving learner. I enjoy working in Java and with Technical Societies. Deeply value project based learning experiences and working in a team. Creating value and impact to bring about a change."
+                                    }, void 0, false, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 27,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                                        className: "text-[#9f9f9f] mt-6"
+                                    }, void 0, false, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 28,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/About.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex flex-col max-md:ml-5",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "flex max-md:flex-col max-md:p-0 p-2 ",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "flex pl-4 max-md:pl-0",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "Name:"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/About.js",
+                                                        lineNumber: 33,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                        className: "pl-2 text-[#9f9f9f]",
+                                                        children: "Tushar Sahani"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/About.js",
+                                                        lineNumber: 34,
+                                                        columnNumber: 33
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/About.js",
+                                                lineNumber: 32,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "flex pl-40 max-md:pl-0",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "Email:"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/About.js",
+                                                        lineNumber: 37,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                        className: "pl-2 text-[#009e66] hover:text-[#346b57] cursor-pointer",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                                href: "mailto:tusharsahani000@gmail.com",
+                                                                children: "tusharsahani000@gmail.com"
+                                                            }, void 0, false, {
+                                                                fileName: "src/components/About.js",
+                                                                lineNumber: 38,
+                                                                columnNumber: 105
+                                                            }, undefined),
+                                                            " "
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/components/About.js",
+                                                        lineNumber: 38,
+                                                        columnNumber: 33
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/About.js",
+                                                lineNumber: 36,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 31,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "flex max-md:flex-col max-md:p-0 p-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "flex max-md:pl-0 pl-4",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "Age:"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/About.js",
+                                                        lineNumber: 43,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                        className: "pl-2 text-[#9f9f9f]",
+                                                        children: "21"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/About.js",
+                                                        lineNumber: 44,
+                                                        columnNumber: 33
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/About.js",
+                                                lineNumber: 42,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "flex pl-[283px] max-md:pl-0",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "Live: "
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/About.js",
+                                                        lineNumber: 47,
+                                                        columnNumber: 33
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                        className: "pl-2 text-[#9f9f9f]",
+                                                        children: "Deoria, Uttar Pradesh"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/About.js",
+                                                        lineNumber: 48,
+                                                        columnNumber: 33
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/About.js",
+                                                lineNumber: 46,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 41,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/About.js",
+                                lineNumber: 30,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    class: "mt-2 ml-5 bg-[#009e66] hover:bg-[#0e522b] text-white font-bold py-2 px-4 rounded-full",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                        to: "https://drive.google.com/file/d/1DBrN4yHNbgzEN_97NWvyBsmYH7BkNJAr/view?usp=drivesdk",
+                                        children: "Download CV"
+                                    }, void 0, false, {
+                                        fileName: "src/components/About.js",
+                                        lineNumber: 54,
+                                        columnNumber: 29
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/About.js",
+                                    lineNumber: 53,
+                                    columnNumber: 25
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/components/About.js",
+                                lineNumber: 52,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/About.js",
+                        lineNumber: 23,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/About.js",
-                lineNumber: 17,
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/About.js",
-        lineNumber: 11,
+        lineNumber: 13,
         columnNumber: 9
     }, undefined);
 };
@@ -58025,7 +64115,10 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","react-router-dom":"9xmpe","./Home":"hcu4N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4aT7V":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","react-router-dom":"9xmpe","../assets/Tushar.jpg":"lgSGA","./Home":"hcu4N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lgSGA":[function(require,module,exports) {
+module.exports = require("db3d6be94a9a733e").getBundleURL("aXMci") + "Tushar.b111dd7f.jpg" + "?" + Date.now();
+
+},{"db3d6be94a9a733e":"lgJ39"}],"4aT7V":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2b67 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -58046,7 +64139,7 @@ const Resume = ()=>{
         navigate("/");
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "bg-[#111] text-white w-screen h-screen",
+        className: "bg-[#111] text-white h-[1370px] max-sm:h-[1650px]",
         style: {
             fontFamily: "Poppins,sans-serif"
         },
@@ -58074,12 +64167,533 @@ const Resume = ()=>{
                 lineNumber: 11,
                 columnNumber: 13
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "absolute text-4xl font-extrabold -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4",
-                children: "Resume"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "text-thin text-[#9f9f9f] absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-[102px] text-center",
+                children: "Check out my Resume"
             }, void 0, false, {
                 fileName: "src/components/Resume.js",
                 lineNumber: 14,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "absolute text-5xl -translate-x-2/4 -translate-y-2/4 top-40 left-2/4",
+                children: "Resume"
+            }, void 0, false, {
+                fileName: "src/components/Resume.js",
+                lineNumber: 15,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex align-middle absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 max-md:-translate-y-[39%] mt-52 max-sm:mt-56 max-sm:flex-col",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: " lg:pr-20",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "text-2xl mb-5 text-[#009e66]",
+                                children: "Education"
+                            }, void 0, false, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 20,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "card w-[500px] max-lg:w-[335px] box-border bg-[#161616] lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-b border-l-[#009e66] border-l-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: " inline text-xl",
+                                        children: "KIET Group of Institution"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 23,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-[rgb(159,159,159)] text-base pb-2 pt-2 ",
+                                        children: [
+                                            "Ghaziabad  ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "text-[13px]",
+                                                children: "(Nov'21 - Jun'25)"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 24,
+                                                columnNumber: 96
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 24,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-[#9f9f9f] text-[13px] pb-2",
+                                        children: "Bachelors degree in Computer Science ( GPA : 8.9 )"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 25,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 21,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "max-lg:w-[335px] w-[500px] bg-[#161616] border-b lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-b- border-l-[#009e66] border-l-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "inline text-xl",
+                                        children: "Central Hindu School"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 29,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-[#9f9f9f] text-base pb-2 pt-2",
+                                        children: [
+                                            "Gorakhpur ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "text-[13px]",
+                                                children: "(Apr'18 - May-'20)"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 30,
+                                                columnNumber: 85
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 30,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-[#9f9f9f] text-[13px]",
+                                        children: "Intermediate ( CBSE ), Science ( Score: 85.4% ) "
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 31,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 27,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "max-lg:w-[335px] w-[500px] bg-[#161616] lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-l-[#009e66] border-l-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "inline text-xl",
+                                        children: "Oxford Public School"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 35,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-[#9f9f9f] text-base pb-2 pt-2",
+                                        children: [
+                                            "Gorakhpur ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "text-[13px]",
+                                                children: "(May'16 - Apr'18)"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 36,
+                                                columnNumber: 85
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 36,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-[#9f9f9f] text-[13px]",
+                                        children: "High School ( CBSE )  ( Score: 77%)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 37,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 33,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Resume.js",
+                        lineNumber: 19,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "max-sm:mt-4 pl-20 max-lg:pl-5 max-sm:pl-0",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "text-2xl mb-5 text-[#009e66]",
+                                children: "Experience"
+                            }, void 0, false, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 42,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "max-lg:w-[335px] w-[500px] bg-[#161616] lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-l-[#009e66] border-l-2",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "inline text-xl",
+                                        children: "Summer Internship"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 45,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-[#9f9f9f] text-base pb-2 pt-2",
+                                        children: "Ghaziabad (Aug'22 - Sep'22)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 46,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                        className: "list-disc text-[#9f9f9f] text-[12px]",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Learnt Python During Internship "
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Resume.js",
+                                                    lineNumber: 48,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 48,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    children: "Worked on a mini project using Web Development. A project based on Contibution and Spliting of money within Group"
+                                                }, void 0, false, {
+                                                    fileName: "src/components/Resume.js",
+                                                    lineNumber: 49,
+                                                    columnNumber: 33
+                                                }, undefined)
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 49,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            " "
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 47,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 43,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Resume.js",
+                        lineNumber: 41,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Resume.js",
+                lineNumber: 17,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex align-middle absolute top-full left-2/4 -translate-x-2/4 -translate-y-2/4 mt-60 max-sm:mt-[608px]",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "lg:mt-80 max-md:w-full",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: " absolute lg:-left-20 max-md:text-center",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-thin text-[#9f9f9f] max-md:ml-10",
+                                    children: "My level of knowledge in some tools"
+                                }, void 0, false, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 68,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    className: "text-4xl pt-3",
+                                    children: "My Skills"
+                                }, void 0, false, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 69,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Resume.js",
+                            lineNumber: 67,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            class: "grid grid-rows-4 grid-flow-col max-sm:grid-flow-row lg:gap-7 lg:gap-x-60 mt-32",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "w-96 max-md:w-80",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            className: "block",
+                                            for: "file",
+                                            children: "C"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 74,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("progress", {
+                                            className: "w-[500px] max-sm:w-[300px] max-lg:w-[350px] h-3 bg-green-600 rounded-full dark:bg-green-500",
+                                            id: "file",
+                                            value: "95",
+                                            max: "100",
+                                            children: " "
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 75,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 73,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "w-96 max-md:w-80",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            className: "block",
+                                            for: "file",
+                                            children: "JavaScript "
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 78,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("progress", {
+                                            className: "w-[500px] max-sm:w-[300px] max-lg:w-[350px] h-3",
+                                            id: "file",
+                                            value: "85",
+                                            max: "100"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 79,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 77,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "w-96 max-md:w-80",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            className: "block",
+                                            for: "file",
+                                            children: "Django"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 82,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("progress", {
+                                            className: "w-[500px] max-sm:w-[300px] max-lg:w-[350px] h-3",
+                                            id: "file",
+                                            value: "80",
+                                            max: "100"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 83,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 81,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "w-96 max-md:w-80",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            className: "block",
+                                            for: "file",
+                                            children: "MySql"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 86,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("progress", {
+                                            className: "w-[500px] max-sm:w-[300px] max-lg:w-[350px] h-3",
+                                            id: "file",
+                                            value: "55",
+                                            max: "100",
+                                            children: " 32% "
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 87,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 85,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "w-96 max-md:w-80",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            className: "block",
+                                            for: "file",
+                                            children: "HTML/CSS"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 90,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("progress", {
+                                            className: "w-[500px] max-sm:w-[300px] max-lg:w-[350px] h-3",
+                                            id: "file",
+                                            value: "98",
+                                            max: "100",
+                                            children: " 32% "
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 91,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 89,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "w-96 max-md:w-80",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            className: "block",
+                                            for: "file",
+                                            children: "React"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 94,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("progress", {
+                                            className: "w-[500px] max-sm:w-[300px] max-lg:w-[350px] h-3",
+                                            id: "file",
+                                            value: "90",
+                                            max: "100",
+                                            children: " 32% "
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 95,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 93,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "w-96 max-md:w-80",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            className: "block",
+                                            for: "file",
+                                            children: "Python"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 98,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("progress", {
+                                            className: "w-[500px] max-sm:w-[300px] max-lg:w-[350px] h-3",
+                                            id: "file",
+                                            value: "70",
+                                            max: "100",
+                                            children: " 32% "
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 99,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 97,
+                                    columnNumber: 25
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "w-96 max-md:w-80",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            className: "block",
+                                            for: "file",
+                                            children: "Java"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 102,
+                                            columnNumber: 29
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("progress", {
+                                            className: "w-[500px] max-sm:w-[300px] max-lg:w-[350px] h-3",
+                                            id: "file",
+                                            value: "83",
+                                            max: "100",
+                                            children: " 32% "
+                                        }, void 0, false, {
+                                            fileName: "src/components/Resume.js",
+                                            lineNumber: 103,
+                                            columnNumber: 29
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Resume.js",
+                                    lineNumber: 101,
+                                    columnNumber: 25
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Resume.js",
+                            lineNumber: 72,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Resume.js",
+                    lineNumber: 66,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Resume.js",
+                lineNumber: 65,
                 columnNumber: 13
             }, undefined)
         ]
@@ -58100,164 +64714,6 @@ var _c;
 $RefreshReg$(_c, "Resume");
 
   $parcel$ReactRefreshHelpers$2b67.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"16pwG":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$ec2f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$ec2f.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _close = require("@mui/icons-material/Close");
-var _closeDefault = parcelHelpers.interopDefault(_close);
-var _reactRouterDom = require("react-router-dom");
-var _s = $RefreshSig$();
-const Projects = ()=>{
-    _s();
-    const navigate = (0, _reactRouterDom.useNavigate)();
-    const backHome = ()=>{
-        navigate("/");
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "bg-[#111] text-white w-screen h-screen",
-        style: {
-            fontFamily: "Poppins,sans-serif"
-        },
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "absolute right-14 top-7",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: backHome,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _closeDefault.default), {
-                        sx: {
-                            fontSize: "38px"
-                        }
-                    }, void 0, false, {
-                        fileName: "src/components/Projects.js",
-                        lineNumber: 11,
-                        columnNumber: 44
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 11,
-                    columnNumber: 17
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Projects.js",
-                lineNumber: 10,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "absolute text-4xl font-extrabold -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4",
-                children: "Projects"
-            }, void 0, false, {
-                fileName: "src/components/Projects.js",
-                lineNumber: 13,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Projects.js",
-        lineNumber: 9,
-        columnNumber: 9
-    }, undefined);
-};
-_s(Projects, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
-    return [
-        (0, _reactRouterDom.useNavigate)
-    ];
-});
-_c = Projects;
-exports.default = Projects;
-var _c;
-$RefreshReg$(_c, "Projects");
-
-  $parcel$ReactRefreshHelpers$ec2f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dg1S6":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c94c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c94c.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _close = require("@mui/icons-material/Close");
-var _closeDefault = parcelHelpers.interopDefault(_close);
-var _reactRouterDom = require("react-router-dom");
-var _s = $RefreshSig$();
-const Portfolio = ()=>{
-    _s();
-    const navigate = (0, _reactRouterDom.useNavigate)();
-    const backHome = ()=>{
-        navigate("/");
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "bg-[#111] text-white w-screen h-screen",
-        style: {
-            fontFamily: "Poppins,sans-serif"
-        },
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "absolute right-14 top-7",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: backHome,
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _closeDefault.default), {
-                        sx: {
-                            fontSize: "38px"
-                        }
-                    }, void 0, false, {
-                        fileName: "src/components/Portfolio.js",
-                        lineNumber: 12,
-                        columnNumber: 44
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/components/Portfolio.js",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Portfolio.js",
-                lineNumber: 11,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "absolute text-4xl font-extrabold -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4",
-                children: "Portfolio"
-            }, void 0, false, {
-                fileName: "src/components/Portfolio.js",
-                lineNumber: 14,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Portfolio.js",
-        lineNumber: 10,
-        columnNumber: 9
-    }, undefined);
-};
-_s(Portfolio, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
-    return [
-        (0, _reactRouterDom.useNavigate)
-    ];
-});
-_c = Portfolio;
-exports.default = Portfolio;
-var _c;
-$RefreshReg$(_c, "Portfolio");
-
-  $parcel$ReactRefreshHelpers$c94c.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;

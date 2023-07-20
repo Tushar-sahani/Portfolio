@@ -5,7 +5,8 @@
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "start": "parcel public/index.html",
+    "server": "live-server public --host=192.168.1.5 --port=1234"
   },
   "repository": {
     "type": "git",
@@ -18,13 +19,16 @@
   },
   "homepage": "https://github.com/Tushar-sahani/portfolio#readme",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.14.0",
+    "react-tsparticles": "^2.11.0",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
