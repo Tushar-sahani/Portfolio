@@ -2,10 +2,14 @@
   Portfolio Website<br>
   <a href="https://tusharsahani.netlify.app/" target="_blank">tusharsahani.netlify.app</a>
 </h2>
+
 <div align="center">
-<img src="https://github.com/Tushar-sahani/Portfolio/assets/104075614/ba7ea32d-c807-40ec-81a4-c0f2312d1304" alt="Portfolio" width="100%" />
+<img src="https://github.com/Tushar-sahani/Portfolio/assets/104075614/e535df27-a861-4ce2-adde-bc48b1b12696" alt="Portfolio" width="100%" />
 </div>
 <br/>
+
+
+
 
 
 ## Built With
