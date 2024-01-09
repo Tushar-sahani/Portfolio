@@ -51,7 +51,7 @@ const About = () => {
                     </div>
                     <div>
                         <button class="mt-2 ml-5 bg-[#009e66] hover:bg-[#0e522b] text-white font-bold py-2 px-4 rounded-full" >
-                            <Link to="https://drive.google.com/file/d/1DBrN4yHNbgzEN_97NWvyBsmYH7BkNJAr/view?usp=drivesdk">Download CV</Link>
+                            <Link to="https://drive.google.com/file/d/1XqMYQqeL8zOceE_SJIa2SC8Z42vJYp-4/view">Download CV</Link>
                         </button>
                     </div>
 
