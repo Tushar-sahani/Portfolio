@@ -34,5 +34,5 @@ job:
         run: docker rm -f portfolioContainer
       
       - name: Run docker container
-        run docker run -d -p 3000:80 --name portfolioContainer tushar754/portfolio
+        run: docker run -d -p 3000:80 --name portfolioContainer tushar754/portfolio
 
