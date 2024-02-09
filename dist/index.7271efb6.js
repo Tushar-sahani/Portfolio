@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("7a6da731d1d23036");
-var ErrorOverlay = require("ceeac59ef20e862d");
+var Refresh = require("be4ae09ef79162b4");
+var ErrorOverlay = require("faefe113d3f71549");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"7a6da731d1d23036":"786KC","ceeac59ef20e862d":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"be4ae09ef79162b4":"786KC","faefe113d3f71549":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("75853bb901ce3884");
+module.exports = require("36a9e6844ea4e14f");
 
-},{"75853bb901ce3884":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"36a9e6844ea4e14f":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("75853bb901ce3884");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("8157185b63396964");
+var process = require("78dcb420648e7749");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("8157185b63396964");
     ]);
 });
 
-},{"8157185b63396964":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"78dcb420648e7749":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -3014,9 +3014,9 @@ $RefreshReg$(_c, "AppLayout");
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Home":"hcu4N","./components/Contact":"cgAOG","./components/About":"9R1Eu","./components/Resume":"4aT7V","./components/Error":"kvula","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("8597dd28b852f3b4");
+module.exports = require("3fc5f960a11bae08");
 
-},{"8597dd28b852f3b4":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"3fc5f960a11bae08":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -3028,7 +3028,7 @@ module.exports = require("8597dd28b852f3b4");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("9d64a248d7121fd5");
+    var React = require("4435fb9598902b0b");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3847,11 +3847,11 @@ module.exports = require("8597dd28b852f3b4");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"9d64a248d7121fd5":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"4435fb9598902b0b":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("c1dd9b3ff218fd52");
+module.exports = require("1c2508242ca3540f");
 
-},{"c1dd9b3ff218fd52":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"1c2508242ca3540f":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5719,7 +5719,7 @@ module.exports = require("c1dd9b3ff218fd52");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("ad7c4bd285204590");
+var m = require("961d1818016ba1f0");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5738,7 +5738,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"ad7c4bd285204590":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"961d1818016ba1f0":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5752,9 +5752,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("c8acc45dab85fdb3");
+module.exports = require("95b4198c292c82d");
 
-},{"c8acc45dab85fdb3":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"95b4198c292c82d":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5767,8 +5767,8 @@ module.exports = require("c8acc45dab85fdb3");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("e26d0277c65ae5e6");
-    var Scheduler = require("e3b62f420723e046");
+    var React = require("6cb2313ab279dec0");
+    var Scheduler = require("2e872d7aaae87045");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26739,11 +26739,11 @@ module.exports = require("c8acc45dab85fdb3");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"e26d0277c65ae5e6":"21dqq","e3b62f420723e046":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"6cb2313ab279dec0":"21dqq","2e872d7aaae87045":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("ecc6a03d52f7fec6");
+module.exports = require("aa0083de72dbeaaa");
 
-},{"ecc6a03d52f7fec6":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"aa0083de72dbeaaa":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27444,9 +27444,9 @@ $RefreshReg$(_c1, "Home");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","../assets/home1.jpg":"gJ2JA","@mui/icons-material/Twitter":"kcsJD","@mui/icons-material/LinkedIn":"5rzym","@mui/icons-material/GitHub":"f7ZLb","@mui/icons-material/Instagram":"kM0Np","./Navbar":"5EEXV","react-router-dom":"9xmpe","typewriter-effect":"gpxvC","react":"21dqq","react-loader-spinner":"3Z1o9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gJ2JA":[function(require,module,exports) {
-module.exports = require("b478a6ecc7ab1a70").getBundleURL("aXMci") + "home1.8fa30578.jpg" + "?" + Date.now();
+module.exports = require("3cae729bc82589c").getBundleURL("aXMci") + "home1.8fa30578.jpg" + "?" + Date.now();
 
-},{"b478a6ecc7ab1a70":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"3cae729bc82589c":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -27482,14 +27482,14 @@ exports.getOrigin = getOrigin;
 
 },{}],"kcsJD":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("d5a320a60d747e4c");
+var _interopRequireDefault = require("5413322e21b8bcc1");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("fe067d1f9d29d495"));
-var _createSvgIcon = _interopRequireDefault(require("5bec70d4be8edb7b"));
-var _jsxRuntime = require("86ef18bf370eb927");
+var React = _interopRequireWildcard(require("8a3da9422171f25c"));
+var _createSvgIcon = _interopRequireDefault(require("8036a2d24ea4e3ac"));
+var _jsxRuntime = require("7b6f14a8c4327329");
 function _getRequireWildcardCache(nodeInterop) {
     if (typeof WeakMap !== "function") return null;
     var cacheBabelInterop = new WeakMap();
@@ -27521,7 +27521,7 @@ var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("p
 }), "Twitter");
 exports.default = _default;
 
-},{"d5a320a60d747e4c":"7XM86","fe067d1f9d29d495":"21dqq","5bec70d4be8edb7b":"lVV9C","86ef18bf370eb927":"6AEwr"}],"7XM86":[function(require,module,exports) {
+},{"5413322e21b8bcc1":"7XM86","8a3da9422171f25c":"21dqq","8036a2d24ea4e3ac":"lVV9C","7b6f14a8c4327329":"6AEwr"}],"7XM86":[function(require,module,exports) {
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         "default": obj
@@ -27540,9 +27540,9 @@ Object.defineProperty(exports, "default", {
         return _utils.createSvgIcon;
     }
 });
-var _utils = require("997eaf7582b73dcc");
+var _utils = require("b3fb9c3c2a9798ca");
 
-},{"997eaf7582b73dcc":"9bp9M"}],"9bp9M":[function(require,module,exports) {
+},{"b3fb9c3c2a9798ca":"9bp9M"}],"9bp9M":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "capitalize", ()=>(0, _capitalizeDefault.default));
@@ -27851,17 +27851,17 @@ exports.default = elementAcceptingRef;
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var ReactIs = require("3250b0fe13818cd1");
+ */ var ReactIs = require("62f5455e011425cf");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
 var throwOnDirectAccess = true;
-module.exports = require("64e91fb3710b41bc")(ReactIs.isElement, throwOnDirectAccess);
+module.exports = require("fd6c9114d621a94c")(ReactIs.isElement, throwOnDirectAccess);
 
-},{"3250b0fe13818cd1":"gfIo3","64e91fb3710b41bc":"bBUgD"}],"gfIo3":[function(require,module,exports) {
+},{"62f5455e011425cf":"gfIo3","fd6c9114d621a94c":"bBUgD"}],"gfIo3":[function(require,module,exports) {
 "use strict";
-module.exports = require("f65d48bf39d7dca9");
+module.exports = require("4b96a48476ab716f");
 
-},{"f65d48bf39d7dca9":"7GE9i"}],"7GE9i":[function(require,module,exports) {
+},{"4b96a48476ab716f":"7GE9i"}],"7GE9i":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -28025,11 +28025,11 @@ module.exports = require("f65d48bf39d7dca9");
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
-var ReactIs = require("6639d21bc9c49fd8");
-var assign = require("a3a27970c3977387");
-var ReactPropTypesSecret = require("cced6d5af79b3e85");
-var has = require("5f45d32f4e48497f");
-var checkPropTypes = require("b6af6dabffd3d24f");
+var ReactIs = require("4a083bb15dfe347f");
+var assign = require("9493101b0bb1ecb4");
+var ReactPropTypesSecret = require("b9718748a3f600fc");
+var has = require("ec8b4bbe7bb7e329");
+var checkPropTypes = require("69b4945e2bf8416");
 var printWarning = function() {};
 printWarning = function(text) {
     var message = "Warning: " + text;
@@ -28456,7 +28456,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return ReactPropTypes;
 };
 
-},{"6639d21bc9c49fd8":"gfIo3","a3a27970c3977387":"7OXxh","cced6d5af79b3e85":"jZTZJ","5f45d32f4e48497f":"fqKuf","b6af6dabffd3d24f":"5VwyJ"}],"7OXxh":[function(require,module,exports) {
+},{"4a083bb15dfe347f":"gfIo3","9493101b0bb1ecb4":"7OXxh","b9718748a3f600fc":"jZTZJ","ec8b4bbe7bb7e329":"fqKuf","69b4945e2bf8416":"5VwyJ"}],"7OXxh":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -28532,9 +28532,9 @@ module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
 var printWarning = function() {};
-var ReactPropTypesSecret = require("87f2e59e0ba6fcd0");
+var ReactPropTypesSecret = require("b9eb6fb44d0e9db7");
 var loggedTypeFailures = {};
-var has = require("5391c9db8f5dca48");
+var has = require("43c12d9a541416dc");
 printWarning = function(text) {
     var message = "Warning: " + text;
     if (typeof console !== "undefined") console.error(message);
@@ -28592,7 +28592,7 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"87f2e59e0ba6fcd0":"jZTZJ","5391c9db8f5dca48":"fqKuf"}],"sE2kt":[function(require,module,exports) {
+},{"b9eb6fb44d0e9db7":"jZTZJ","43c12d9a541416dc":"fqKuf"}],"sE2kt":[function(require,module,exports) {
 // This module is based on https://github.com/airbnb/prop-types-exact repository.
 // However, in order to reduce the number of dependencies and to remove some extra safe checks
 // the module was forked.
@@ -28669,9 +28669,9 @@ exports.default = getDisplayName;
 
 },{"react-is":"7EuwB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7EuwB":[function(require,module,exports) {
 "use strict";
-module.exports = require("1be00cdd6c67a467");
+module.exports = require("5539f72848f871e4");
 
-},{"1be00cdd6c67a467":"5DsXl"}],"5DsXl":[function(require,module,exports) {
+},{"5539f72848f871e4":"5DsXl"}],"5DsXl":[function(require,module,exports) {
 /**
  * @license React
  * react-is.development.js
@@ -30094,9 +30094,9 @@ exports.default = ClassNameConfigurator;
 
 },{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
 "use strict";
-module.exports = require("a987ad0ed7ebf3e1");
+module.exports = require("49ef33a9fbcd02b5");
 
-},{"a987ad0ed7ebf3e1":"kujY4"}],"kujY4":[function(require,module,exports) {
+},{"49ef33a9fbcd02b5":"kujY4"}],"kujY4":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-runtime.development.js
@@ -30108,7 +30108,7 @@ module.exports = require("a987ad0ed7ebf3e1");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("53abcfc0b659a3ad");
+    var React = require("32e88fbc24a7e088");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -30939,7 +30939,7 @@ module.exports = require("a987ad0ed7ebf3e1");
     exports.jsxs = jsxs;
 })();
 
-},{"53abcfc0b659a3ad":"21dqq"}],"iYj1L":[function(require,module,exports) {
+},{"32e88fbc24a7e088":"21dqq"}],"iYj1L":[function(require,module,exports) {
 /**
  * Extracts event handlers from a given object.
  * A prop is considered an event handler if it is a function and its name starts with `on`.
@@ -45262,7 +45262,7 @@ var hoistNonReactStatics = function(targetComponent, sourceComponent) {
 
 },{"hoist-non-react-statics":"1GfsB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1GfsB":[function(require,module,exports) {
 "use strict";
-var reactIs = require("ebc339a40fbb3161");
+var reactIs = require("4f48c7724a0bdbcb");
 /**
  * Copyright 2015, Yahoo! Inc.
  * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
@@ -45344,11 +45344,11 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 module.exports = hoistNonReactStatics;
 
-},{"ebc339a40fbb3161":"8V70c"}],"8V70c":[function(require,module,exports) {
+},{"4f48c7724a0bdbcb":"8V70c"}],"8V70c":[function(require,module,exports) {
 "use strict";
-module.exports = require("64b7cf3921ed905b");
+module.exports = require("23454c7224ca20e7");
 
-},{"64b7cf3921ed905b":"drjfK"}],"drjfK":[function(require,module,exports) {
+},{"23454c7224ca20e7":"drjfK"}],"drjfK":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -50356,14 +50356,14 @@ exports.default = (0, _utils.unstable_useIsFocusVisible);
 
 },{"@mui/utils":"cttLn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5rzym":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("75643e4a7806710d");
+var _interopRequireDefault = require("8625cb9e8aececa9");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("3eaf60c1e151e4a8"));
-var _createSvgIcon = _interopRequireDefault(require("28c57765635e988"));
-var _jsxRuntime = require("7f46576f9459fce5");
+var React = _interopRequireWildcard(require("fc59dd5cb13c4c90"));
+var _createSvgIcon = _interopRequireDefault(require("13414802367d66fa"));
+var _jsxRuntime = require("e70951b4e99184f5");
 function _getRequireWildcardCache(nodeInterop) {
     if (typeof WeakMap !== "function") return null;
     var cacheBabelInterop = new WeakMap();
@@ -50395,16 +50395,16 @@ var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("p
 }), "LinkedIn");
 exports.default = _default;
 
-},{"75643e4a7806710d":"7XM86","3eaf60c1e151e4a8":"21dqq","28c57765635e988":"lVV9C","7f46576f9459fce5":"6AEwr"}],"f7ZLb":[function(require,module,exports) {
+},{"8625cb9e8aececa9":"7XM86","fc59dd5cb13c4c90":"21dqq","13414802367d66fa":"lVV9C","e70951b4e99184f5":"6AEwr"}],"f7ZLb":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("397f1925a4dabf97");
+var _interopRequireDefault = require("cd598071ff8a423a");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("55c71a68db39237f"));
-var _createSvgIcon = _interopRequireDefault(require("b539c61b85f0090e"));
-var _jsxRuntime = require("780fb41704e6e74e");
+var React = _interopRequireWildcard(require("99479e37995d7fe7"));
+var _createSvgIcon = _interopRequireDefault(require("1104aca20ba35dd9"));
+var _jsxRuntime = require("9269216dc303bcdd");
 function _getRequireWildcardCache(nodeInterop) {
     if (typeof WeakMap !== "function") return null;
     var cacheBabelInterop = new WeakMap();
@@ -50436,16 +50436,16 @@ var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("p
 }), "GitHub");
 exports.default = _default;
 
-},{"397f1925a4dabf97":"7XM86","55c71a68db39237f":"21dqq","b539c61b85f0090e":"lVV9C","780fb41704e6e74e":"6AEwr"}],"kM0Np":[function(require,module,exports) {
+},{"cd598071ff8a423a":"7XM86","99479e37995d7fe7":"21dqq","1104aca20ba35dd9":"lVV9C","9269216dc303bcdd":"6AEwr"}],"kM0Np":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("91c98176dc3f74a4");
+var _interopRequireDefault = require("46d302c0426c21a7");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("8b2486a538fa0f76"));
-var _createSvgIcon = _interopRequireDefault(require("d7b8e4a16f39e4e5"));
-var _jsxRuntime = require("a20705aa99857857");
+var React = _interopRequireWildcard(require("5af76c01f9032db5"));
+var _createSvgIcon = _interopRequireDefault(require("6ea5899cf5442d9b"));
+var _jsxRuntime = require("abcdb759a1ef2844");
 function _getRequireWildcardCache(nodeInterop) {
     if (typeof WeakMap !== "function") return null;
     var cacheBabelInterop = new WeakMap();
@@ -50477,7 +50477,7 @@ var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("p
 }), "Instagram");
 exports.default = _default;
 
-},{"91c98176dc3f74a4":"7XM86","8b2486a538fa0f76":"21dqq","d7b8e4a16f39e4e5":"lVV9C","a20705aa99857857":"6AEwr"}],"5EEXV":[function(require,module,exports) {
+},{"46d302c0426c21a7":"7XM86","5af76c01f9032db5":"21dqq","6ea5899cf5442d9b":"lVV9C","abcdb759a1ef2844":"6AEwr"}],"5EEXV":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8fbf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -56382,38 +56382,38 @@ function getDoneFetcher(data) {
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eYtXA":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("e71b772c1a4e90d");
+var _interopRequireDefault = require("1fe9fe1eacc06266");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _createSvgIcon = _interopRequireDefault(require("9d16922e6b63f488"));
-var _jsxRuntime = require("e035237ec9108d15");
+var _createSvgIcon = _interopRequireDefault(require("d3d5c6c61daff5d0"));
+var _jsxRuntime = require("25f030d204bcbfea");
 var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
     d: "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
 }), "Menu");
 exports.default = _default;
 
-},{"e71b772c1a4e90d":"7XM86","9d16922e6b63f488":"lVV9C","e035237ec9108d15":"6AEwr"}],"2z2cd":[function(require,module,exports) {
+},{"1fe9fe1eacc06266":"7XM86","d3d5c6c61daff5d0":"lVV9C","25f030d204bcbfea":"6AEwr"}],"2z2cd":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("77baadf805e8f333");
+var _interopRequireDefault = require("4370b77b2861aa7e");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _createSvgIcon = _interopRequireDefault(require("ab58f4a1359a4a92"));
-var _jsxRuntime = require("5a79604d7cd130fc");
+var _createSvgIcon = _interopRequireDefault(require("de417912b4a7a67c"));
+var _jsxRuntime = require("c242c6dfff1a8d97");
 var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
     d: "M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
 }), "Close");
 exports.default = _default;
 
-},{"77baadf805e8f333":"7XM86","ab58f4a1359a4a92":"lVV9C","5a79604d7cd130fc":"6AEwr"}],"7jCwh":[function(require,module,exports) {
-module.exports = require("a2ffa0994b2a7f24").getBundleURL("aXMci") + "logo.73091252.png" + "?" + Date.now();
+},{"4370b77b2861aa7e":"7XM86","de417912b4a7a67c":"lVV9C","c242c6dfff1a8d97":"6AEwr"}],"7jCwh":[function(require,module,exports) {
+module.exports = require("6b529e7e1c52d31e").getBundleURL("aXMci") + "logo.73091252.png" + "?" + Date.now();
 
-},{"a2ffa0994b2a7f24":"lgJ39"}],"km3Ru":[function(require,module,exports) {
+},{"6b529e7e1c52d31e":"lgJ39"}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("57d03c045107dea5");
+var Refresh = require("728cccf910d69ee5");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -56544,10 +56544,10 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"57d03c045107dea5":"786KC"}],"gpxvC":[function(require,module,exports) {
-var process = require("57182d719d2140f");
+},{"728cccf910d69ee5":"786KC"}],"gpxvC":[function(require,module,exports) {
+var process = require("41ed1dfc721fcf30");
 !function(e, t) {
-    module.exports = t(require("f2a2e96ee9126539"));
+    module.exports = t(require("a23c2059d0756fd7"));
 }("undefined" != typeof self ? self : this, (e)=>(()=>{
         var t = {
             7403: (e, t, r)=>{
@@ -57842,7 +57842,7 @@ var process = require("57182d719d2140f");
         })(), o.default;
     })());
 
-},{"57182d719d2140f":"d5jf4","f2a2e96ee9126539":"21dqq"}],"3Z1o9":[function(require,module,exports) {
+},{"41ed1dfc721fcf30":"d5jf4","a23c2059d0756fd7":"21dqq"}],"3Z1o9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Audio", ()=>(0, _audioDefault.default));
@@ -58786,7 +58786,7 @@ var _isPropValid = require("@emotion/is-prop-valid");
 var _isPropValidDefault = parcelHelpers.interopDefault(_isPropValid);
 var _hoistNonReactStatics = require("hoist-non-react-statics");
 var _hoistNonReactStaticsDefault = parcelHelpers.interopDefault(_hoistNonReactStatics);
-var process = require("504921b00639c36c");
+var process = require("945f9802e6822005");
 function y() {
     return (y = Object.assign || function(e) {
         for(var t = 1; t < arguments.length; t++){
@@ -59635,7 +59635,7 @@ var Ue = function() {
 "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "undefined" != typeof window && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
 exports.default = qe;
 
-},{"504921b00639c36c":"d5jf4","react-is":"7EuwB","react":"21dqq","shallowequal":"fjwkp","@emotion/stylis":"fGS9o","@emotion/unitless":"g3QHG","@emotion/is-prop-valid":"9JzNk","hoist-non-react-statics":"1GfsB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fjwkp":[function(require,module,exports) {
+},{"945f9802e6822005":"d5jf4","react-is":"7EuwB","react":"21dqq","shallowequal":"fjwkp","@emotion/stylis":"fGS9o","@emotion/unitless":"g3QHG","@emotion/is-prop-valid":"9JzNk","hoist-non-react-statics":"1GfsB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fjwkp":[function(require,module,exports) {
 //
 module.exports = function shallowEqual(objA, objB, compare, compareContext) {
     var ret = compare ? compare.call(compareContext, objA, objB) : void 0;
@@ -63621,61 +63621,61 @@ $RefreshReg$(_c, "Contact");
 }
 },{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","@mui/icons-material/Hub":"c5PAp","@mui/icons-material/Map":"5anHV","@mui/icons-material/Call":"k1PNC","@mui/icons-material/Send":"ibGJi","react":"21dqq","@emailjs/browser":"kbSqr","./Home":"hcu4N","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"c5PAp":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("b074533d32baeda");
+var _interopRequireDefault = require("2a9dfe2ff62bdc49");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _createSvgIcon = _interopRequireDefault(require("43bfb8b714a48ac8"));
-var _jsxRuntime = require("19b67061780d53c4");
+var _createSvgIcon = _interopRequireDefault(require("f5f0961cbf1549f3"));
+var _jsxRuntime = require("7d58dd3c8fc1494f");
 var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
     d: "M8.4 18.2c.38.5.6 1.12.6 1.8 0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3c.44 0 .85.09 1.23.26l1.41-1.77c-.92-1.03-1.29-2.39-1.09-3.69l-2.03-.68c-.54.83-1.46 1.38-2.52 1.38-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3c0 .07 0 .14-.01.21l2.03.68c.64-1.21 1.82-2.09 3.22-2.32V5.91C9.96 5.57 9 4.4 9 3c0-1.66 1.34-3 3-3s3 1.34 3 3c0 1.4-.96 2.57-2.25 2.91v2.16c1.4.23 2.58 1.11 3.22 2.32L18 9.71V9.5c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3c-1.06 0-1.98-.55-2.52-1.37l-2.03.68c.2 1.29-.16 2.65-1.09 3.69l1.41 1.77c.38-.18.79-.27 1.23-.27 1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3c0-.68.22-1.3.6-1.8l-1.41-1.77c-1.35.75-3.01.76-4.37 0L8.4 18.2z"
 }), "Hub");
 exports.default = _default;
 
-},{"b074533d32baeda":"7XM86","43bfb8b714a48ac8":"lVV9C","19b67061780d53c4":"6AEwr"}],"5anHV":[function(require,module,exports) {
+},{"2a9dfe2ff62bdc49":"7XM86","f5f0961cbf1549f3":"lVV9C","7d58dd3c8fc1494f":"6AEwr"}],"5anHV":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("18eb78f86a52cb64");
+var _interopRequireDefault = require("d0bd063429d47fe");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _createSvgIcon = _interopRequireDefault(require("de30ff3a230eed6"));
-var _jsxRuntime = require("81574e532abccaf4");
+var _createSvgIcon = _interopRequireDefault(require("4c780b2bae1c30ee"));
+var _jsxRuntime = require("8ecca5d032125159");
 var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
     d: "m20.5 3-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"
 }), "Map");
 exports.default = _default;
 
-},{"18eb78f86a52cb64":"7XM86","de30ff3a230eed6":"lVV9C","81574e532abccaf4":"6AEwr"}],"k1PNC":[function(require,module,exports) {
+},{"d0bd063429d47fe":"7XM86","4c780b2bae1c30ee":"lVV9C","8ecca5d032125159":"6AEwr"}],"k1PNC":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("baf40acbcce8df63");
+var _interopRequireDefault = require("9d24c905ddab4ff");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _createSvgIcon = _interopRequireDefault(require("6f038a3a95c0899f"));
-var _jsxRuntime = require("37639f5428200fd");
+var _createSvgIcon = _interopRequireDefault(require("be8a7b4e12845dad"));
+var _jsxRuntime = require("e1120a708bfc7a7d");
 var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
     d: "M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"
 }), "Call");
 exports.default = _default;
 
-},{"baf40acbcce8df63":"7XM86","6f038a3a95c0899f":"lVV9C","37639f5428200fd":"6AEwr"}],"ibGJi":[function(require,module,exports) {
+},{"9d24c905ddab4ff":"7XM86","be8a7b4e12845dad":"lVV9C","e1120a708bfc7a7d":"6AEwr"}],"ibGJi":[function(require,module,exports) {
 "use strict";
-var _interopRequireDefault = require("91b131ed8808c847");
+var _interopRequireDefault = require("6ca2861b38ca518b");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
-var _createSvgIcon = _interopRequireDefault(require("80b65551f50d1baa"));
-var _jsxRuntime = require("8556e044600f313d");
+var _createSvgIcon = _interopRequireDefault(require("9932f84ea15fcd08"));
+var _jsxRuntime = require("c98da020dddb62cc");
 var _default = (0, _createSvgIcon.default)(/*#__PURE__*/ (0, _jsxRuntime.jsx)("path", {
     d: "M2.01 21 23 12 2.01 3 2 10l15 2-15 2z"
 }), "Send");
 exports.default = _default;
 
-},{"91b131ed8808c847":"7XM86","80b65551f50d1baa":"lVV9C","8556e044600f313d":"6AEwr"}],"kbSqr":[function(require,module,exports) {
+},{"6ca2861b38ca518b":"7XM86","9932f84ea15fcd08":"lVV9C","c98da020dddb62cc":"6AEwr"}],"kbSqr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "init", ()=>(0, _init.init));
@@ -64116,9 +64116,9 @@ $RefreshReg$(_c, "About");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","react-router-dom":"9xmpe","../assets/Tushar.jpg":"lgSGA","./Home":"hcu4N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lgSGA":[function(require,module,exports) {
-module.exports = require("1ba542824100b50").getBundleURL("aXMci") + "Tushar.b111dd7f.jpg" + "?" + Date.now();
+module.exports = require("4257e7e5bc1c08d").getBundleURL("aXMci") + "Tushar.b111dd7f.jpg" + "?" + Date.now();
 
-},{"1ba542824100b50":"lgJ39"}],"4aT7V":[function(require,module,exports) {
+},{"4257e7e5bc1c08d":"lgJ39"}],"4aT7V":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$2b67 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
