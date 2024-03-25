@@ -10,15 +10,16 @@ const About = () => {
         navigate("/");
     }
     return (
-        <div className="bg-[#111] text-white w-screen h-screen max-md:h-[995px]" style={{ fontFamily: 'Poppins,sans-serif' }}>
-            <div className="absolute right-14 top-7">
-                <button onClick={backHome}><CloseIcon sx={{ fontSize: '38px' }} /></button>
+        <div className="bg-[#111] w-screen h-screen text-white box-border " style={{ fontFamily: 'Poppins,sans-serif' }}>
+            <div className="absolute right-14 top-7 max-md:right-6 max-md:top-4 ">
+                <button onClick={backHome} className='after:border-2 after:border-[#009e66] after:w-4/5 after:h-4/5 after:animate-ping after:ease-out after:absolute after:rounded-full after:right-1 after:top-1'><CloseIcon sx={{ fontSize: '38px',color:'#009e66' }} /></button>
             </div>
-            <p className='text-thin text-[#9f9f9f] absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-[102px]'>Get to Know About Me</p>
-            <h1 className='absolute text-5xl -translate-x-2/4 -translate-y-2/4 top-40 left-2/4'>About</h1>
-            <div className="absolute w-3/4 max-md:w-full max-md:top-2/3 flex sm:max-lg:flex-col sm:max-lg:text-center sm:max-lg:p-auto max-md:flex-col max-md:text-center max-md:p-auto -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4 mt-20 ">
+            <p className='text-thin text-[#9f9f9f] absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-[102px] max-md:top-[60px]'>Get to Know About Me</p>
+            <h1 className='absolute text-5xl -translate-x-2/4 -translate-y-2/4 top-28 left-2/4 lg:mt-16'>About</h1>
+            {/* <div className="absolute flex  justify-center align-middle top-52 w-3/4 m-auto min-md:flex-col"> */}
+            <div className="absolute lg:w-3/4 max-md:w-full flex sm:max-lg:flex-col sm:max-lg:text-center sm:max-lg:p-auto max-md:flex-col max-md:text-center max-md:p-auto lg:mt-20">
 
-                <img src={about_img} className='w-1/3 max-md:mb-7 max-md:max-lg:w-1/4 max-md:border-2 sm:max-lg:rounded-full sm:max-lg:m-auto sm:max-lg:mt-16 max-md:w-1/3 max-md:border-1 max-md:rounded-full max-md:m-auto max-md:mt-48' alt="Tushar Sahani" />
+                <img src={about_img} className='w-1/3 max-md:mb-7 max-md:max-lg:w-1/4 max-md:border-2 sm:max-lg:rounded-full sm:max-lg:m-auto sm:max-lg:mt-16 max-md:w-1/3 max-md:border-1 max-md:rounded-full max-md:m-auto' alt="Tushar Sahani" />
 
                 <div className="ml-14 max-md:ml-0">
                     <div className="p-5 ">
