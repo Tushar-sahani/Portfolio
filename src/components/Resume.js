@@ -8,13 +8,13 @@ const Resume = () => {
     }
     return (
         <div className="bg-[#111] text-white  h-[1370px] max-sm:h-[1650px]" style={{ fontFamily: 'Poppins,sans-serif' }}>
-            <div className="absolute right-14 top-7">
-                <button onClick={backHome}><CloseIcon sx={{ fontSize: '38px' }} /></button>
+            <div className="absolute right-14 top-7 max-md:right-6 max-md:top-4 ">
+                <button onClick={backHome} className='after:border-2 after:border-[#009e66] after:w-4/5 after:h-4/5 after:animate-ping after:ease-out after:absolute after:rounded-full after:right-1 after:top-1'><CloseIcon sx={{ fontSize: '38px',color:'#009e66' }} /></button>
             </div>
             <p className='text-thin text-[#9f9f9f] absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-[102px] text-center'>Check out my Resume</p>
             <h1 className='absolute text-5xl -translate-x-2/4 -translate-y-2/4 top-40 left-2/4'>Resume</h1>
 
-            <div className="flex align-middle absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 max-md:-translate-y-[39%] mt-52 max-sm:mt-56 max-sm:flex-col">
+            <div className="flex align-middle absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 min-md:-translate-y-[39%] mt-52 max-sm:mt-56 max-sm:flex-col">
                 {/* Education */}
                 <div className=" lg:pr-20">
                     <h1 className='text-2xl mb-5 text-[#009e66]'>Education</h1>
@@ -62,7 +62,7 @@ const Resume = () => {
                 </div>
             </div>
 
-            <div className="flex align-middle absolute top-full left-2/4 -translate-x-2/4 -translate-y-2/4 mt-60   max-sm:mt-[608px]">
+            <div className="flex align-middle absolute top-full left-2/4 -translate-x-2/4 -translate-y-2/4 mt-60   max-sm:mb-[10px]">
                 <div className='lg:mt-80 max-md:w-full'>
                     <div className=' absolute lg:-left-20 max-md:text-center'>
                         <p className="text-thin text-[#9f9f9f] max-md:ml-10">My level of knowledge in some tools</p>

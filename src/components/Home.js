@@ -1,4 +1,4 @@
-import home_img from "../assets/home1.jpg"
+import home_img from "../assets/bg22.gif"
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -25,7 +25,9 @@ const Name = () => {
                             .typeString("Programmer")
                             .pauseFor(1000)
                             .deleteAll()
-                            .typeString("learner")
+                            .typeString("Learner")
+                            .pauseFor(1000)
+                            .deleteAll()
                             .start();
                     }}
                     options={{

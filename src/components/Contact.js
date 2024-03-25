@@ -29,8 +29,8 @@ const Contact = () => {
     };
     return (
         <div className="bg-[#111] text-white w-screen h-screen max-md:h-[1250px]" style={{ fontFamily: 'Poppins,sans-serif' }}>
-            <div className="absolute right-14 top-7">
-                <button onClick={backHome}><CloseIcon sx={{ fontSize: '38px' }} /></button>
+            <div className="absolute right-14 top-7 max-md:right-6 max-md:top-4 ">
+                <button onClick={backHome} className='after:border-2 after:border-[#009e66] after:w-4/5 after:h-4/5 after:animate-ping after:ease-out after:absolute after:rounded-full after:right-1 after:top-1'><CloseIcon sx={{ fontSize: '38px',color:'#009e66' }} /></button>
             </div>
             <p className='text-thin text-[#9f9f9f] absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-[102px] max-md:text-center'>Feel free to contact me anytimes</p>
             <h1 className='absolute text-4xl -translate-x-2/4 -translate-y-2/4 top-40 max-md:top-36 max-md:text-2xl left-2/4'>Contact Me</h1>
