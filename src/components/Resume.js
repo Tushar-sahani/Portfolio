@@ -25,7 +25,7 @@ const Resume = () => {
             </div>
             <div className='flex flex-col align-middle justify-center'>
                 <div className='m-auto p-20'>
-                    <p className='text-thin text-[#9f9f9f] text-center'>Check out my Resume</p>
+                    <p className='text-thin text-[#9f9f9f] text-center'>Check out My Resume</p>
                     <h1 className='text-5xl pt-3'>Resume</h1>
                 </div>
                 <div className="flex align-middle justify-center max-md:flex-col m-auto">
@@ -33,19 +33,19 @@ const Resume = () => {
                     <div className=" lg:pr-20">
                         <h1 className='text-2xl mb-5 text-[#009e66]'>Education</h1>
                         <div className="card w-[500px] max-lg:w-[335px] box-border  bg-[#161616] relative lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8  border-b border-l-[#009e66] border-l-2">
-                            <span className='before:absolute before:left-0 before:h-4 before:w-4 before:bg-[#009e66]'></span>
+                            <span className='before:absolute before:left-0 before:mt-1 before:h-4 before:w-4 before:bg-[#009e66]'></span>
                             <h1 className=' inline text-xl'>KIET Group of Institution (AKTU)</h1>
                             <p className='text-[rgb(159,159,159)] text-base pb-2 pt-2 '>Ghaziabad  <span className='text-[13px]'>(Nov'21 - Jun'25)</span></p>
-                            <p className='text-[#9f9f9f] text-[13px] pb-2'>Bachelors degree in Computer Science ( GPA : 8.9 )</p>
+                            <p className='text-[#9f9f9f] text-[13px] pb-2'>Bachelors degree in Computer Science ( GPA : 8.5 )</p>
                         </div>
                         <div className="max-lg:w-[335px] w-[500px] bg-[#161616] relative border-b lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-l-[#009e66] border-l-2">
-                            <span className='before:absolute before:left-0 before:h-4 before:w-4 before:bg-[#009e66]'></span>
+                            <span className='before:absolute before:left-0 before:mt-1 before:h-4 before:w-4 before:bg-[#009e66]'></span>
                             <h1 className='inline text-xl'>Central Hindu School</h1>
                             <p className='text-[#9f9f9f] text-base pb-2 pt-2'>Gorakhpur <span className='text-[13px]'>(Apr'18 - May-'20)</span></p>
                             <p className='text-[#9f9f9f] text-[13px]'>Intermediate ( CBSE ), Science ( Score: 85.4% ) </p>
                         </div>
                         <div className="max-lg:w-[335px] w-[500px]  bg-[#161616] relative lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-l-[#009e66] border-l-2">
-                            <span className='before:absolute before:left-0 before:h-4 before:w-4 before:bg-[#009e66]'></span>
+                            <span className='before:absolute before:left-0 before:mt-1 before:h-4 before:w-4 before:bg-[#009e66]'></span>
                             <h1 className='inline text-xl'>Oxford Public School</h1>
                             <p className='text-[#9f9f9f] text-base pb-2 pt-2'>Gorakhpur <span className='text-[13px]'>(May'16 - Apr'18)</span></p>
                             <p className='text-[#9f9f9f] text-[13px]'>High School ( CBSE )  ( Score: 77%)</p>
@@ -55,7 +55,7 @@ const Resume = () => {
                     <div className="max-sm:mt-4 pl-20 max-lg:pl-5 max-sm:pl-0">
                         <h1 className='text-2xl mb-5 text-[#009e66]'>Experience</h1>
                         <div className="max-lg:w-[335px] w-[500px] relative bg-[#161616] border-b lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-l-[#009e66] border-l-2">
-                            <span className='before:absolute before:left-0 before:h-4 before:w-4 before:bg-[#009e66] '></span>
+                            <span className='before:absolute before:left-0 before:mt-1 before:h-4 before:w-4 before:bg-[#009e66] '></span>
                             <h1 className='inline text-xl'>Summer Internship</h1>
                             <p className='text-[#9f9f9f] text-base pb-2 pt-2'>Ghaziabad (Aug'22 - Sep'22)</p>
                             <ul className='list-disc text-[#9f9f9f] text-[12px]'>
@@ -65,7 +65,7 @@ const Resume = () => {
                             </ul>
                         </div>
                         <div className="max-lg:w-[335px] w-[500px] relative bg-[#161616] lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-l-[#009e66] border-l-2">
-                            <span className='before:absolute before:left-0 before:h-4 before:w-4 before:bg-[#009e66]'></span>
+                            <span className='before:absolute before:left-0 before:mt-1 before:h-4 before:w-4 before:bg-[#009e66]'></span>
                             <h1 className='inline text-xl'>Cisco Virtual Internship</h1>
                             <p className='text-[#9f9f9f] text-base pb-2 pt-2'>@cisco (Jun 2023 Jul 2023)</p>
                             <ul className='list-disc text-[#9f9f9f] text-[12px]'>
@@ -76,12 +76,12 @@ const Resume = () => {
                         
                     </div>
                 </div>
-                <div className='text-left'>
+                <div className='text-left mb-4'>
                     <div className='max-md:text-center lg:pl-52 pt-16 max-md:m-auto'>
                         <p className="text-thin text-[#9f9f9f]">My level of knowledge in some tools</p>
                         <h1 className='text-4xl pt-3'>My Skills</h1>
                     </div>
-                    <div className='text-[#c9c8c8] w-10/12 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center lg:p-16 m-auto'>
+                    <div className='text-[#c9c8c8] w-10/12 grid grid-cols-2 sm:grid-cols-4 gap-7 text-center lg:p-16 m-auto mt-8'>
                         <div className='rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300 flex justify-center align-middle'>
                             <img src={html} alt="html" className='my-4 w-6 h-6'/>
                             <p className='my-4 mx-2'>HTML</p>

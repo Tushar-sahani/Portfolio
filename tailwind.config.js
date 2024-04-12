@@ -4,7 +4,25 @@ module.exports = {
   theme: {
     after:"box-border",
     
-    extend: {},
+    extend: {
+      display: ["group-hover"],
+      animation: {
+				right: 'slideright .5s ease-in-out',
+			},
+
+			keyframes: {
+				slideright: {
+					from: {
+            opacity: 0,
+            transform: 'translateX(-250px)',
+          },
+          to: {
+            opacity: 1,
+            transform: 'translateX(0)',
+          },
+				},
+			},
+    },
   },
   plugins: [],
 };

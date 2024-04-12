@@ -49,13 +49,13 @@ const Contact = () => {
       <div className="flex align-middle justify-center flex-col">
         <div className="m-auto p-20 text-center">
           <p className="text-thin text-[#9f9f9f] ">
-            Feel free to contact me anytimes
+            Feel free to contact Me Anytime
           </p>
           <h1 className=" text-4xl pt-6">
             Contact Me
           </h1>
         </div>
-        <div className="w-3/4 flex m-auto justify-center max-md:flex-col">
+        <div className="w-3/4 flex m-auto justify-center max-md:flex-col max-md:mb-5">
           <div className=" md:px-12 lg:w-2/4 lg:pl-5 lg:pr-10 rounded-2xl shadow-2xl ">
             <div className="flex">
               <h1 className="font-bold text-2xl">Send us a message</h1>

@@ -1,7 +1,7 @@
 import CloseIcon from "@mui/icons-material/Close";
 import { useNavigate, Link } from "react-router-dom";
 import about_img from "../assets/Tushar.jpg";
-import Home from "./Home";
+import DownloadIcon from '@mui/icons-material/Download';
 
 const About = () => {
   const navigate = useNavigate();
@@ -41,12 +41,14 @@ const About = () => {
               <h1 className="text-3xl font-bold p-3 max-md:text-xl">
                 I'm Tushar Sahani, Full Stack Developer and Java Programmer
               </h1>
-              <p className="text-[#9f9f9f] p-2">
-                I am a B.Tech undergraduate student in Computer Science with a
-                passion of developing solutions and a craving learner. I enjoy
-                working in Java and with Technical Societies. Deeply value
-                project based learning experiences and working in a team.
-                Creating value and impact to bring about a change.
+              <p className="text-[#9f9f9f] p-2 text-sm">
+                I am a B.Tech undergraduate student at KIET Group of
+                Institutions, pursuing Computer Science. I have a passion for
+                developing solutions and am a keen learner. I enjoy working in
+                Java and collaborating with Technical Societies. As a web developer, I love creating human-centric
+                websites using ReactJs and NextJs, and infusing functionality
+                using Django. My goal is to create value and impact to bring
+                about positive change.
               </p>
               <hr className="text-[#9f9f9f] mt-6" />
             </div>
@@ -61,14 +63,14 @@ const About = () => {
                   <p className="pl-2 text-[#009e66] hover:text-[#346b57] cursor-pointer">
                     <a href="mailto:tusharsahani000@gmail.com">
                       tusharsahani000@gmail.com
-                    </a>{" "}
+                    </a>
                   </p>
                 </div>
               </div>
               <div className="flex max-md:flex-col  max-md:p-0 p-2">
                 <div className="flex max-md:pl-0 pl-4">
                   <span>Age:</span>
-                  <p className="pl-2 text-[#9f9f9f]">21</p>
+                  <p className="pl-2 text-[#9f9f9f]">22</p>
                 </div>
                 <div className="flex pl-[283px] max-md:pl-0">
                   <span>Live: </span>
@@ -78,8 +80,8 @@ const About = () => {
             </div>
             <div>
               <button class="mt-2 ml-5 bg-[#009e66] hover:bg-[#0e522b] text-white font-bold py-2 px-4 rounded-full mb-3">
-                <Link to="https://drive.google.com/file/d/1XqMYQqeL8zOceE_SJIa2SC8Z42vJYp-4/view">
-                  Download CV
+                <Link to="https://drive.google.com/drive/folders/1KbXIi0xJ9-uUTEli0MGzvy8C_aC_O-2_?usp=sharing" target="_blank">
+                <DownloadIcon sx={{ fontSize: "20px" }} className="mr-1 text-sm"/> Resume
                 </Link>
               </button>
             </div>
