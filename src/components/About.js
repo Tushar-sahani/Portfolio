@@ -10,7 +10,7 @@ const About = () => {
   };
   return (
     <div
-      className="text-white box-border"
+      className="text-white box-border animate-fade"
       style={{ fontFamily: "Poppins,sans-serif" }}
     >
       <div className="absolute right-14 top-7 max-md:right-6 max-md:top-4 ">
@@ -29,7 +29,7 @@ const About = () => {
         <div className="lg:w-3/4 max-md:w-full flex m-auto sm:max-lg:flex-col sm:max-lg:text-center sm:max-lg:p-auto max-md:flex-col max-md:text-center max-md:p-auto">
           <img
             src={about_img}
-            className="w-1/3 max-md:mb-7 max-md:max-lg:w-1/4 max-md:border-2 sm:max-lg:rounded-full sm:max-lg:m-auto sm:max-lg:mt-16 max-md:w-1/3 max-md:border-1 max-md:rounded-full max-md:m-auto"
+            className="w-1/3 max-md:mb-7 max-md:max-lg:w-1/4 max-md:border-2 max-md:border-[#009e66] sm:max-lg:rounded-full sm:max-lg:m-auto sm:max-lg:mt-16 max-md:w-1/3 max-md:border-1 max-md:rounded-full max-md:m-auto"
             alt="Tushar Sahani"
           />
 
@@ -81,7 +81,7 @@ const About = () => {
             <div>
               <button class="mt-2 ml-5 bg-[#009e66] hover:bg-[#0e522b] text-white font-bold py-2 px-4 rounded-full mb-3">
                 <Link to="https://drive.google.com/drive/folders/1KbXIi0xJ9-uUTEli0MGzvy8C_aC_O-2_?usp=sharing" target="_blank">
-                <DownloadIcon sx={{ fontSize: "20px" }} className="mr-1 text-sm"/> Resume
+                <DownloadIcon sx={{ fontSize: "20px" }} className="animate-bounce mr-1 text-sm"/> Resume
                 </Link>
               </button>
             </div>

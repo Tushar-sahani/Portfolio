@@ -19,7 +19,7 @@ const Resume = () => {
         navigate("/");
     }
     return (
-        <div className="text-white" style={{ fontFamily: 'Poppins,sans-serif' }}>
+        <div className="text-white animate-fade" style={{ fontFamily: 'Poppins,sans-serif' }}>
             <div className="absolute right-14 top-7 max-md:right-6 max-md:top-4 ">
                 <button onClick={backHome} className='after:border-2 after:border-[#009e66] after:w-4/5 after:h-4/5 after:animate-ping after:ease-out after:absolute after:rounded-full after:right-1 after:top-1'><CloseIcon sx={{ fontSize: '38px',color:'#009e66' }} /></button>
             </div>
@@ -78,7 +78,7 @@ const Resume = () => {
                 </div>
                 <div className='text-left mb-4'>
                     <div className='max-md:text-center lg:pl-52 pt-16 max-md:m-auto'>
-                        <p className="text-thin text-[#9f9f9f]">My level of knowledge in some tools</p>
+                        <p className="text-thin text-[#9f9f9f]">My knowledge in some tools</p>
                         <h1 className='text-4xl pt-3'>My Skills</h1>
                     </div>
                     <div className='text-[#c9c8c8] w-10/12 grid grid-cols-2 sm:grid-cols-4 gap-7 text-center lg:p-16 m-auto mt-8'>

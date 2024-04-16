@@ -12,7 +12,7 @@ const Project = () => {
   };
   return (
     <div
-      className="text-white box-border"
+      className="text-white box-border animate-fade"
       style={{ fontFamily: "Poppins,sans-serif" }}
     >
       <div className="absolute right-14 top-7 max-md:right-6 max-md:top-4 ">

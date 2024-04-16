@@ -54,7 +54,8 @@ const Home = () => {
     }, 800);
   }, []);
   return (
-    <div className="bg-[#111] text-center w-full h-screen flex justify-center align-middle">
+    <div className="bg-[#111] text-center w-full h-screen flex justify-center align-middle           
+      ">
       {loader ? (
         <Triangle
           height="100"
@@ -83,25 +84,25 @@ const Home = () => {
             <ul className="flex lg:flex-col max-sm:flex-row max-sm:justify-evenly max-sm:w-screen sm:flex-row sm:justify-evenly sm:w-screen md:flex-row md:justify-evenly md:w-screen lg:w-auto">
               <Link to="https://twitter.com/TusharSahani17/">
                 <TwitterIcon
-                  sx={{ color: "white", fontSize: "20px" }}
+                  sx={{ color: "white", fontSize: "25px" }}
                   className="lg:m-3 hover:text-[#00acee] hover:scale-125 hover:transition-all "
                 />
               </Link>
               <Link to="http://linkedin.com/in/tushar-sahani-70191223a/">
                 <LinkedInIcon
-                  sx={{ color: "white", fontSize: "20px" }}
+                  sx={{ color: "white", fontSize: "25px" }}
                   className="lg:m-3 hover:text-[#0A66C2] hover:scale-125 hover:transition-all"
                 />
               </Link>
               <Link to="https://github.com/Tushar-sahani">
                 <GitHubIcon
-                  sx={{ color: "white", fontSize: "20px" }}
+                  sx={{ color: "white", fontSize: "25px" }}
                   className="lg:m-3 hover:scale-125 hover:transition-all"
                 />
               </Link>
               <Link to="https://www.instagram.com/tusharsahan1/">
                 <InstagramIcon
-                  sx={{ color: "white", fontSize: "20px" }}
+                  sx={{ color: "white", fontSize: "25px" }}
                   className="lg:m-3 hover:text-[#fa7e1e] hover:scale-125 hover:transition-all"
                 />
               </Link>
