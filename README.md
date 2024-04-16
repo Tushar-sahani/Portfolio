@@ -4,7 +4,7 @@
 </h2>
 
 <div align="center">
-<img src="https://github.com/Tushar-sahani/Portfolio/assets/104075614/e535df27-a861-4ce2-adde-bc48b1b12696" alt="Portfolio" width="100%" />
+<img src="https://github.com/Tushar-sahani/Portfolio/assets/104075614/be1ea6e0-47ea-41a9-839a-a8c35cc87174" alt="Portfolio" width="100%" />
 </div>
 <br/>
 
