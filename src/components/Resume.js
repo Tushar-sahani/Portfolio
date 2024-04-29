@@ -76,7 +76,7 @@ const Resume = () => {
                         
                     </div>
                 </div>
-                <div className='text-left mb-4'>
+                {/* <div className='text-left mb-4'>
                     <div className='max-md:text-center lg:pl-52 pt-16 max-md:m-auto'>
                         <p className="text-thin text-[#9f9f9f]">My knowledge in some tools</p>
                         <h1 className='text-4xl pt-3'>My Skills</h1>
@@ -136,7 +136,7 @@ const Resume = () => {
                         </div>
                         
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
