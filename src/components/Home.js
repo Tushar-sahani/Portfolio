@@ -45,10 +45,9 @@ const Name = () => {
   );
 };
 const Home = () => {
-  const [loader, setLoader] = useState(false);
+  const [loader, setLoader] = useState(true);
 
   useEffect(() => {
-    setLoader(true);
     setTimeout(() => {
       setLoader(false);
     }, 800);

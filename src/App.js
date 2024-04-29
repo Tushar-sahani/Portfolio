@@ -6,6 +6,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Project from "./components/Project";
 import Error from "./components/Error";
+import Links from "./components/Links";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const AppLayout = () => {
     return (
@@ -15,6 +16,7 @@ const AppLayout = () => {
                 <Route exact path="/about" element={<About key='/about' />} errorElement={<Error/>}/>
                 <Route exact path="/resume" element={<Resume key='/resume' />} errorElement={<Error/>}/>
                 <Route exact path="/project" element={<Project key='/project' />} errorElement={<Error/>}/>
+                <Route exact path="/links" element={<Links key='/links' />} errorElement={<Error/>}/>
                 <Route exact path="/contact" element={<Contact key='/contact' />} errorElement={<Error/>}/>
             </Routes>
         </Router>

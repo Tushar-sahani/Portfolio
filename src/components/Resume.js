@@ -41,13 +41,13 @@ const Resume = () => {
                         <div className="max-lg:w-[335px] w-[500px] bg-[#161616] relative border-b lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-l-[#009e66] border-l-2">
                             <span className='before:absolute before:left-0 before:mt-1 before:h-4 before:w-4 before:bg-[#009e66]'></span>
                             <h1 className='inline text-xl'>Central Hindu School</h1>
-                            <p className='text-[#9f9f9f] text-base pb-2 pt-2'>Gorakhpur <span className='text-[13px]'>(Apr'18 - May-'20)</span></p>
+                            <p className='text-[#9f9f9f] text-base pb-2 pt-2'>Gorakhpur <span className='text-[13px]'>(Apr'19 - May-'20)</span></p>
                             <p className='text-[#9f9f9f] text-[13px]'>Intermediate ( CBSE ), Science ( Score: 85.4% ) </p>
                         </div>
                         <div className="max-lg:w-[335px] w-[500px]  bg-[#161616] relative lg:pt-8 lg:pl-12 lg:pb-8 lg:pr-12 max-lg:pt-4 max-lg:pl-8 max-lg:pb-4 max-lg:pr-8 border-l-[#009e66] border-l-2">
                             <span className='before:absolute before:left-0 before:mt-1 before:h-4 before:w-4 before:bg-[#009e66]'></span>
                             <h1 className='inline text-xl'>Oxford Public School</h1>
-                            <p className='text-[#9f9f9f] text-base pb-2 pt-2'>Gorakhpur <span className='text-[13px]'>(May'16 - Apr'18)</span></p>
+                            <p className='text-[#9f9f9f] text-base pb-2 pt-2'>Gorakhpur <span className='text-[13px]'>(May'17 - Apr'18)</span></p>
                             <p className='text-[#9f9f9f] text-[13px]'>High School ( CBSE )  ( Score: 77%)</p>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ const Resume = () => {
                         
                     </div>
                 </div>
-                {/* <div className='text-left mb-4'>
+                <div className='text-left mb-4'>
                     <div className='max-md:text-center lg:pl-52 pt-16 max-md:m-auto'>
                         <p className="text-thin text-[#9f9f9f]">My knowledge in some tools</p>
                         <h1 className='text-4xl pt-3'>My Skills</h1>
@@ -136,7 +136,7 @@ const Resume = () => {
                         </div>
                         
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     );

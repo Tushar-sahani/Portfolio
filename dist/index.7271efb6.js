@@ -2969,6 +2969,8 @@ var _project = require("./components/Project");
 var _projectDefault = parcelHelpers.interopDefault(_project);
 var _error = require("./components/Error");
 var _errorDefault = parcelHelpers.interopDefault(_error);
+var _links = require("./components/Links");
+var _linksDefault = parcelHelpers.interopDefault(_links);
 var _reactRouterDom = require("react-router-dom");
 const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
@@ -2979,31 +2981,13 @@ const AppLayout = ()=>{
                     path: "/",
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, "/", false, {
                         fileName: "src/App.js",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 48
                     }, void 0),
                     errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 80
-                    }, void 0)
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 14,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    exact: true,
-                    path: "/about",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, "/about", false, {
-                        fileName: "src/App.js",
-                        lineNumber: 15,
-                        columnNumber: 53
-                    }, void 0),
-                    errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 15,
-                        columnNumber: 91
                     }, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
@@ -3012,16 +2996,16 @@ const AppLayout = ()=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                     exact: true,
-                    path: "/resume",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resumeDefault.default), {}, "/resume", false, {
+                    path: "/about",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, "/about", false, {
                         fileName: "src/App.js",
                         lineNumber: 16,
-                        columnNumber: 54
+                        columnNumber: 53
                     }, void 0),
                     errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
                         fileName: "src/App.js",
                         lineNumber: 16,
-                        columnNumber: 94
+                        columnNumber: 91
                     }, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
@@ -3030,16 +3014,16 @@ const AppLayout = ()=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                     exact: true,
-                    path: "/project",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectDefault.default), {}, "/project", false, {
+                    path: "/resume",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resumeDefault.default), {}, "/resume", false, {
                         fileName: "src/App.js",
                         lineNumber: 17,
-                        columnNumber: 55
+                        columnNumber: 54
                     }, void 0),
                     errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
                         fileName: "src/App.js",
                         lineNumber: 17,
-                        columnNumber: 97
+                        columnNumber: 94
                     }, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
@@ -3048,8 +3032,8 @@ const AppLayout = ()=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                     exact: true,
-                    path: "/contact",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, "/contact", false, {
+                    path: "/project",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectDefault.default), {}, "/project", false, {
                         fileName: "src/App.js",
                         lineNumber: 18,
                         columnNumber: 55
@@ -3063,16 +3047,52 @@ const AppLayout = ()=>{
                     fileName: "src/App.js",
                     lineNumber: 18,
                     columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    exact: true,
+                    path: "/links",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _linksDefault.default), {}, "/links", false, {
+                        fileName: "src/App.js",
+                        lineNumber: 19,
+                        columnNumber: 53
+                    }, void 0),
+                    errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 19,
+                        columnNumber: 91
+                    }, void 0)
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 19,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    exact: true,
+                    path: "/contact",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, "/contact", false, {
+                        fileName: "src/App.js",
+                        lineNumber: 20,
+                        columnNumber: 55
+                    }, void 0),
+                    errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 20,
+                        columnNumber: 97
+                    }, void 0)
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 20,
+                    columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 13,
+            lineNumber: 14,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 9
     }, undefined);
 };
@@ -3080,7 +3100,7 @@ _c = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 25,
+    lineNumber: 27,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3091,7 +3111,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Home":"hcu4N","./components/Contact":"cgAOG","./components/About":"9R1Eu","./components/Resume":"4aT7V","./components/Project":"acDzw","./components/Error":"kvula","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Home":"hcu4N","./components/Contact":"cgAOG","./components/About":"9R1Eu","./components/Resume":"4aT7V","./components/Project":"acDzw","./components/Error":"kvula","./components/Links":"6iLfa","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27367,9 +27387,8 @@ const Name = ()=>{
 _c = Name;
 const Home = ()=>{
     _s();
-    const [loader, setLoader] = (0, _react.useState)(false);
+    const [loader, setLoader] = (0, _react.useState)(true);
     (0, _react.useEffect)(()=>{
-        setLoader(true);
         setTimeout(()=>{
             setLoader(false);
         }, 800);
@@ -27389,7 +27408,7 @@ const Home = ()=>{
             visible: loader
         }, void 0, false, {
             fileName: "src/components/Home.js",
-            lineNumber: 60,
+            lineNumber: 59,
             columnNumber: 9
         }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "w-screen h-screen",
@@ -27404,12 +27423,12 @@ const Home = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                     fileName: "src/components/Home.js",
-                    lineNumber: 81,
+                    lineNumber: 80,
                     columnNumber: 11
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Name, {}, void 0, false, {
                     fileName: "src/components/Home.js",
-                    lineNumber: 82,
+                    lineNumber: 81,
                     columnNumber: 11
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27427,12 +27446,12 @@ const Home = ()=>{
                                     className: "lg:m-3 hover:text-[#00acee] hover:scale-125 hover:transition-all "
                                 }, void 0, false, {
                                     fileName: "src/components/Home.js",
-                                    lineNumber: 86,
+                                    lineNumber: 85,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Home.js",
-                                lineNumber: 85,
+                                lineNumber: 84,
                                 columnNumber: 15
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27445,12 +27464,12 @@ const Home = ()=>{
                                     className: "lg:m-3 hover:text-[#0A66C2] hover:scale-125 hover:transition-all"
                                 }, void 0, false, {
                                     fileName: "src/components/Home.js",
-                                    lineNumber: 92,
+                                    lineNumber: 91,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Home.js",
-                                lineNumber: 91,
+                                lineNumber: 90,
                                 columnNumber: 15
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27463,12 +27482,12 @@ const Home = ()=>{
                                     className: "lg:m-3 hover:scale-125 hover:transition-all"
                                 }, void 0, false, {
                                     fileName: "src/components/Home.js",
-                                    lineNumber: 98,
+                                    lineNumber: 97,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Home.js",
-                                lineNumber: 97,
+                                lineNumber: 96,
                                 columnNumber: 15
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27481,38 +27500,38 @@ const Home = ()=>{
                                     className: "lg:m-3 hover:text-[#fa7e1e] hover:scale-125 hover:transition-all"
                                 }, void 0, false, {
                                     fileName: "src/components/Home.js",
-                                    lineNumber: 104,
+                                    lineNumber: 103,
                                     columnNumber: 17
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Home.js",
-                                lineNumber: 103,
+                                lineNumber: 102,
                                 columnNumber: 15
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Home.js",
-                        lineNumber: 84,
+                        lineNumber: 83,
                         columnNumber: 13
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/Home.js",
-                    lineNumber: 83,
+                    lineNumber: 82,
                     columnNumber: 11
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/Home.js",
-            lineNumber: 70,
+            lineNumber: 69,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/Home.js",
-        lineNumber: 57,
+        lineNumber: 56,
         columnNumber: 5
     }, undefined);
 };
-_s(Home, "XT8PpTOBN2IAFO93zi4IyiaImrw=");
+_s(Home, "v9Gmr36LIRqHprS819AlpxmZHdc=");
 _c1 = Home;
 exports.default = Home;
 var _c, _c1;
@@ -37065,7 +37084,7 @@ const Navbar = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                         className: "p-6  max-md:p-2  ",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "https://linktr.ee/tushar_sahani",
+                            to: "/links",
                             className: "hover:text-[#009e66] after:mt-1 after:content-[''] after:block after:h-1 after:w-full after:bg-[#009e66] after:scale-x-0 after:origin-left after:transition-transform after:delay-200 after:ease-linear hover:after:scale-x-100 ",
                             children: "LINKS"
                         }, void 0, false, {
@@ -51723,7 +51742,7 @@ const Resume = ()=>{
                                                     "Gorakhpur ",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                         className: "text-[13px]",
-                                                        children: "(Apr'18 - May-'20)"
+                                                        children: "(Apr'19 - May-'20)"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Resume.js",
                                                         lineNumber: 44,
@@ -51773,7 +51792,7 @@ const Resume = ()=>{
                                                     "Gorakhpur ",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                         className: "text-[13px]",
-                                                        children: "(May'16 - Apr'18)"
+                                                        children: "(May'17 - Apr'18)"
                                                     }, void 0, false, {
                                                         fileName: "src/components/Resume.js",
                                                         lineNumber: 50,
@@ -51960,6 +51979,387 @@ const Resume = ()=>{
                     }, void 0, true, {
                         fileName: "src/components/Resume.js",
                         lineNumber: 31,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "text-left mb-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "max-md:text-center lg:pl-52 pt-16 max-md:m-auto",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-thin text-[#9f9f9f]",
+                                        children: "My knowledge in some tools"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 81,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "text-4xl pt-3",
+                                        children: "My Skills"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 82,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 80,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-[#c9c8c8] w-10/12 grid grid-cols-2 sm:grid-cols-4 gap-7 text-center lg:p-16 m-auto mt-8",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300 flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _htmlPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 86,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "HTML"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 87,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 85,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _cssPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 90,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "CSS"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 91,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 89,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _jsPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 94,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "JavaScript"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 95,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 93,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _githubPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 98,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "Github"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 99,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 97,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _reactPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 102,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "React"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 103,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 101,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _tailwindPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-5"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 106,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "TailwindCss"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 107,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 105,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _nextPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 110,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "Next"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 111,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 109,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _djangoPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-9 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 114,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4",
+                                                children: "Django"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 115,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 113,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _apiPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-9 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 118,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "REST API"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 119,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 117,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _mysqlPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 122,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "Mysql"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 123,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 121,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _dockerPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 126,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "Docker"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 127,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 125,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _javaPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 130,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "Java"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 131,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 129,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: " rounded-md shadow-md shadow-[#009e66] hover:scale-105 duration-300  flex justify-center align-middle",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _pythonPngDefault.default),
+                                                alt: "html",
+                                                className: "my-4 w-6 h-6"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 134,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "my-4 mx-2",
+                                                children: "Python"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Resume.js",
+                                                lineNumber: 135,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Resume.js",
+                                        lineNumber: 133,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Resume.js",
+                                lineNumber: 84,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Resume.js",
+                        lineNumber: 79,
                         columnNumber: 17
                     }, undefined)
                 ]
@@ -52598,6 +52998,293 @@ $RefreshReg$(_c, "Error");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequire2041")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6iLfa":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5987 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5987.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _close = require("@mui/icons-material/Close");
+var _closeDefault = parcelHelpers.interopDefault(_close);
+var _reactRouterDom = require("react-router-dom");
+var _tusharJpg = require("../assets/Tushar.jpg");
+var _tusharJpgDefault = parcelHelpers.interopDefault(_tusharJpg);
+var _leetcodePng = require("../assets/skills/leetcode.png");
+var _leetcodePngDefault = parcelHelpers.interopDefault(_leetcodePng);
+var _githubPng = require("../assets/skills/github.png");
+var _githubPngDefault = parcelHelpers.interopDefault(_githubPng);
+var _linkedinPng = require("../assets/skills/linkedin.png");
+var _linkedinPngDefault = parcelHelpers.interopDefault(_linkedinPng);
+var _hackerrankPng = require("../assets/skills/hackerrank.png");
+var _hackerrankPngDefault = parcelHelpers.interopDefault(_hackerrankPng);
+var _s = $RefreshSig$();
+const Links = ()=>{
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const backHome = ()=>{
+        navigate("/");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "text-white box-border animate-fade",
+        style: {
+            fontFamily: "Poppins,sans-serif"
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "absolute right-1/3 top-7 max-md:right-6 max-md:top-4 ",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: backHome,
+                    className: "after:border-2 after:border-[#009e66] after:w-4/5 after:h-4/5 after:animate-ping after:ease-out after:absolute after:rounded-full after:right-1 after:top-1",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _closeDefault.default), {
+                        sx: {
+                            fontSize: "38px",
+                            color: "#009e66"
+                        }
+                    }, void 0, false, {
+                        fileName: "src/components/Links.js",
+                        lineNumber: 23,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/Links.js",
+                    lineNumber: 19,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Links.js",
+                lineNumber: 18,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex align-middle justify-center flex-col max-md:pt-12",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "lg:w-3/4 w-full flex m-auto flex-col text-center p-auto p-5",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "m-auto w-full mt-16",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: (0, _tusharJpgDefault.default),
+                                    className: "w-[8.5%] max-md:w-24 rounded-full m-auto",
+                                    alt: "Tushar Sahani"
+                                }, void 0, false, {
+                                    fileName: "src/components/Links.js",
+                                    lineNumber: 29,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    className: "p-3",
+                                    children: "Tushar Sahani"
+                                }, void 0, false, {
+                                    fileName: "src/components/Links.js",
+                                    lineNumber: 34,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-[#ffffff99] max-md:text-sm",
+                                    children: "Coding enthusiast and Web Developer"
+                                }, void 0, false, {
+                                    fileName: "src/components/Links.js",
+                                    lineNumber: 35,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Links.js",
+                            lineNumber: 28,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "m-auto w-1/2 max-md:w-full p-3",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "https://github.com/Tushar-sahani",
+                                    target: "_blank",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "bg-[#222222] flex h-14 p-1 rounded-xl  mt-5 cursor-pointer hover:scale-105 transition ease-out",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _githubPngDefault.default),
+                                                alt: "logo",
+                                                className: "w-12 p-1 rounded-lg absolute"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Links.js",
+                                                lineNumber: 42,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                                className: "m-auto",
+                                                children: "GitHub"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Links.js",
+                                                lineNumber: 43,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Links.js",
+                                        lineNumber: 41,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Links.js",
+                                    lineNumber: 40,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "https://github.com/Tushar-sahani",
+                                    target: "_blank",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "bg-[#222222] flex h-14 p-1 rounded-xl  mt-5 cursor-pointer hover:scale-105 transition ease-out",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _linkedinPngDefault.default),
+                                                alt: "logo",
+                                                className: "w-12 rounded-lg absolute"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Links.js",
+                                                lineNumber: 48,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                                className: "m-auto font-extralight",
+                                                children: "Linkedin"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Links.js",
+                                                lineNumber: 49,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Links.js",
+                                        lineNumber: 47,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Links.js",
+                                    lineNumber: 46,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "https://leetcode.com/u/Tushar_Sahani/",
+                                    target: "_blank",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "bg-[#222222] flex h-14 p-1 rounded-xl  mt-5 cursor-pointer hover:scale-105 transition ease-out",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _leetcodePngDefault.default),
+                                                alt: "logo",
+                                                className: "w-12 rounded-lg absolute"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Links.js",
+                                                lineNumber: 54,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                                className: "m-auto font-extralight",
+                                                children: "LeetCode"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Links.js",
+                                                lineNumber: 55,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Links.js",
+                                        lineNumber: 53,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Links.js",
+                                    lineNumber: 52,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "https://www.hackerrank.com/profile/Tushar_Sahani",
+                                    target: "_blank",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "bg-[#222222] flex h-14 p-1 rounded-xl  mt-5 cursor-pointer hover:scale-105 transition ease-out",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: (0, _hackerrankPngDefault.default),
+                                                alt: "logo",
+                                                className: "w-12 rounded-lg absolute"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Links.js",
+                                                lineNumber: 60,
+                                                columnNumber: 17
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                                className: "m-auto font-extralight",
+                                                children: "HackerRank"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Links.js",
+                                                lineNumber: 61,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Links.js",
+                                        lineNumber: 59,
+                                        columnNumber: 15
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/Links.js",
+                                    lineNumber: 58,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Links.js",
+                            lineNumber: 39,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Links.js",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Links.js",
+                lineNumber: 26,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Links.js",
+        lineNumber: 14,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Links, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = Links;
+exports.default = Links;
+var _c;
+$RefreshReg$(_c, "Links");
+
+  $parcel$ReactRefreshHelpers$5987.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@mui/icons-material/Close":"2z2cd","react-router-dom":"9xmpe","../assets/Tushar.jpg":"lgSGA","../assets/skills/leetcode.png":"imo9K","../assets/skills/github.png":"fjrXl","../assets/skills/linkedin.png":"2vhCV","../assets/skills/hackerrank.png":"h3Xu8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"imo9K":[function(require,module,exports) {
+module.exports = require("63d9ae0a9d3ba92a").getBundleURL("aXMci") + "leetcode.ff80e9b6.png" + "?" + Date.now();
+
+},{"63d9ae0a9d3ba92a":"lgJ39"}],"2vhCV":[function(require,module,exports) {
+module.exports = require("e9accb51b621a779").getBundleURL("aXMci") + "linkedin.77b66f41.png" + "?" + Date.now();
+
+},{"e9accb51b621a779":"lgJ39"}],"h3Xu8":[function(require,module,exports) {
+module.exports = require("f8029f4874419ca7").getBundleURL("aXMci") + "hackerrank.9dc40e25.png" + "?" + Date.now();
+
+},{"f8029f4874419ca7":"lgJ39"}]},["9wh9R","1xC6H","2kQhy"], "2kQhy", "parcelRequire2041")
 
 //# sourceMappingURL=index.7271efb6.js.map
