@@ -62,7 +62,6 @@ const Home = () => {
           color="#009e66"
           ariaLabel="triangle-loading"
           wrapperStyle={{ position: "absolute", top: "45%" }}
-          // wrapperClassName=""
           visible={loader}
         />
       ) : (

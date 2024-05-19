@@ -5,7 +5,6 @@ import CallIcon from "@mui/icons-material/Call";
 import SendIcon from "@mui/icons-material/Send";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import Home from "./Home";
 import { useNavigate } from "react-router-dom";
 const Contact = () => {
   const navigate = useNavigate();
@@ -20,10 +19,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_ebd359j",
-        "template_xdyzkjh",
-        form.current,
-        "Xl_bMOAgBlREeleuV"
+        // Add Your Email.js Details here
       )
       .then(
         (result) => {
@@ -32,7 +28,8 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
-          alert(error.text);
+          // alert(error.text);
+          alert("Add you Email.js Detail First");
         }
       );
   };
@@ -150,7 +147,7 @@ const Contact = () => {
                   <div className="border-l pl-8 pt-4">
                     <h6>Call Me</h6>
                     <span className="text-[#9f9f9f]">
-                      <a href="tel:918858521178">+91 8858521178</a>
+                      <a href="tel:xxxxxxxxx">+91 xxxxxxxx</a>
                     </span>
                   </div>
                 </div>
@@ -163,8 +160,8 @@ const Contact = () => {
                   <div className="border-l pl-8 pt-4 max-sm:break-all">
                     <h6>Email Me</h6>
                     <span className="text-[#9f9f9f] ">
-                      <a href="mailto:tusharsahani000@gmail.com">
-                        tusharsahani000@gmail.com
+                      <a href="mailto:Addyourgmailhere">
+                        Your Email here
                       </a>
                     </span>
                   </div>

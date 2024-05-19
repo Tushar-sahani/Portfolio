@@ -61,8 +61,8 @@ const About = () => {
                 <div className="flex pl-40 max-md:pl-0">
                   <span>Email:</span>
                   <p className="pl-2 text-[#009e66] hover:text-[#346b57] cursor-pointer">
-                    <a href="mailto:tusharsahani000@gmail.com">
-                      tusharsahani000@gmail.com
+                    <a href="gmailhere">
+                      Your gmail here
                     </a>
                   </p>
                 </div>
@@ -80,7 +80,7 @@ const About = () => {
             </div>
             <div>
               <button class="mt-2 ml-5 bg-[#009e66] hover:bg-[#0e522b] text-white font-bold py-2 px-4 rounded-full mb-3">
-                <Link to="https://drive.google.com/drive/folders/1KbXIi0xJ9-uUTEli0MGzvy8C_aC_O-2_?usp=sharing" target="_blank">
+                <Link to="#" target="_blank">
                 <DownloadIcon sx={{ fontSize: "20px" }} className="animate-bounce mr-1 text-sm"/> Resume
                 </Link>
               </button>

@@ -17,7 +17,7 @@ const Navbar = () => {
         <button className="shadow-md shadow-[#009e66] hover:bg-[#101010] hover:scale-100 hover:shadow-lg duration-300  text-white font-bold py-1 px-2 mx-7 -mt-2 rounded-full ">
             <Link 
               target="_blank"
-              to="https://drive.google.com/drive/folders/1KbXIi0xJ9-uUTEli0MGzvy8C_aC_O-2_?usp=sharing"
+              to="linkhere"
               className="text-[#1cc288] text-sm font-semibold "
             >
               <DownloadIcon sx={{ fontSize: "18px" }} className="mr-1 text-sm"/>Resume
